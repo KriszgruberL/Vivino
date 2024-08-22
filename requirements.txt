@@ -1,6 +1,0 @@
-sqlite3 
-pandas 
-matplotlib
-seaborn
-sqlalchemy
-numpy
