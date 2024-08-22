@@ -1,4 +1,4 @@
-#template Back to [[000_TOC_Template]]
+
 <p align="center">
     <br>
      <a href="https://github.com/KriszgruberL" target="_blank"> <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem"></a>
