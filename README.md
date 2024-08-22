@@ -23,7 +23,10 @@ Lorem ipsum
 ## 🕺 Collaborators
 Thank you for your contributions to this project : 
 
-- [Name](URL du git)
+- [AdrienPiette](https://github.com/AdrienPiette)
+- [ness015618](https://github.com/ness015618)
+- [RachaelShenRq](https://github.com/RachaelShenRq)
+- [KriszgruberL](https://github.com/KriszgruberL)
 
 ## 🚧 Project Structure
 ```
@@ -46,8 +49,8 @@ nom_projet/
 
 1. **Clone the repository**:
     ```sh
-    git clone url_git
-    cd nom_projet
+    git clone git@github.com:KriszgruberL/Vivino.git
+    cd Vivino
     ```
 
 2. **Create a virtual environment**:
