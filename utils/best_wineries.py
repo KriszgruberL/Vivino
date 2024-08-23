@@ -2,15 +2,19 @@ import csv
 import sqlite3
 import sys
 
-from .connect_db import close_db, connect_to_db
+from utils.connect_db import connect_to_db
 
-def query_top_wineries() : 
-    co, cursor = connect_to_db()
+# - We want to highlight 10 wines to increase our sales. 
+# Which ones should we choose and why?
+def query_top_wineries(cursor) : 
+
+    # count(wineries) as number_of_wineries
 
     query = """
             select  wines.winery_id,
                     avg(wines.ratings_average) as average_rating,
-                    count(wines.id) as number_of_wines
+                    count(wines.id) as number_of_wines,
+                    count(wines.winery_id) as number_of_wineries
             from wines
             group by wines.winery_id
             order by average_rating desc
@@ -19,7 +23,7 @@ def query_top_wineries() :
     try : 
         cursor.execute(query)
         top_wineries = cursor.fetchall()
-    except (sqlite3.connector.Error, sqlite3.DatabaseError) as e:
+    except (sqlite3.Error, sqlite3.DatabaseError)  as e:
         print(f"Database error occurred: {e}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")

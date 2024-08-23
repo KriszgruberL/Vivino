@@ -2,13 +2,12 @@ import csv
 import sqlite3
 import sys
 
-from .connect_db import close_db, connect_to_db
+from utils.connect_db import connect_to_db
+
 # - We want to highlight 10 wines to increase our sales. 
 # Which ones should we choose and why?
 
-def query_highlight_wine() : 
-    co, cursor = connect_to_db()
-
+def query_highlight_wine(cursor) : 
     query = """
         select  wines.name,
                 wines.ratings_average, 
@@ -24,7 +23,7 @@ def query_highlight_wine() :
     try : 
         cursor.execute(query)
         top_wine = cursor.fetchall()
-    except (sqlite3.connector.Error, sqlite3.DatabaseError) as e:
+    except (sqlite3.Error, sqlite3.DatabaseError) as e:
         print(f"Database error occurred: {e}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")

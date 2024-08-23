@@ -5,11 +5,11 @@ from utils.limited_budget import query_limited_budget
 
 
 def main() : 
-    cxn, cursor = connect_to_db()
+    cxn, cursor= connect_to_db()
     
-    query_limited_budget()
-    query_highlight_wine()
-    query_top_wineries()
+    query_limited_budget(cursor)
+    query_highlight_wine(cursor)
+    quergity_top_wineries(cursor)
     
     
     close_db(cxn)
