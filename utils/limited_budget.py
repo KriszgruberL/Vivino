@@ -6,20 +6,20 @@ from utils.connect_db import connect_to_db
 
 # - We have a limited marketing budget for this year. Which country should we prioritise and why?
 def query_limited_budget(cursor) : 
-    # ajouter si possible wines names, ratings average et count(wines)
-
     query = """
-        select 
-            countries.name, 
+        SELECT countries.name,
             countries.users_count,
-            wines.name as wine_name,
-            wines.ratings_average as wine_ratings_avg, 
-            count(wines.id) as count_wines
-        from countries
-            join regions on regions.country_code = countries.code
-            join wines on wines.region_id = regions.id
-        group by countries.name, countries.users_count
-        order by countries.users_count desc
+            wines.name AS wine_name,
+            wines.ratings_average AS wine_ratings_avg,
+            COUNT(wines.id) AS count_wines
+        FROM countries
+        JOIN regions
+            ON regions.country_code = countries.code
+        JOIN wines
+            ON wines.region_id = regions.id
+        GROUP BY countries.name,
+            countries.users_count
+        ORDER BY countries.users_count DESC
         """
         
     try : 
