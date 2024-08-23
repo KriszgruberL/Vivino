@@ -12,7 +12,7 @@ from utils.connect_db import connect_to_db
 def query_favorites_taste(cursor) : 
     query = """
         SELECT DISTINCT w.name AS wine_name,
-	GROUP_CONCAT(DISTINCT k.name) AS keywords,
+	GROUP_CONCAT(DISTINCT k.name) AS taste_keywords,
 	COUNT(DISTINCT kw.keyword_id) AS nb_keywords,
 	c.name As country_name,
 	c.users_count
