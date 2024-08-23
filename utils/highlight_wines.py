@@ -9,15 +9,18 @@ from utils.connect_db import connect_to_db
 
 def query_highlight_wine(cursor) : 
     query = """
-        select  wines.name,
-                wines.ratings_average, 
-                sum(wines.ratings_count) as total_rating, 
-                countries.users_count
-        from countries 
-            join regions on regions.country_code = countries.code
-            join wines on wines.region_id = regions.id
-        group by wines.name
-        order by wines.ratings_average desc, total_rating desc
+        SELECT wines.name,
+            wines.ratings_average,
+            SUM(wines.ratings_count) AS total_rating,
+            countries.users_count
+        FROM countries
+        JOIN regions
+            ON regions.country_code = countries.code
+        JOIN wines
+            ON wines.region_id = regions.id
+        GROUP BY wines.name
+        ORDER BY wines.ratings_average DESC,
+            total_rating DESC
         """
                 
     try : 
