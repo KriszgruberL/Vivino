@@ -64,7 +64,7 @@ elif page == "Must have 6":
     st.dataframe(data6.head(5))
     st.write(data6.describe())
 
-elif page == "Must have 7":
+elif page == "Top 5 Cabernet Sauvignon":
     st.write("This is the seventh must have")
     st.dataframe(data7) 
     st.dataframe(data7.head(5))
