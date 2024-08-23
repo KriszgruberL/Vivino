@@ -12,9 +12,11 @@ def query_top_wineries(cursor) :
 
     query = """
             select  wines.winery_id,
+                    group_concat(wines.name) as wines_name,
                     avg(wines.ratings_average) as average_rating,
                     count(wines.id) as number_of_wines,
-                    count(wines.winery_id) as number_of_wineries
+                    sum(wines.ratings_count) as total_rating,
+                    avg(wines.ratings_count) as avg_rating_count
             from wines
             group by wines.winery_id
             order by average_rating desc

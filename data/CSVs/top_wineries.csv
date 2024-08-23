@@ -1,659 +1,659 @@
-winery_id,average_rating,number_of_wines,number_of_wineries
-277785,4.8,1,1
-266660,4.8,1,1
-14919,4.8,1,1
-227918,4.7,1,1
-82979,4.7,1,1
-22222,4.7,1,1
-12630,4.7,1,1
-11744,4.7,1,1
-11610,4.7,1,1
-11259,4.7,1,1
-8028,4.7,1,1
-4173,4.7,1,1
-3286,4.7,1,1
-1456,4.7,1,1
-1380,4.7,1,1
-1378,4.7,1,1
-11050,4.666666666666667,3,3
-156664,4.65,2,2
-1301,4.65,2,2
-1337,4.639999999999999,5,5
-212823,4.633333333333333,3,3
-11601,4.625,8,8
-2510,4.6000000000000005,3,3
-290161,4.6,1,1
-283629,4.6,1,1
-230207,4.6,1,1
-217914,4.6,1,1
-203498,4.6,1,1
-181238,4.6,1,1
-178310,4.6,1,1
-157892,4.6,1,1
-94901,4.6,1,1
-88118,4.6,1,1
-47408,4.6,2,2
-45756,4.6,1,1
-36981,4.6,2,2
-36852,4.6,2,2
-35755,4.6,1,1
-28724,4.6,1,1
-26509,4.6,1,1
-17605,4.6,1,1
-15654,4.6,1,1
-14619,4.6,1,1
-13091,4.6,1,1
-12738,4.6,1,1
-12086,4.6,1,1
-11693,4.6,1,1
-11321,4.6,1,1
-11252,4.6,1,1
-11240,4.6,1,1
-10514,4.6,1,1
-7694,4.6,1,1
-6900,4.6,1,1
-5567,4.6,1,1
-5269,4.6,1,1
-4957,4.6,1,1
-3199,4.6,1,1
-3143,4.6,1,1
-2744,4.6,1,1
-2735,4.6,3,3
-2662,4.6,1,1
-2412,4.6,1,1
-2338,4.6,2,2
-2107,4.6,1,1
-1962,4.6,1,1
-1858,4.6,1,1
-1852,4.6,4,4
-1850,4.6,1,1
-1607,4.6,1,1
-1473,4.6,1,1
-1413,4.6,1,1
-1404,4.6,1,1
-1393,4.6,1,1
-1344,4.6,1,1
-1326,4.6,2,2
-1303,4.6,1,1
-1274,4.6,1,1
-1250,4.6,1,1
-1235,4.6,5,5
-1523,4.566666666666667,3,3
-1270,4.566666666666667,3,3
-244652,4.55,2,2
-21749,4.55,2,2
-16806,4.55,4,4
-13804,4.55,2,2
-11500,4.55,2,2
-7979,4.55,2,2
-7747,4.55,2,2
-5050,4.55,2,2
-4434,4.55,2,2
-2788,4.55,2,2
-2486,4.55,2,2
-1983,4.55,2,2
-1586,4.55,2,2
-1368,4.55,2,2
-1343,4.55,2,2
-1314,4.55,4,4
-11472,4.533333333333334,6,6
-5434,4.533333333333333,3,3
-636,4.533333333333333,3,3
-11168,4.5200000000000005,5,5
-2197,4.52,5,5
-10474,4.508333333333333,12,12
-297918,4.5,1,1
-291570,4.5,1,1
-282531,4.5,1,1
-278457,4.5,1,1
-276827,4.5,1,1
-265602,4.5,1,1
-245696,4.5,1,1
-236776,4.5,1,1
-226947,4.5,1,1
-226135,4.5,1,1
-221018,4.5,1,1
-218744,4.5,1,1
-204617,4.5,1,1
-197168,4.5,1,1
-189731,4.5,1,1
-184911,4.5,2,2
-176722,4.5,2,2
-176721,4.5,1,1
-118005,4.5,1,1
-115575,4.5,1,1
-104127,4.5,1,1
-97227,4.5,1,1
-95627,4.5,1,1
-85065,4.5,1,1
-78290,4.5,2,2
-75712,4.5,1,1
-61320,4.5,1,1
-60212,4.5,1,1
-58558,4.5,1,1
-56613,4.5,2,2
-55648,4.5,1,1
-49280,4.5,3,3
-43277,4.5,1,1
-41902,4.5,1,1
-33504,4.5,1,1
-31764,4.5,1,1
-31430,4.5,1,1
-30580,4.5,1,1
-30050,4.5,1,1
-29949,4.5,1,1
-29919,4.5,1,1
-29615,4.5,1,1
-29613,4.5,1,1
-28712,4.5,2,2
-27282,4.5,1,1
-25698,4.5,1,1
-25531,4.5,1,1
-21273,4.5,1,1
-20867,4.5,1,1
-20732,4.5,1,1
-20435,4.5,1,1
-18710,4.5,1,1
-17977,4.5,1,1
-17961,4.5,1,1
-17793,4.5,1,1
-15356,4.5,2,2
-14519,4.5,1,1
-13958,4.5,2,2
-12574,4.5,1,1
-12058,4.5,1,1
-11714,4.5,2,2
-11633,4.5,1,1
-11539,4.5,1,1
-11391,4.5,2,2
-11258,4.5,1,1
-11224,4.5,1,1
-11177,4.5,1,1
-11082,4.5,1,1
-11049,4.5,1,1
-11007,4.5,2,2
-9754,4.5,2,2
-9534,4.5,3,3
-8194,4.5,2,2
-7985,4.5,1,1
-7967,4.5,1,1
-7957,4.5,1,1
-7829,4.5,1,1
-7805,4.5,1,1
-6472,4.5,1,1
-6443,4.5,1,1
-6306,4.5,1,1
-5461,4.5,1,1
-5384,4.5,1,1
-5104,4.5,1,1
-5036,4.5,1,1
-4887,4.5,1,1
-4626,4.5,1,1
-4333,4.5,3,3
-4111,4.5,1,1
-4015,4.5,1,1
-3765,4.5,2,2
-3435,4.5,2,2
-3310,4.5,4,4
-3272,4.5,1,1
-3139,4.5,5,5
-3122,4.5,1,1
-2995,4.5,1,1
-2944,4.5,1,1
-2915,4.5,1,1
-2912,4.5,1,1
-2838,4.5,1,1
-2800,4.5,1,1
-2546,4.5,1,1
-2400,4.5,1,1
-2389,4.5,1,1
-2386,4.5,1,1
-2294,4.5,2,2
-2283,4.5,2,2
-2268,4.5,1,1
-2250,4.5,1,1
-2066,4.5,1,1
-1865,4.5,1,1
-1813,4.5,1,1
-1713,4.5,1,1
-1705,4.5,2,2
-1653,4.5,2,2
-1651,4.5,1,1
-1581,4.5,1,1
-1574,4.5,2,2
-1525,4.5,1,1
-1517,4.5,1,1
-1499,4.5,2,2
-1483,4.5,1,1
-1364,4.5,1,1
-1363,4.5,1,1
-1332,4.5,1,1
-1319,4.5,2,2
-1305,4.5,4,4
-1296,4.5,2,2
-1285,4.5,1,1
-1239,4.5,1,1
-1233,4.5,1,1
-1199,4.5,1,1
-1183,4.5,1,1
-984,4.5,3,3
-363,4.5,1,1
-6063,4.499999999999999,3,3
-1663,4.483333333333333,6,6
-1252,4.477777777777778,9,9
-10917,4.475,4,4
-7319,4.475,4,4
-1446,4.475,4,4
-1437,4.475,4,4
-220297,4.466666666666667,3,3
-37691,4.466666666666667,3,3
-12083,4.466666666666667,3,3
-1726,4.466666666666667,3,3
-1370,4.466666666666667,3,3
-52,4.466666666666667,3,3
-7941,4.466666666666666,3,3
-7636,4.466666666666666,3,3
-4047,4.466666666666666,3,3
-1347,4.466666666666666,6,6
-7658,4.459999999999999,5,5
-171382,4.45,2,2
-64829,4.45,2,2
-32935,4.45,2,2
-27224,4.45,2,2
-20691,4.45,2,2
-11678,4.45,2,2
-8824,4.45,2,2
-4620,4.45,2,2
-4108,4.45,2,2
-3754,4.45,2,2
-3109,4.45,2,2
-2531,4.45,2,2
-2471,4.45,2,2
-2164,4.45,2,2
-2025,4.45,2,2
-1709,4.45,2,2
-1572,4.45,2,2
-1555,4.45,2,2
-1376,4.45,2,2
-1251,4.45,2,2
-1249,4.45,2,2
-1204,4.45,2,2
-22425,4.449999999999999,2,2
-11815,4.449999999999999,2,2
-2148,4.449999999999999,2,2
-1757,4.449999999999999,2,2
-1418,4.449999999999999,2,2
-1382,4.449999999999999,2,2
-60883,4.433333333333334,3,3
-28466,4.433333333333334,3,3
-12131,4.433333333333334,3,3
-1599,4.433333333333334,3,3
-1518,4.433333333333334,3,3
-1320,4.433333333333334,3,3
-1298,4.433333333333334,3,3
-1269,4.433333333333334,3,3
-1260,4.433333333333334,3,3
-2147,4.428571428571429,7,7
-1358,4.428571428571429,7,7
-68941,4.425000000000001,4,4
-30373,4.425000000000001,4,4
-9064,4.425,4,4
-308635,4.4,1,1
-298550,4.4,1,1
-293687,4.4,1,1
-287175,4.4,2,2
-283096,4.4,2,2
-278851,4.4,1,1
-261516,4.4,1,1
-232772,4.4,1,1
-231148,4.4,1,1
-223950,4.4,2,2
-221277,4.4,1,1
-215683,4.4,1,1
-203543,4.4,1,1
-194229,4.4,1,1
-193777,4.4,1,1
-186640,4.4,1,1
-183112,4.4,1,1
-176720,4.4,1,1
-170129,4.4,1,1
-157115,4.4,1,1
-138255,4.4,2,2
-121345,4.4,2,2
-107862,4.4,1,1
-105199,4.4,1,1
-92206,4.4,1,1
-84899,4.4,1,1
-72892,4.4,1,1
-72241,4.4,1,1
-70670,4.4,1,1
-64433,4.4,1,1
-64252,4.4,3,3
-56541,4.4,1,1
-55934,4.4,1,1
-48780,4.4,1,1
-47305,4.4,1,1
-46054,4.4,1,1
-44735,4.4,1,1
-41743,4.4,1,1
-40875,4.4,1,1
-40871,4.4,1,1
-40544,4.4,1,1
-40453,4.4,2,2
-39672,4.4,1,1
-37575,4.4,1,1
-36907,4.4,1,1
-34760,4.4,1,1
-34701,4.4,1,1
-34428,4.4,1,1
-32348,4.4,1,1
-32279,4.4,1,1
-31068,4.4,1,1
-30929,4.4,1,1
-30901,4.4,1,1
-30741,4.4,1,1
-26840,4.4,1,1
-26455,4.4,2,2
-26381,4.4,2,2
-26164,4.4,1,1
-25807,4.4,2,2
-25801,4.4,1,1
-25672,4.4,1,1
-24519,4.4,1,1
-22523,4.4,1,1
-21926,4.4,2,2
-18151,4.4,1,1
-18126,4.4,1,1
-17892,4.4,1,1
-17731,4.4,1,1
-17509,4.4,1,1
-17444,4.4,1,1
-17401,4.4,1,1
-16991,4.4,1,1
-16889,4.4,1,1
-16624,4.4,1,1
-16475,4.4,1,1
-15240,4.4,1,1
-15233,4.4,1,1
-14617,4.4,1,1
-14607,4.4,1,1
-14505,4.4,1,1
-14050,4.4,1,1
-13261,4.4,2,2
-12915,4.4,1,1
-12590,4.4,3,3
-12261,4.4,1,1
-12167,4.4,1,1
-12129,4.4,1,1
-12080,4.4,1,1
-11865,4.4,1,1
-11835,4.4,1,1
-11763,4.4,1,1
-11630,4.4,1,1
-11457,4.4,2,2
-11455,4.4,1,1
-11344,4.4,1,1
-11315,4.4,1,1
-11221,4.4,1,1
-11187,4.4,1,1
-10983,4.4,3,3
-10982,4.4,1,1
-10864,4.4,1,1
-10814,4.4,1,1
-10254,4.4,1,1
-10204,4.4,1,1
-9734,4.4,1,1
-9294,4.4,10,10
-8037,4.4,1,1
-8006,4.4,1,1
-8004,4.4,1,1
-7969,4.4,1,1
-7911,4.4,1,1
-7892,4.4,1,1
-7618,4.4,1,1
-7610,4.4,1,1
-7601,4.4,2,2
-6965,4.4,1,1
-6875,4.4,1,1
-6733,4.4,1,1
-6640,4.4,1,1
-6557,4.4,1,1
-6457,4.4,1,1
-6287,4.4,1,1
-6234,4.4,1,1
-5459,4.4,1,1
-5415,4.4,1,1
-5309,4.4,2,2
-5103,4.4,2,2
-5087,4.4,1,1
-5072,4.4,2,2
-5040,4.4,1,1
-4899,4.4,1,1
-4740,4.4,1,1
-4510,4.4,1,1
-4440,4.4,1,1
-4128,4.4,1,1
-3981,4.4,1,1
-3948,4.4,1,1
-3928,4.4,1,1
-3876,4.4,1,1
-3796,4.4,1,1
-3671,4.4,1,1
-3617,4.4,2,2
-3269,4.4,1,1
-3189,4.4,1,1
-3149,4.4,2,2
-3106,4.4,1,1
-3104,4.4,1,1
-3094,4.4,2,2
-3023,4.4,1,1
-3013,4.4,1,1
-2801,4.4,1,1
-2752,4.4,1,1
-2696,4.4,1,1
-2690,4.4,2,2
-2639,4.4,1,1
-2611,4.4,1,1
-2548,4.4,1,1
-2523,4.4,1,1
-2431,4.4,1,1
-2418,4.4,1,1
-2337,4.4,1,1
-2313,4.4,1,1
-2259,4.4,1,1
-2214,4.4,2,2
-2211,4.4,3,3
-2170,4.4,2,2
-2071,4.4,1,1
-2035,4.4,1,1
-2030,4.4,1,1
-1972,4.4,1,1
-1949,4.4,1,1
-1933,4.4,1,1
-1910,4.4,1,1
-1903,4.4,2,2
-1855,4.4,1,1
-1845,4.4,1,1
-1788,4.4,1,1
-1740,4.4,1,1
-1707,4.4,1,1
-1703,4.4,1,1
-1672,4.4,2,2
-1652,4.4,1,1
-1646,4.4,1,1
-1620,4.4,1,1
-1598,4.4,1,1
-1567,4.4,2,2
-1537,4.4,2,2
-1513,4.4,1,1
-1507,4.4,1,1
-1479,4.4,1,1
-1475,4.4,1,1
-1467,4.4,1,1
-1447,4.4,4,4
-1441,4.4,2,2
-1431,4.4,1,1
-1425,4.4,1,1
-1422,4.4,1,1
-1415,4.4,2,2
-1406,4.4,1,1
-1392,4.4,3,3
-1369,4.4,2,2
-1338,4.4,1,1
-1334,4.4,1,1
-1310,4.4,1,1
-1309,4.4,1,1
-1308,4.4,2,2
-1283,4.4,1,1
-1263,4.4,1,1
-1258,4.4,1,1
-1248,4.4,1,1
-628,4.4,1,1
-528,4.4,1,1
-403,4.4,1,1
-16997,4.3999999999999995,3,3
-7666,4.3999999999999995,3,3
-7654,4.3999999999999995,3,3
-11096,4.38,5,5
-3619,4.366666666666667,3,3
-1702,4.366666666666667,3,3
-1583,4.366666666666667,3,3
-2460,4.366666666666666,3,3
-1543,4.366666666666666,3,3
-183545,4.35,2,2
-82811,4.35,2,2
-53529,4.35,2,2
-30829,4.35,2,2
-21586,4.35,2,2
-14299,4.35,2,2
-12264,4.35,2,2
-8624,4.35,2,2
-7770,4.35,2,2
-5450,4.35,2,2
-4643,4.35,2,2
-4272,4.35,2,2
-2381,4.35,2,2
-1913,4.35,2,2
-1806,4.35,4,4
-1723,4.35,2,2
-1587,4.35,2,2
-1476,4.35,2,2
-1450,4.35,2,2
-12996,4.333333333333334,3,3
-1843,4.333333333333334,3,3
-13146,4.333333333333333,3,3
-19992,4.325,4,4
-1864,4.324999999999999,4,4
-23851,4.300000000000001,2,2
-4772,4.300000000000001,2,2
-4208,4.300000000000001,2,2
-1837,4.300000000000001,2,2
-291112,4.3,1,1
-244651,4.3,1,1
-242840,4.3,1,1
-228509,4.3,1,1
-215545,4.3,1,1
-192080,4.3,1,1
-177327,4.3,1,1
-116221,4.3,1,1
-115806,4.3,1,1
-59455,4.3,1,1
-56544,4.3,1,1
-53258,4.3,1,1
-52856,4.3,1,1
-51948,4.3,1,1
-51482,4.3,1,1
-43084,4.3,1,1
-42463,4.3,1,1
-40819,4.3,1,1
-32320,4.3,1,1
-31669,4.3,1,1
-30823,4.3,1,1
-29001,4.3,1,1
-26177,4.3,1,1
-17826,4.3,1,1
-15779,4.3,1,1
-15775,4.3,1,1
-15576,4.3,2,2
-15418,4.3,1,1
-13983,4.3,1,1
-12536,4.3,1,1
-12168,4.3,1,1
-11880,4.3,1,1
-11477,4.3,1,1
-11270,4.3,1,1
-11265,4.3,1,1
-11188,4.3,1,1
-10940,4.3,1,1
-7927,4.3,1,1
-7710,4.3,1,1
-7703,4.3,1,1
-7637,4.3,1,1
-6897,4.3,1,1
-6812,4.3,1,1
-6609,4.3,1,1
-6551,4.3,1,1
-6275,4.3,1,1
-4026,4.3,1,1
-3962,4.3,1,1
-3952,4.3,1,1
-3931,4.3,1,1
-3641,4.3,1,1
-3245,4.3,1,1
-3155,4.3,1,1
-2987,4.3,1,1
-2834,4.3,1,1
-2727,4.3,1,1
-2672,4.3,1,1
-2654,4.3,1,1
-2396,4.3,1,1
-2341,4.3,1,1
-2200,4.3,2,2
-2093,4.3,1,1
-2058,4.3,1,1
-2001,4.3,2,2
-1945,4.3,2,2
-1936,4.3,1,1
-1916,4.3,1,1
-1842,4.3,1,1
-1833,4.3,1,1
-1795,4.3,1,1
-1777,4.3,1,1
-1769,4.3,1,1
-1676,4.3,1,1
-1544,4.3,1,1
-1538,4.3,2,2
-1514,4.3,1,1
-1489,4.3,1,1
-1471,4.3,1,1
-1444,4.3,1,1
-1387,4.3,1,1
-1384,4.3,1,1
-1340,4.3,1,1
-1300,4.3,1,1
-1264,4.3,1,1
-1228,4.3,1,1
-1215,4.3,1,1
-253,4.3,1,1
-2004,4.25,2,2
-1871,4.25,2,2
-246747,4.2,1,1
-227850,4.2,1,1
-176101,4.2,1,1
-134564,4.2,1,1
-49412,4.2,1,1
-17340,4.2,1,1
-14976,4.2,1,1
-11205,4.2,1,1
-5116,4.2,1,1
-4693,4.2,1,1
-4604,4.2,1,1
-4274,4.2,1,1
-4009,4.2,1,1
-3829,4.2,1,1
-3060,4.2,1,1
-2636,4.2,1,1
-1680,4.2,1,1
-1388,4.2,1,1
-6305,4.1,1,1
-1234,4.1,1,1
+winery_id,wines_name,average_rating,number_of_wines,total_rating,avg_rating_count
+277785,Fratini Bolgheri Superiore,4.8,1,153,153.0
+266660,Batard-Montrachet Grand Cru,4.8,1,34,34.0
+14919,Cabernet Sauvignon,4.8,1,2941,2941.0
+227918,Permassimo,4.7,1,186,186.0
+82979,Toscana,4.7,1,16284,16284.0
+22222,Pomerol,4.7,1,2164,2164.0
+12630,Pomerol,4.7,1,32157,32157.0
+11744,Chambertin Grand Cru,4.7,1,3401,3401.0
+11610,Romanée-Saint-Vivant Grand Cru (Marey-Monge),4.7,1,6597,6597.0
+11259,Montrachet Grand Cru,4.7,1,516,516.0
+8028,Sauternes,4.7,1,44126,44126.0
+4173,Échézeaux Grand Cru,4.7,1,359,359.0
+3286,Le Mesnil Blanc de Blancs (Cuvée S) Brut Champagne,4.7,1,9564,9564.0
+1456,IX Estate Red,4.7,1,2810,2810.0
+1380,Harlan Estate Red,4.7,1,7231,7231.0
+1378,The Laird,4.7,1,627,627.0
+11050,"Unico Reserva Especial Edición,Unico,Valbuena 5º",4.666666666666667,3,130949,43649.666666666664
+156664,"Amancio,Mágico",4.65,2,2222,1111.0
+1301,"Cabernet Sauvignon,Special Selection Cabernet Sauvignon",4.65,2,199180,99590.0
+1337,"Vintage,Rosé,Collection,Clos du Mesnil,Grande Cuvée",4.639999999999999,5,53691,10738.2
+212823,"Brut Champagne,Brut Rosé Champagne,P2 Plénitude Brut Champagne",4.633333333333333,3,167667,55889.0
+11601,"Amarone della Valpolicella Classico,Valpolicella Classico Superiore,Veneto Rosso del Bepi,Recioto della Valpolicella Classico,Amarone della Valpolicella Classico Riserva,Veneto Alzero Cabernet,Ca’ del Merlo Rosso Veneto,Recioto della Valpolicella Classico Riserva",4.625,8,31366,3920.75
+2510,"Book 17 XVII,Fusion V,The Black Lion",4.6000000000000005,3,14167,4722.333333333333
+290161,Clos Apalta,4.6,1,23256,23256.0
+283629,Single Barrel Champagne Grand Cru 'Le Mesnil-sur-Oger',4.6,1,34,34.0
+230207,Touran,4.6,1,274,274.0
+217914,EABA,4.6,1,151,151.0
+203498,Red,4.6,1,4933,4933.0
+181238,Nosotros Single Vineyard Nómade,4.6,1,9995,9995.0
+178310,Corton-Charlemagne Grand Cru,4.6,1,719,719.0
+157892,Lithology Cabernet Sauvignon,4.6,1,148,148.0
+94901,Red,4.6,1,3639,3639.0
+88118,Aszú 6 Puttonyos Tokaj,4.6,1,54,54.0
+47408,"Clio,La Vina de Corteo",4.6,2,24927,12463.5
+45756,Collection Vintage 2000 Brut,4.6,1,58,58.0
+36981,"VIK,La Piu Belle",4.6,2,21913,10956.5
+36852,"40 Anos Tawny Port,Colheita Porto Branco",4.6,2,122,61.0
+35755,Les Riceys Cuvée Cyriès Brut Millesimé Champagne,4.6,1,43,43.0
+28724,Corton-Charlemagne Grand Cru,4.6,1,35,35.0
+26509,Gran Buig Priorat,4.6,1,125,125.0
+17605,Almaviva,4.6,1,48075,48075.0
+15654,Perpiero,4.6,1,351,351.0
+14619,Bure Alto Amarone  della Valpolicella Classico Riserva,4.6,1,132,132.0
+13091,Dieci Brunello di Montalcino,4.6,1,43,43.0
+12738,Croce Del Gal Riserva Amarone della Valpolicella Classico,4.6,1,188,188.0
+12086,Aquilon Garnacha,4.6,1,1343,1343.0
+11693,Beckstoffer To Kalon Vineyard Cabernet Sauvignon,4.6,1,1557,1557.0
+11321,Saint-Émilion Grand Cru,4.6,1,5390,5390.0
+11252,Calcarole Amarone della Valpolicella Classico,4.6,1,2757,2757.0
+11240,Aegusa,4.6,1,81,81.0
+10514,Graacher Himmelreich Riesling Auslese 'Goldkapsel',4.6,1,119,119.0
+7694,L'Amarone del Maestro Fornaser,4.6,1,1031,1031.0
+6900,A50 Amarone della Valpolicella,4.6,1,100,100.0
+5567,Bassolino di Sopra Brunello di Montalcino,4.6,1,174,174.0
+5269,Montrachet Grand Cru,4.6,1,495,495.0
+4957,Finca Garbet,4.6,1,573,573.0
+3199,Cabernet Sauvignon Coeur De Vallée,4.6,1,544,544.0
+3143,Quiñon de Valmira,4.6,1,377,377.0
+2744,La Nieta,4.6,1,4508,4508.0
+2735,"Don PX Selección,Don PX Convento Selección,Ginés Liébana Pedro Ximénez",4.6,3,1670,556.6666666666666
+2662,Vin de Constance (Natural Sweet),4.6,1,13210,13210.0
+2412,Rubicon,4.6,1,6421,6421.0
+2338,"Zeltinger Sonnenuhr Beerenauselese Riesling,Zeltinger Sonnenuhr Beerenauslese",4.6,2,93,46.5
+2107,Grand Vin Pauillac (Premier Grand Cru Classé),4.6,1,38521,38521.0
+1962,The Journeyman,4.6,1,231,231.0
+1858,Blanc des Millénaires,4.6,1,5581,5581.0
+1852,"Amarone della Valpolicella Monte Lodoletta,Valpolicella Superiore Monte Lodoletta,Recioto della Valpolicella (Monte Lodoletta),Nettare Veneto Bianco",4.6,4,21285,5321.25
+1850,Chateauneuf-du-Pape Réserve des Célestins,4.6,1,1633,1633.0
+1607,L'Extravagant de Doisy-Daëne Sauternes,4.6,1,465,465.0
+1473,Rutherford,4.6,1,16322,16322.0
+1413,Sassicaia,4.6,1,107646,107646.0
+1404,Chevalier-Montrachet Grand Cru,4.6,1,2340,2340.0
+1393,Maya,4.6,1,1570,1570.0
+1344,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.6,1,22896,22896.0
+1326,"Les Pavots,Au Paradis Cabernet Sauvignon",4.6,2,7014,3507.0
+1303,Cabernet Sauvignon,4.6,1,5927,5927.0
+1274,Sir Winston Churchill Brut Champagne,4.6,1,12873,12873.0
+1250,Clos de Tart Grand Cru,4.6,1,214,214.0
+1235,"Blanc de Blancs Brut Champagne (Vintage),Cristal Brut Champagne (Millésimé),Cristal Rosé Brut Champagne (Millésimé),Cristal Vinothèque,Cristal Rosé Vinothèque",4.6,5,55253,11050.6
+1523,"Châteauneuf-du-Pape,Châteauneuf-du-Pape Réservé Blanc,Pignan Châteauneuf-du-Pape Réserve Rouge",4.566666666666667,3,10093,3364.3333333333335
+1270,"Chassagne-Montrachet Premier Cru 'Morgeot' Blanc,Montrachet Grand Cru,Bâtard-Montrachet Grand Cru",4.566666666666667,3,3351,1117.0
+244652,"Brunello di Montalcino,Brunello di Montalcino Riserva",4.55,2,9472,4736.0
+21749,"Montrachet Grand Cru,Bâtard-Montrachet Grand Cru",4.55,2,483,241.5
+16806,"Kairos,Amarone della Valpolicella,La Mattonara Amarone della Valpolicella Classico Riserva,Harlequin",4.55,4,12446,3111.5
+13804,"Pessac-Léognan Blanc (Grand Cru Classé de Graves),Pessac-Léognan (Premier Grand Cru Classé)",4.55,2,40811,20405.5
+11500,"Brunello di Montalcino Riserva,Brunello di Montalcino",4.55,2,30827,15413.5
+7979,"La Grande Dame Brut Champagne,La Grande Dame Brut Rosé Champagne",4.55,2,18592,9296.0
+7747,"La Grande Année Brut Champagne,R.D Extra Brut Champagne (Récemment Dégorgé)",4.55,2,32383,16191.5
+5050,"Kurni Marche,Kupra Marche",4.55,2,10898,5449.0
+4434,"Glesie Climat,Boghis Climat",4.55,2,64,32.0
+2788,"Vosne-Romanée Premier Cru Aux Reignots,Vosne-Romanée Premier Cru Les Petits Monts",4.55,2,750,375.0
+2486,"Cuve 38 Blanc de Blancs Champagne (La Réserve Perpétuelle),Cuvée des Enchanteleurs Brut Champagne",4.55,2,1881,940.5
+1983,"Vin de Pays de l'Hérault,Vin de Pays de l'Hérault Blanc",4.55,2,10142,5071.0
+1586,"Flor de Pingus,Pingus",4.55,2,38945,19472.5
+1368,"Overture,Opus One",4.55,2,93857,46928.5
+1343,"Bonnes-Mares Grand Cru,Musigny Grand Cru (Cuveé Vieilles Vignes)",4.55,2,6128,3064.0
+1314,"Côte-Rôtie La Landonne,Côte-Rôtie La Mouline,Ermitage Ex-Voto,Côte-Rôtie La Turque",4.55,4,15143,3785.75
+11472,"Barolo Riserva Monfortino,Barbera d'Alba Vigna Francia,Barolo Cascina Francia,Barolo Cerretta,Barolo Arione,Charity Edition Nebbiolo d'Alba Arione",4.533333333333334,6,19345,3224.1666666666665
+5434,"'Giulio Ferrari' Riserva del Fondatore,Bruno Lunelli Riserva,'Giulio Ferrari' Riserva del Fondatore Rosé",4.533333333333333,3,12996,4332.0
+636,"La Muse,La Joie,Le Désir",4.533333333333333,3,5927,1975.6666666666667
+11168,"Charmes-Chambertin Grand Cru Les Mazoyères,Bonnes Mares Grand Cru,Musigny Grand Cru,Charlemagne Grand Cru,Bienvenues-Bâtard-Montrachet Grand Cru",4.5200000000000005,5,1507,301.4
+2197,"Scharzhofberger Riesling Kabinett,Scharzhofberger Riesling Spätlese,Riesling 'Le Gallais' Wiltinger Braune Kupp Auslese,Scharzhofberger Riesling Auslese,Scharzhofberger Riesling Eiswein",4.52,5,6549,1309.8
+10474,"Barbaresco,Costa Russi (Barbaresco) Langhe,Sorì Tildìn (Barbaresco) Langhe,Sorì San Lorenzo,Dagromis Barolo,Conteisa Langhe,Sperss Barolo,Darmagi Langhe,Pieve Santa Restituta Brunello di Montalcino,Pieve Santa Restituta Sugarille Brunello di Montalcino,Gaia & Rey Langhe,Pieve Santa Restituta Rennina Brunello di Montalcino",4.508333333333333,12,107204,8933.666666666666
+297918,Tinto,4.5,1,585,585.0
+291570,Rosso,4.5,1,88,88.0
+282531,Red Blend,4.5,1,457,457.0
+278457,Pym-Rae Red Blend,4.5,1,273,273.0
+276827,Bentrock Vineyard Chardonnay,4.5,1,118,118.0
+265602,Trittenheimer Apotheke,4.5,1,27,27.0
+245696,Vinhas Velhas Tinto,4.5,1,736,736.0
+236776,Clos de Tart Grand Cru Monopole,4.5,1,4948,4948.0
+226947,Amarone della Valpolicella,4.5,1,749,749.0
+226135,Duna Mirante Primitivo di Manduria,4.5,1,96,96.0
+221018,Brunello di Montalcino,4.5,1,1365,1365.0
+218744,Charmes-Chambertin Grand Cru,4.5,1,33,33.0
+204617,Tourmaline Pomerol,4.5,1,237,237.0
+197168,Kalós Cru Gran Reserva Malbec,4.5,1,3351,3351.0
+189731,Amarone della Valpolicella Classico Mater,4.5,1,739,739.0
+184911,"Cuvée des Hussards Vieilles Vignes Brut Champagne Premier Cru,VV 26 Blanc de Blancs Vieilles Vignes Grand Cru Brut",4.5,2,361,180.5
+176722,"Pauillac (Premier Grand Cru Classé),Carruades de Lafite Pauillac",4.5,2,53149,26574.5
+176721,Pomerol,4.5,1,9531,9531.0
+118005,Châteauneuf-du-Pape Amiral G,4.5,1,536,536.0
+115575,Champagne,4.5,1,1021,1021.0
+104127,Aconcagua Valley,4.5,1,18482,18482.0
+97227,Habemus Lazio Rosso (Etichetta Rossa),4.5,1,298,298.0
+95627,Ozanne Blanc de Blancs Brut Champagne Grand Cru 'Avize',4.5,1,484,484.0
+85065,Quarto Vecchio Amarone della Valpolicella Classico Riserva,4.5,1,292,292.0
+78290,"Poggio Alle Nane Maremma Toscana,Ampio",4.5,2,3990,1995.0
+75712,Raut Lagrein,4.5,1,58,58.0
+61320,Regina del Bosco R.Quarantottomesi,4.5,1,109,109.0
+60212,Il San Lorenzo Bianco,4.5,1,673,673.0
+58558,Denarius Graves,4.5,1,129,129.0
+56613,"Amarone della Valpolicella,Octavius Amarone della Valpolicella Riserva",4.5,2,1742,871.0
+55648,60 Sessantanni Old Vines Primitivo di Manduria,4.5,1,94289,94289.0
+49280,"Gold Series Syrah,Cabernet Sauvignon,Grenache",4.5,3,663,221.0
+43277,Oh Carlos Manuel! Tinto,4.5,1,58,58.0
+41902,Le Montrachet Grand Cru,4.5,1,30,30.0
+33504,Ciliegio Amarone della Valpolicella,4.5,1,76,76.0
+31764,Chambolle-Musigny 1er Cru 'Les Amoureuses',4.5,1,59,59.0
+31430,Mas Via Gran Reserva Brut,4.5,1,408,408.0
+30580,Chablis Grand Cru 'Valmur',4.5,1,1653,1653.0
+30050,Cabochon Doppio Zero,4.5,1,217,217.0
+29949,Lupi e Sirene Riserva,4.5,1,1292,1292.0
+29919,40 Years Old Port,4.5,1,37,37.0
+29615,Vin de Paille,4.5,1,35,35.0
+29613,Pour Vous Sancerre,4.5,1,125,125.0
+28712,"Reserve Pinotage,888 Pinotage Gold",4.5,2,2125,1062.5
+27282,Marmar,4.5,1,514,514.0
+25698,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.5,1,15671,15671.0
+25531,Es Riserva,4.5,1,371,371.0
+21273,Aszú Eszencia,4.5,1,283,283.0
+20867,Kapnios Aglianico,4.5,1,1134,1134.0
+20732,Toscana,4.5,1,2185,2185.0
+20435,Gran Enemigo,4.5,1,18739,18739.0
+18710,Boal Madeira,4.5,1,1023,1023.0
+17977,Mironia Black Edition Tempranillo,4.5,1,187,187.0
+17961,Nuits-Saint-Georges 1er Cru 'Aux Murgers',4.5,1,40,40.0
+17793,Limited Edition 10 Vendemmie,4.5,1,9453,9453.0
+15356,"Barolo Riserva Monprivato Cà d'Morissio,Barolo Monprivato",4.5,2,7554,3777.0
+14519,Terrasse à l'Ombre Côtes du Rhône,4.5,1,819,819.0
+13958,"Amour de Deutz Millésimé Brut Champagne,Amour de Deutz Millesimé Rosé Brut Champagne",4.5,2,6068,3034.0
+12574,Vieille Vigne Griottes-Chambertin Grand Cru,4.5,1,257,257.0
+12058,Brunello di Montalcino,4.5,1,2623,2623.0
+11714,"Chapelle d'Ausone Saint-Émilion Grand Cru,Saint-Émilion Grand Cru (Premier Grand Cru Classé)",4.5,2,7723,3861.5
+11633,Amarone Stella,4.5,1,533,533.0
+11539,Yarden Katzrin,4.5,1,894,894.0
+11391,"Vintage Port Nacional,Vintage Port",4.5,2,3094,1547.0
+11258,Pedrouzos Godello,4.5,1,109,109.0
+11224,Cuvée Madame Barsac,4.5,1,94,94.0
+11177,Belle Epoque Brut Champagne,4.5,1,20992,20992.0
+11082,Brunello di Montalcino,4.5,1,4357,4357.0
+11049,Ribera del Duero,4.5,1,69278,69278.0
+11007,"Redigaffi Toscana,Per Sempre Syrah Toscana",4.5,2,5923,2961.5
+9754,"Saint-Émilion Grand Cru (Premier Grand Cru Classé),Le Petit Cheval Bordeaux Blanc",4.5,2,28980,14490.0
+9534,"Ice Wine de Purcari,Negru de Purcari Limited Edition,Academia Purcari Rară Neagră",4.5,3,1765,588.3333333333334
+8194,"Mossone,Moss Blanc Verdicchio dei Castelli di Jesi Classico Superiore",4.5,2,986,493.0
+7985,Cuvée Annamaria Clementi (Extra Brut),4.5,1,7928,7928.0
+7967,Poggio all'Oro Brunello di Montalcino Riserva,4.5,1,7033,7033.0
+7957,Flaccianello della Pieve,4.5,1,21518,21518.0
+7829,Ermitage l'Ermite Blanc,4.5,1,296,296.0
+7805,Vintage Port,4.5,1,2614,2614.0
+6472,Hérédita Châteauneuf-du-Pape,4.5,1,185,185.0
+6443,Clos Le Léon Dizy Champagne,4.5,1,53,53.0
+6306,Petrucci Melo,4.5,1,61,61.0
+5461,Baffonero Maremma Toscana,4.5,1,1682,1682.0
+5384,Magma,4.5,1,748,748.0
+5104,Pietro Dal Cero Amarone della Valpolicella,4.5,1,6424,6424.0
+5036,Son Negre,4.5,1,521,521.0
+4887,Amarone Senza Titolo,4.5,1,225,225.0
+4626,LR,4.5,1,503,503.0
+4333,"MV,MV Rosé,Collection Fût de Chêne Brut Champagne Grand Cru 'Ay'",4.5,3,5409,1803.0
+4111,Faith,4.5,1,1048,1048.0
+4015,Ferro,4.5,1,499,499.0
+3765,"Continuum Estate,Novicium Estate",4.5,2,7444,3722.0
+3435,"Millecento Brunello di Montalcino Riserva,Campo del Drago Brunello di Montalcino",4.5,2,4218,2109.0
+3310,"FAY Cabernet Sauvignon,ARTEMIS Cabernet Sauvignon,S.L.V. Cabernet Sauvignon,CASK 23 Cabernet Sauvignon",4.5,4,108215,27053.75
+3272,Chambertin Grand Cru,4.5,1,188,188.0
+3139,"Tokaji Aszú 6 Puttonyos,Eszencia,Tokaji Aszú 3 Puttonyos,Tokaji Aszú 5 Puttonyos,Petracs Furmint",4.5,5,15583,3116.6
+3122,Cuvée N Viñas Viejas,4.5,1,263,263.0
+2995,5 Stelle Sfursat,4.5,1,10740,10740.0
+2944,N.P.U. Extra Brut Champagne (Nec Plus Ultra),4.5,1,1482,1482.0
+2915,Coteau de Vernon Condrieu,4.5,1,2015,2015.0
+2912,Altura,4.5,1,2733,2733.0
+2838,Étoile Rosé,4.5,1,183,183.0
+2800,Cuvée Ernest Riesling Alsace Sélection de Grains Nobles,4.5,1,68,68.0
+2546,1694 Classification Red,4.5,1,1841,1841.0
+2400,Alpine Hillside Pinot Noir,4.5,1,46,46.0
+2389,Camí Pesseroles,4.5,1,1083,1083.0
+2386,Le Montrachet Grand Cru,4.5,1,236,236.0
+2294,"Cirsion Rioja,Roda I Reserva Rioja",4.5,2,26223,13111.5
+2283,"Le Bourg Saumur Champigny,Les Poyeux Saumur Champigny",4.5,2,3269,1634.5
+2268,Gran Reserva 890,4.5,1,11347,11347.0
+2250,Vieux Marc de Bandol,4.5,1,102,102.0
+2066,Campogiovanni Brunello di Montalcino Riserva Il Quercione,4.5,1,1107,1107.0
+1865,Amarone della Valpolicella Classico,4.5,1,6669,6669.0
+1813,Clos des Goisses Champagne,4.5,1,4662,4662.0
+1713,Barolo Riserva Cannubi 1752,4.5,1,451,451.0
+1705,"Finca Bella Vista Malbec,Finca Altamira Malbec",4.5,2,15756,7878.0
+1653,"Amarone della Valpolicella Classico,De Buris Amarone della Valpolicella Classico Riserva",4.5,2,78089,39044.5
+1651,The Armagh Shiraz,4.5,1,2472,2472.0
+1581,Richebourg Grand Cru,4.5,1,1296,1296.0
+1574,"Vin Santo di Montepulciano,Vin Santo di Montepulciano Occhio di Pernice",4.5,2,2640,1320.0
+1525,Pomerol,4.5,1,12214,12214.0
+1517,Blueline Estate Cabernet Sauvignon,4.5,1,1321,1321.0
+1499,"Amarone della Valpolicella Classico,Fieramonte Amarone della Valpolicella Riserva",4.5,2,28109,14054.5
+1483,Les Clos Chablís Grand Cru,4.5,1,1750,1750.0
+1364,Isosceles,4.5,1,18920,18920.0
+1363,Howell Mountain Cabernet Sauvignon,4.5,1,6466,6466.0
+1332,Dominus (Christian Moueix),4.5,1,22117,22117.0
+1319,"Pavillon Rouge du Château Margaux,Château Margaux (Premier Grand Cru Classé)",4.5,2,61751,30875.5
+1305,"St. Henri Shiraz,Grange,RWT Bin 798 Shiraz,802.A Superblend",4.5,4,43723,10930.75
+1296,"Cabernet Sauvignon,Insignia",4.5,2,59218,29609.0
+1285,Comtes de Champagne Blanc de Blancs,4.5,1,27449,27449.0
+1239,Brunello di Montalcino Riserva Pianrosso Santa Caterina d'Oro,4.5,1,1971,1971.0
+1233,Alàuda,4.5,1,670,670.0
+1199,Vigna del Suolo Brunello di Montalcino,4.5,1,201,201.0
+1183,Clos Sainte Hune Riesling Alsace,4.5,1,4106,4106.0
+984,"Cabernet Sauvignon,Merlot,Reserve",4.5,3,6184,2061.3333333333335
+363,Monte Bello,4.5,1,11978,11978.0
+6063,"Amarone della Valpolicella Classico,Campo del Titari Amarone della Valpolicella Classico Riserva,Campo Inferi Amarone della Valpolicella Classico Riserva",4.499999999999999,3,10508,3502.6666666666665
+1663,"Brunate  Barolo,La Serra Barolo,Rocche dell'Annunziata Torriglione Barolo,Riserva vecchie viti dei Capalot e delle Brunate Barolo,Rocche dell'Annunziata Barolo,Fossati Barolo",4.483333333333333,6,4632,772.0
+1252,"Tenuta Tignanello 'Solaia',Tignanello,Tenuta Guado al Tasso Bolgheri Superiore,Pian delle Vigne Brunello di Montalcino,Castello della Sala Cervaro della Sala,Castello della Sala Muffato della Sala,Pian delle Vigne Vignaferrovia Brunello di Montalcino Riserva,Tenuta Guado al Tasso Matarocchio,Secentenario",4.477777777777778,9,281106,31234.0
+10917,"Barolo Bussia Romirasco,Barolo Riserva Granbussia,Barolo Bussia Cicala,Barolo Riserva Speciale Granbussia",4.475,4,6674,1668.5
+7319,"Pedro Ximenez Tradición 20 Years Old Vos,Cream Tradición Vos 20 Years,Palo Cortado Añada,Palo Cortado Tradición Vors 30 Years Sherry",4.475,4,2654,663.5
+1446,"Brunello di Montalcino,Pietradonice,Tenuta Nuova Brunello di Montalcino,Cerretalto Brunello di Montalcino",4.475,4,54562,13640.5
+1437,"Nicolás Catena Zapata,Malbec Argentino,Adrianna Vineyard Fortuna Terrae Malbec,Adrianna Vineyard Mundus Bacillus Terrae Malbec",4.475,4,79609,19902.25
+220297,"Luce,Luce Brunello di Montalcino,Lux Vitis",4.466666666666667,3,24544,8181.333333333333
+37691,"Giallo d'Arles Greco di Tufo,Vigna Grande Cerzito Taurasi Riserva,Grande Cuvée Luigi Moio",4.466666666666667,3,3935,1311.6666666666667
+12083,"Bonnes-Mares Grand Cru,Chambertin-Clos-de-Beze Grand Cru,Les Sentiers Chambolle-Musigny 1er Cru",4.466666666666667,3,3072,1024.0
+1726,"Cerretta Barolo Riserva (Vigna Bricco),Arborina Barolo,Cannubi Barolo",4.466666666666667,3,4820,1606.6666666666667
+1370,"Chloe Chardonnay,Finn Pinot Noir,Hyde Vineyard Chardonnay",4.466666666666667,3,1054,351.3333333333333
+52,"Grace Vineyard Pinot Noir,Evenstad Reserve Pinot Noir,Mark Bradford Vineyard Pinot Noir",4.466666666666667,3,12170,4056.6666666666665
+7941,"Bolgheri Superiore,Le Serre Nuove,Toscana Bianco",4.466666666666666,3,99183,33061.0
+7636,"Les Bessards Hermitage,Domaine des Tourettes Hermitage Rouge,Ligne de Crete Les Grandes Vignes Hermitage",4.466666666666666,3,5397,1799.0
+4047,"Bibbona,Lodovico,Il Pino di Biserno",4.466666666666666,3,27407,9135.666666666666
+1347,"Falletto Barolo,Falletto Barbaresco Asili,Falletto Barolo Le Rocche del Falletto,Falletto Barolo Le Rocche del Falletto Riserva,Falletto Barbaresco Rabaja,Collina Rionda di Serralunga Barolo",4.466666666666666,6,8319,1386.5
+7658,"Montrachet Grand Cru Blanc,Musigny Grand Cru,Clos Vougeot Grand Cru,Chambertin Grand Cru,Corton-Bressandes Grand Cru",4.459999999999999,5,3856,771.2
+171382,"Vinha Centenaria Branco,Vinha dos Utras",4.45,2,346,173.0
+64829,"Reserve Chardonnay,Estate Reserve Viognier",4.45,2,653,326.5
+32935,"Arché,Elevage Branco",4.45,2,482,241.0
+27224,"Lupi Rezerva,Saperavi",4.45,2,12349,6174.5
+20691,"Brut Rosé Champagne,Brut Champagne (Gold)",4.45,2,4704,2352.0
+11678,"Charmes-Chambertin Grand Cru,Vieilles Vignes Mazis-Chambertin Grand Cru",4.45,2,927,463.5
+8824,"Bramare Marchiori Vineyard Malbec,Bramare Malbec Uco Valley",4.45,2,28465,14232.5
+4620,"The Stork,The Mackenzie",4.45,2,2858,1429.0
+4108,"Series C,Series M",4.45,2,6022,3011.0
+3754,"Gran VU Blend,Los Jabalíes Single Vineyard Malbec",4.45,2,3057,1528.5
+3109,"Campo dei Gigli Amarone della Valpolicella,Lilium Est Amarone Della Valpolicella Riserva",4.45,2,5783,2891.5
+2531,"Toscana Rosso,Palazzi Rosso Toscana",4.45,2,3760,1880.0
+2471,"Brut Rosé Champagne,Dom Ruinart Blanc de Blancs Brut Champagne",4.45,2,39613,19806.5
+2164,"Les Grandes Places Côte-Rôtie,La Landonne Côte-Rôtie",4.45,2,1900,950.0
+2025,"Aszú 6 puttonyos,5 Puttonyos Aszú (Blue Label)",4.45,2,13556,6778.0
+1709,"Vosne-Romanée 1er Cru 'Aux Malconsorts',Nuits-Saint-Georges 1er Cru 'Aux Thorey'",4.45,2,1224,612.0
+1572,"Brut Cuvée Champagne Rosé,Grand Siècle Champagne (Grande Cuvée)",4.45,2,46505,23252.5
+1555,"Chambertin-Clos de Bèze Vieilles Vignes Grand Cru,Vignes Centenaires 'La Richemone'",4.45,2,540,270.0
+1376,"Grand Vin de Château Palmer (Grand Cru Classé),Historical XIXth Century Wine",4.45,2,29833,14916.5
+1251,"Brunello di Montalcino,Brunello di Montalcino Riserva Madonna del Piano",4.45,2,12763,6381.5
+1249,"Gorgona,Gorgona Rosso",4.45,2,711,355.5
+1204,"Papillon,Eight Years In The Desert",4.45,2,57877,28938.5
+22425,"Victorino,Alabaster",4.449999999999999,2,12002,6001.0
+11815,"Moncerbal Bierzo (Corullón),La Faraona Bierzo (Corullón)",4.449999999999999,2,1513,756.5
+2148,"La Cueva del Contador Rioja,Contador Rioja",4.449999999999999,2,6253,3126.5
+1757,"Malleolus,Malleolus de Sanchomartin",4.449999999999999,2,38285,19142.5
+1418,"Cabernet Sauvignon (Signature),Merlot (Signature)",4.449999999999999,2,16042,8021.0
+1382,"Saint-Joseph,L'Hermitage",4.449999999999999,2,12523,6261.5
+60883,"Costasera Amarone della Valpolicella Classico,Campolongo di Torbe Amarone della Valpolicella Classico,Mazzano Amarone Della Valpolicella Classico",4.433333333333334,3,101065,33688.333333333336
+28466,"Château de Cîteaux Meursault 1er Cru 'Charmes' Blanc,Meursault 1er Cru 'Perrières',Meursault 1er Cru 'Genevrières' Blanc",4.433333333333334,3,1021,340.3333333333333
+12131,"Rioja Reserva,Trasnocho,Rioja Blanco Reserva",4.433333333333334,3,17304,5768.0
+1599,"Puligny-Montrachet Premier Cru La Garenne,Puligny-Montrachet Premier Cru Champ-Canet,Puligny-Montrachet Premier Cru Les Combettes",4.433333333333334,3,1802,600.6666666666666
+1518,"Blanc de Blancs Brut Champagne Grand Cru,Cuvée Nicolas François Billecart Brut Champagne,Brut Rosé Champagne",4.433333333333334,3,35022,11674.0
+1320,"Relentless,One Point Five Cabernet Sauvignon,TD9",4.433333333333334,3,29030,9676.666666666666
+1298,"Châteauneuf-du-Pape,Vieilles Vignes Châteauneuf-du-Pape Blanc,Hommage à Jacques Perrin Châteauneuf-du-Pape",4.433333333333334,3,47706,15902.0
+1269,"Brunello di Montalcino,Altero Brunello di Montalcino,Brunello di Montalcino Riserva",4.433333333333334,3,15666,5222.0
+1260,"Barolo Rocche di Castiglione,Barolo Riserva Villero,Barolo Brunate",4.433333333333334,3,3557,1185.6666666666667
+2147,"Crichet Pajè Barbaresco,Montefico Barbaresco Vecchie Viti,Asili Barbaresco Vecchie Viti,Pajè Barbaresco,Gallina Barbaresco,Barbaresco Albesani,Rocche di Castiglione Barolo",4.428571428571429,7,4276,610.8571428571429
+1358,"Beaune 1er Cru 'Clos des Mouches' Blanc,Chambertin Clos de Bèze Grand Cru,Grands-Echezeaux Grand Cru,Puligny-Montrachet,Chassagne-Montrachet Premier Cru Morgeot Marquis de Laguiche ,Montrachet Grand Cru Marquis de Laguiche,Corton-Charlemagne Grand Cru",4.428571428571429,7,13327,1903.857142857143
+68941,"Clos de Bèze Grand Cru,Nuits-Saint-Georges 1er Cru 'Clos des Corvées',Vosne-Romanée 1er Cru 'Les Suchots',Clos de Vougeot",4.425000000000001,4,3139,784.75
+30373,"Chambolle-Musigny Premier Cru 'Les Feusselottes',Chambolle-Musigny Les Cabottes,Chapelle-Chambertin Grand Cru,Morey-Saint-Denis Tres Girard",4.425000000000001,4,1202,300.5
+9064,"Viña El Pison,El Carretil,La Poza de Ballesteros,Valdegines",4.425,4,7356,1839.0
+308635,Le Lucére Brunello di Montalcino Riserva,4.4,1,213,213.0
+298550,Ipsus Chianti Classico Gran Selezione,4.4,1,185,185.0
+293687,Tinto,4.4,1,203,203.0
+287175,"Triglia Negroamaro Rosato,Luminaria Primitivo di Manduria",4.4,2,841,420.5
+283096,"Trebbiano d'Abruzzo,Montepulciano d'Abruzzo",4.4,2,7232,3616.0
+278851,Tinto,4.4,1,803,803.0
+261516,Interpretación,4.4,1,2760,2760.0
+232772,Librante Primitivo di Manduria,4.4,1,491,491.0
+231148,Pandorga,4.4,1,148,148.0
+223950,"Old Vines Primitivo di Manduria,Il Bacca Old Vine Primitivo di Manduria",4.4,2,23837,11918.5
+221277,Trebbiano d'Abruzzo,4.4,1,140,140.0
+215683,Chardonnay,4.4,1,1031,1031.0
+203543,Grand Vin,4.4,1,343,343.0
+194229,Saint-Emilion Grand Cru (Premier Grand Cru Classé),4.4,1,1986,1986.0
+193777,Pessac-Léognan (Grand Cru Classé de Graves),4.4,1,27316,27316.0
+186640,Pomerol,4.4,1,10374,10374.0
+183112,Giramonte Toscana,4.4,1,1678,1678.0
+176720,Sauternes (Premier Grand Cru Classé),4.4,1,19239,19239.0
+170129,Côte-Rôtie,4.4,1,7177,7177.0
+157115,Saint-Émilion Grand Cru,4.4,1,589,589.0
+138255,"Bolgheri Superiore,Giorgio Bartholomäus",4.4,2,9472,4736.0
+121345,"Red Blend,Memorias",4.4,2,16082,8041.0
+107862,Pinotage,4.4,1,2063,2063.0
+105199,Pauillac (Grand Cru Classé),4.4,1,39731,39731.0
+92206,Carpathia Heritage,4.4,1,166,166.0
+84899,Παλιές Ρίζες (Palies Rizes),4.4,1,313,313.0
+72892,Chardonnay,4.4,1,201,201.0
+72241,Cuvée Risleus Brut Champagne Premier Cru,4.4,1,415,415.0
+70670,Cannubi Barolo,4.4,1,82,82.0
+64433,Il Ritrovo,4.4,1,363,363.0
+64252,"Pauillac (Premier Grand Cru Classé),Aile d'Argent Blanc Bordeaux,Le Petit Mouton de Mouton Rothschild Pauillac",4.4,3,86619,28873.0
+56541,Corton-Charlemagne Grand Cru,4.4,1,708,708.0
+55934,Nebukadnesar,4.4,1,3609,3609.0
+48780,Brunello di Montalcino Riserva,4.4,1,461,461.0
+47305,Delicado Cosecha Pedro Ximénez,4.4,1,870,870.0
+46054,Corton-Charlemagne Grand Cru,4.4,1,164,164.0
+44735,Barrosu Cannonau di Sardegna Riserva Franzisca,4.4,1,794,794.0
+41743,Minami,4.4,1,246,246.0
+40875,Charmes-Chambertin Grand Cru,4.4,1,170,170.0
+40871,Sous L'Escalier Petite Arvine du Valais,4.4,1,164,164.0
+40544,Peña Lobera,4.4,1,234,234.0
+40453,"Guerriero della Terra,Guerriero del Mare",4.4,2,13475,6737.5
+39672,Grands-Échezeaux Grand Cru,4.4,1,544,544.0
+37575,Quinta da Leda Douro,4.4,1,14197,14197.0
+36907,Castellberg Pinot Noir,4.4,1,187,187.0
+34760,110 e Lode Merlot,4.4,1,174,174.0
+34701,Baron de L Pouilly-Fumé,4.4,1,9002,9002.0
+34428,Guglielmi di Jago Amarone della Valpolicella Classico,4.4,1,408,408.0
+32348,Chablis Grand Cru 'Les Clos',4.4,1,173,173.0
+32279,Brunello di Montalcino Riserva,4.4,1,714,714.0
+31068,Carmin,4.4,1,931,931.0
+30929,Predappio Massera,4.4,1,161,161.0
+30901,Tinto,4.4,1,2511,2511.0
+30741,Fino La Barajuela,4.4,1,222,222.0
+26840,Puligny-Montrachet Premier Cru ' Clos de la Truffière',4.4,1,475,475.0
+26455,"Romanée-Saint-Vivant Grand Cru,Vosne-Romanée Premier Cru 'Les Suchots'",4.4,2,1064,532.0
+26381,"Brunello di Montalcino Riserva,Helichrysum Brunello di Montalcino",4.4,2,1709,854.5
+26164,Fleur de Miraval Exclusivement Rosé Champagne,4.4,1,304,304.0
+25807,"Douro Pintas Tinto,Douro Quinta da Manoella VV Tinto",4.4,2,6715,3357.5
+25801,Sancerre 'Clos la Néore',4.4,1,699,699.0
+25672,Tessons Clos de Mon Plaisir Meursault,4.4,1,761,761.0
+24519,Brunello di Montalcino Riserva,4.4,1,330,330.0
+22523,Réserve Côtes-du-Rhône,4.4,1,4027,4027.0
+21926,"Les Blanchiens Brut Nature Champagne Premier Cru,Chemin du Bois Champagne",4.4,2,774,387.0
+18151,Saint-Émilion Grand Cru (Grand Cru Classé),4.4,1,3498,3498.0
+18126,Amarone della Valpolicella Riserva,4.4,1,958,958.0
+17892,Graal Amarone della Valpolicella Valpantena,4.4,1,328,328.0
+17731,VT Vendemmia Tardiva,4.4,1,1096,1096.0
+17509,Belondrade y Lurton,4.4,1,13567,13567.0
+17444,Gardarèm,4.4,1,1308,1308.0
+17401,El Escolladero,4.4,1,161,161.0
+16991,Graticciaia,4.4,1,2451,2451.0
+16889,Amarone della Valpolicella Classico,4.4,1,1029,1029.0
+16624,Treinta y Dos Pinot Noir,4.4,1,3417,3417.0
+16475,Charmes-Chambertin Grand Cru,4.4,1,718,718.0
+15240,Dona Ermelinda Grande Reserva,4.4,1,933,933.0
+15233,Tenuta Montebello Picconero,4.4,1,2011,2011.0
+14617,Campo León Amarone della Valpolicella,4.4,1,7778,7778.0
+14607,Tinto,4.4,1,65625,65625.0
+14505,Barolo Riserva,4.4,1,265,265.0
+14050,Giunonico Riserva Primitivo di Manduria,4.4,1,460,460.0
+13261,"Mongovone Barbera d'Asti Superiore,NŌ Rosso",4.4,2,3068,1534.0
+12915,Amarone della Valpolicella,4.4,1,2680,2680.0
+12590,"Cosimo Varvaglione Collezione Privata Primitivo di Manduria,Cosimo Varvaglione Collezione Privata Negroamaro del Salento,Paralupi Appassimento",4.4,3,6417,2139.0
+12261,Grands-Échézeaux Grande Cuvée Vieilles Vignes,4.4,1,449,449.0
+12167,Mendoza,4.4,1,19849,19849.0
+12129,Quincha Corral,4.4,1,1230,1230.0
+12080,Les Manyes,4.4,1,924,924.0
+11865,Pegrandi Amarone della Valpolicella Classico,4.4,1,1833,1833.0
+11835,Calle Merlot Rosso Veronese,4.4,1,1053,1053.0
+11763,Harimann Montepulciano d'Abruzzo,4.4,1,1086,1086.0
+11630,Cuvée des Cadettes Châteauneuf-du-Pape,4.4,1,3283,3283.0
+11457,"Rosé Brut Champagne Grand Cru 'Ambonnay',V.P Extra Brut Champagne Grand Cru 'Ambonnay'",4.4,2,3861,1930.5
+11455,Saint-Julien (Grand Cru Classé),4.4,1,28094,28094.0
+11344,Vittorio Moretti,4.4,1,2025,2025.0
+11315,Pauillac (Grand Cru Classé),4.4,1,37460,37460.0
+11221,Charmes-Chambertin Grand Cru,4.4,1,268,268.0
+11187,Pauillac (Grand Cru Classé),4.4,1,55808,55808.0
+10983,"Colheita Port,Tordiz 40 Year Old Tawny Port,30 Year Old Tawny Port",4.4,3,9115,3038.3333333333335
+10982,40 Years Old Tawny Port,4.4,1,357,357.0
+10864,Cos d'Estournel,4.4,1,43704,43704.0
+10814,Poggio Al Vento Brunello di Montalcino Riserva,4.4,1,4542,4542.0
+10254,Saint-Julien (Grand Cru Classé),4.4,1,29317,29317.0
+10204,Vigna Colonnello Barolo Riserva Bussia,4.4,1,957,957.0
+9734,Cabernet Sauvignon,4.4,1,2408,2408.0
+9294,"Nuits-Saint-Georges 1er Cru Les Damodes,Charmes-Chambertin Grand Cru,Chassagne-Montrachet 1er Cru 'Morgeot',Bâtard-Montrachet Grand Cru,Corton-Charlemagne Grand Cru,Bienvenues-Bâtard-Montrachet Grand Cru,Mazis-Chambertin Grand Cru,Les Ouvrées Rodin Chambertin-Clos de Bèze Grand Cru,Grands-Echezeaux Grand Cru,Clos Saint-Denis Grand Cru",4.4,10,4913,491.3
+8037,Domus Aurea Cabernet Sauvignon,4.4,1,9603,9603.0
+8006,d'Alceo,4.4,1,3133,3133.0
+8004,Gabbro Toscana,4.4,1,921,921.0
+7969,Amarone della Valpolicella Vigna Garzon,4.4,1,4227,4227.0
+7911,Freienfeld Cabernet Sauvignon Riserva,4.4,1,173,173.0
+7892,Cinque Autoctoni Collection Limited Release,4.4,1,4281,4281.0
+7618,Vieilles Vignes La Parcelle 8 Apalta,4.4,1,184,184.0
+7610,Valdegatiles Ribera del Duero,4.4,1,587,587.0
+7601,"Corton-Charlemagne Grand Cru Blanc,Chevalier-Montrachet Grand Cru Blanc",4.4,2,3736,1868.0
+6965,Campo Alla Sughera,4.4,1,888,888.0
+6875,Brunello di Montalcino  Montosoli,4.4,1,6176,6176.0
+6733,Duemani Cabernet Franc,4.4,1,2339,2339.0
+6640,Semel Pater,4.4,1,710,710.0
+6557,Museum Collection White,4.4,1,297,297.0
+6457,Gallina Barbaresco,4.4,1,1017,1017.0
+6287,Amarone Classico Monte Danieli,4.4,1,504,504.0
+6234,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.4,1,24916,24916.0
+5459,Bual Madeira,4.4,1,187,187.0
+5415,Rioja Reserva 10 Años Después Edición Limitada,4.4,1,1093,1093.0
+5309,"Les Beaux Monts Vosne-Romanée 1er Cru,Les Boudots Nuits-Saint-Georges 1er Cru",4.4,2,1126,563.0
+5103,"Brunello di Montalcino,Madonna delle Grazie Brunello di Montalcino",4.4,2,8355,4177.5
+5087,Fanòi Primitivo,4.4,1,695,695.0
+5072,"Avizoise Blanc de Blancs Extra Brut Champagne Grand Cru 'Avize',Vénus Blanc de Blancs Brut Nature Champagne Grand Cru 'Avize'",4.4,2,2072,1036.0
+5040,Valmezzane Amarone della Valpolicella,4.4,1,799,799.0
+4899,Schlehdorn Riesling Trocken,4.4,1,202,202.0
+4740,Todeschini Distique Saint-Émilion Grand Cru,4.4,1,185,185.0
+4510,Saint-Émilion Grand Cru,4.4,1,2829,2829.0
+4440,Chambertin Grand Cru,4.4,1,2542,2542.0
+4128,Brunello di Montalcino Riserva,4.4,1,333,333.0
+3981,Charmes-Chambertin Grand Cru,4.4,1,276,276.0
+3948,Brunello di Montalcino Riserva,4.4,1,987,987.0
+3928,Altura Máxima Malbec,4.4,1,2168,2168.0
+3876,123 Brunello di Montalcino Riserva,4.4,1,525,525.0
+3796,Barolo Riserva Leon,4.4,1,948,948.0
+3671,Roccolo Ludwig Barth von Barthenau,4.4,1,155,155.0
+3617,"Ribolla Gialla,Rujno Rosso",4.4,2,7550,3775.0
+3269,Côte Rôtie La Brocarde,4.4,1,278,278.0
+3189,Dogs of the Barossa Shiraz,4.4,1,264,264.0
+3149,"Mille E Una Notte,Ben Ryé Passito di Pantelleria",4.4,2,37216,18608.0
+3106,Puligny-Montrachet 1er Cru 'Les Champs Gains',4.4,1,429,429.0
+3104,Colore Toscana,4.4,1,1415,1415.0
+3094,"Hohenmorgen G.C,Kalkofen G.C",4.4,2,566,283.0
+3023,Toscana I Sodi di San Niccolo,4.4,1,8853,8853.0
+3013,Mai The First A.Montes Malbec,4.4,1,6379,6379.0
+2801,Brunello di Montalcino Riserva,4.4,1,306,306.0
+2752,Les Ruchons Sancerre Blanc,4.4,1,269,269.0
+2696,Saint-Émilion Grand Cru,4.4,1,1527,1527.0
+2690,"Barolo Bricco Gattera,Barolo Enrico VI",4.4,2,5472,2736.0
+2639,Brunello di Montalcino Riserva,4.4,1,437,437.0
+2611,Il 'Divasco' Riserva,4.4,1,255,255.0
+2548,Charmes-Chambertin Grand Cru,4.4,1,277,277.0
+2523,V Red,4.4,1,1715,1715.0
+2431,Lupicaia,4.4,1,4414,4414.0
+2418,Mazis-Chambertin Grand Cru,4.4,1,433,433.0
+2337,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.4,1,6879,6879.0
+2313,Saffredi,4.4,1,10499,10499.0
+2259,Barolo Rocche,4.4,1,1615,1615.0
+2214,"Brunello di Montalcino,Brunello di Montalcino Riserva",4.4,2,6261,3130.5
+2211,"Big'd Big Barolo,Vigna Cappella di S. Stefano Perno Barolo,Vigna Madonna Assunta La Villa Barolo Riserva",4.4,3,4132,1377.3333333333333
+2170,"L'Apparita,Vigneto Bellavista Chianti Classico",4.4,2,5238,2619.0
+2071,Corton-Charlemagne Grand Cru,4.4,1,178,178.0
+2035,Pomerol,4.4,1,3377,3377.0
+2030,Champ Cain Extra Brut Champagne Grand Cru 'Avize',4.4,1,234,234.0
+1972,Côtes de Bourg,4.4,1,8249,8249.0
+1949,Turriga Isola dei Nuraghi,4.4,1,14641,14641.0
+1933,Amarone della Valpolicella Classico,4.4,1,18720,18720.0
+1910,La Grande Rue Grand Cru Monopole,4.4,1,1496,1496.0
+1903,"Barolo Bussia,Barolo Bussia Vigna Munie",4.4,2,4666,2333.0
+1855,Nebro Ribera del Duero,4.4,1,647,647.0
+1845,Barolo Ginestra Casa Maté,4.4,1,4116,4116.0
+1788,Clos Saint Denis Grand Cru,4.4,1,474,474.0
+1740,Toro,4.4,1,60705,60705.0
+1707,Douro,4.4,1,6214,6214.0
+1703,Pomerol,4.4,1,3509,3509.0
+1672,"Vosne-Romanée,Echezeaux Grand Cru",4.4,2,2341,1170.5
+1652,Colheita Porto,4.4,1,741,741.0
+1646,Charmes-Chambertin Grand Cru,4.4,1,359,359.0
+1620,Siepi,4.4,1,8129,8129.0
+1598,Réservé Châteauneuf-du-Pape,4.4,1,297,297.0
+1567,"Puligny-Montrachet Enseignères,Bâtard-Montrachet Grand Cru",4.4,2,2123,1061.5
+1537,"Bonnes Mares Grand Cru,Chambertin Clos de Bèze Grand Cru",4.4,2,1435,717.5
+1513,Pomerol,4.4,1,13504,13504.0
+1507,Corton Grand Cru 'Clos Rognet',4.4,1,543,543.0
+1479,Clos de la Roche Grand Cru Cuvée Vieilles Vignes,4.4,1,2678,2678.0
+1475,Côte à Côte Estate,4.4,1,1133,1133.0
+1467,Torre Muga,4.4,1,8767,8767.0
+1447,"Vürsù Barbaresco Starderi,Vürsù Barbaresco Valeirano,Vürsù Barolo Campè,Vürsù Barbaresco Gallina",4.4,4,18199,4549.75
+1441,"Bric Dël Fiasc Barolo,Rocche dell'Annunziata Barolo Riserva",4.4,2,6556,3278.0
+1431,Belles Soeurs Cuvée Pinot Noir,4.4,1,229,229.0
+1425,Barsac (Premier Grand Cru Classé),4.4,1,6028,6028.0
+1422,Gevrey Chambertin 1er Cru 'Aux Combottes',4.4,1,1002,1002.0
+1415,"Nuits-Saint-Georges,Chassagne-Montrachet 1er Cru 'Morgeot'",4.4,2,540,270.0
+1406,Attunga 1865 Shiraz,4.4,1,371,371.0
+1392,"Corton-Charlemagne Grand Cru,Romanée-Saint-Vivant Grand Cru Les Quatre Journaux,Chevalier-Montrachet Grand Cru Les Demoiselles",4.4,3,7018,2339.3333333333335
+1369,"Aphrodite,Ares",4.4,2,2362,1181.0
+1338,One Sixteen Chardonnay,4.4,1,1753,1753.0
+1334,Georges De Latour Private Reserve Cabernet Sauvignon,4.4,1,12652,12652.0
+1310,Altagracia Cabernet Sauvignon,4.4,1,3083,3083.0
+1309,Pauillac (Grand Cru Classé),4.4,1,47234,47234.0
+1308,"Puligny-Montrachet 1er Cru 'La Garenne',Musigny Grand Cru",4.4,2,613,306.5
+1283,Pomerol,4.4,1,7221,7221.0
+1263,Mazis-Chambertin Grand Cru Cuvée Madeleine Collignon,4.4,1,1016,1016.0
+1258,Cabernet Sauvignon,4.4,1,2830,2830.0
+1248,Corton-Charlemagne Grand Cru,4.4,1,10296,10296.0
+628,Lot 1,4.4,1,226,226.0
+528,Alexander Valley Cabernet Sauvignon,4.4,1,46066,46066.0
+403,Les Noisetiers,4.4,1,7035,7035.0
+16997,"Pommard 1er Cru Les Rugiens-Bas,Clos Vougeot Grand Cru,Vosne-Romanée 1er Cru Aux Malconsorts Christiane",4.3999999999999995,3,1127,375.6666666666667
+7666,"Barolo Cannubi Boschis,Barolo Le Vigne,Vite Talin Barolo",4.3999999999999995,3,9455,3151.6666666666665
+7654,"Paleo Rosso,Messorio,Scrio",4.3999999999999995,3,18776,6258.666666666667
+11096,"Quarz Sauvignon,Gewürztraminer Lunare,Lagrein Riserva Porphyr,Riserva Nova Domus Terlaner,Grande Cuvée I Terlaner",4.38,5,22400,4480.0
+3619,"Gran Reserva Ribera del Duero,Reserva Ribera del Duero,Amaya Arzuaga (Colección)",4.366666666666667,3,15189,5063.0
+1702,"Buisson Renard,Silex,Pur Sang",4.366666666666667,3,14139,4713.0
+1583,"Amarone della Valpolicella Classico,Amarone della Valpolicella Classico Riserva (Sergio Zenato),Cresasso Corvina Veronese",4.366666666666667,3,60625,20208.333333333332
+2460,"Clos de L'Obac,Miserere,Dolç de L'Obac",4.366666666666666,3,4420,1473.3333333333333
+1543,"Chambolle-Musigny Premier Cru Les Charmes,Vosne-Romanée Premier Cru Les Suchots,Clos de la Roche Grand Cru",4.366666666666666,3,1315,438.3333333333333
+183545,"Fort Ross Seaview Home Field Pinot Noir,Royal St Robert Cuvée Pinot Noir",4.35,2,2582,1291.0
+82811,"Macán Clásico,Macán",4.35,2,30893,15446.5
+53529,"Sed de Caná,Chafandin",4.35,2,2915,1457.5
+30829,"Tokaji Aszú 5 Puttonyos,Tokaji Aszú 6 Puttonyos",4.35,2,1088,544.0
+21586,"Preta Cuvée David Booth Grande Reserva,Os Paulistas Chão dos Eremitas Vinhas Velhas",4.35,2,1841,920.5
+14299,"Gran Corte (VII),Gran Malbec (X)",4.35,2,27595,13797.5
+12264,"Serral del Vell Brut Nature,Reserva Particular de Recaredo Gran Reserva Brut Nature",4.35,2,3341,1670.5
+8624,"Corton-Charlemagne Grand Cru,Meursault 1er Cru 'Les Genevrières'",4.35,2,2519,1259.5
+7770,"Amarone della Valpolicella,Cěrǎsum Riserva Amarone della Valpolicella",4.35,2,5149,2574.5
+5450,"Ribera del Duero Prestigio,Ribera del Duero Reserva",4.35,2,40388,20194.0
+4643,"Brunello di Montalcino Riserva,Brunello di Montalcino",4.35,2,4109,2054.5
+4272,"Brunello di Montalcino,Brunello di Montalcino Riserva",4.35,2,9157,4578.5
+2381,"Bricco dell'Uccellone Barbera d'Asti,Ai Suma Barbera d'Asti",4.35,2,20637,10318.5
+1913,"Brunello di Montalcino,Brunello di Montalcino Riserva",4.35,2,8189,4094.5
+1806,"Barolo Bricco Rocche,Barolo Prapò,Barolo Brunate,Barbaresco Asili",4.35,4,10378,2594.5
+1723,"Brunello di Montalcino,Brunello di Montalcino Riserva",4.35,2,9211,4605.5
+1587,"Vecchie Vigne Brunello di Montalcino,Brunello di Montalcino Riserva",4.35,2,4219,2109.5
+1476,"Il Bricco Barbaresco,Ornato Barolo",4.35,2,7768,3884.0
+1450,"Clos des Lambrays Grand Cru,Puligny-Montrachet Premier Cru Clos du Cailleret",4.35,2,6826,3413.0
+12996,"Carabantes Syrah,Montelìg,Toknar",4.333333333333334,3,9461,3153.6666666666665
+1843,"Châteauneuf-Du-Pape Cuvée Des Générations Gaston-Philippe,Châteauneuf-du-Pape,Chateauneuf-Du-Pape Cuvée Des Générations Marie Leoncie",4.333333333333334,3,17035,5678.333333333333
+13146,"La Chapelle de La Mission Haut-Brion Pessac-Léognan,Pessac-Léognan (Grand Cru Classé de Graves),Pessac-Léognan Blanc (Grand Cru Classé de Graves)",4.333333333333333,3,23911,7970.333333333333
+19992,"Primitivo di Manduria,6 Anime Puglia Rosso,80 Vecchie Vigne Primitivo di Manduria Old Vines,50 Old Vines Vecchie Vigne Negroamaro",4.325,4,7473,1868.25
+1864,"Castillo Ygay Gran Reserva Especial Tinto,Capellanía Reserva,Gran Reserva Rioja (Finca Ygay),Dalmau Rioja",4.324999999999999,4,47947,11986.75
+23851,"Pochi Filagn Barbera d'Alba,Annunziata Barolo Riserva",4.300000000000001,2,548,274.0
+4772,"Solare Toscana,50 & 50",4.300000000000001,2,14118,7059.0
+4208,"Beyond the Clouds,Cuvée Kermesse Rosso",4.300000000000001,2,5913,2956.5
+1837,"Rioja 150 Aniversario,Barón de Chirel Rioja Reserva",4.300000000000001,2,13220,6610.0
+291112,Crescendo,4.3,1,1347,1347.0
+244651,Bolgheri Superiore,4.3,1,14242,14242.0
+242840,Cabernet - Cabernet,4.3,1,27436,27436.0
+228509,Ulysses,4.3,1,1980,1980.0
+215545,Clos de Vougeot Grand Cru,4.3,1,467,467.0
+192080,Pomerol,4.3,1,4641,4641.0
+177327,Saint-Julien (Grand Cru Classé),4.3,1,37174,37174.0
+116221,Brunello di Montalcino,4.3,1,2592,2592.0
+115806,Saint-Estèphe (Grand Cru Classé),4.3,1,35624,35624.0
+59455,San Vicente Rioja,4.3,1,10701,10701.0
+56544,B Bordicon Blend,4.3,1,1088,1088.0
+53258,Clos de la Coulée de Serrant,4.3,1,8365,8365.0
+52856,Sauternes,4.3,1,938,938.0
+51948,Gratallops Partida Bellvisos,4.3,1,627,627.0
+51482,Vigna Molsino,4.3,1,2269,2269.0
+43084,Maggiarino Vino Nobile di Montepulciano,4.3,1,555,555.0
+42463,Vigne Vecchie Gold Series Leggenda Primitivo di Manduria,4.3,1,3121,3121.0
+40819,Vosne-Romanée 'Les Quartiers de Nuits',4.3,1,511,511.0
+32320,Barolo Paiagallo,4.3,1,1917,1917.0
+31669,Winemaker's Selection,4.3,1,292,292.0
+30823,Amarone della Valpolicella,4.3,1,1712,1712.0
+29001,Piovesole Amarone della Valpolicella Classico,4.3,1,868,868.0
+26177,Brunello di Montalcino,4.3,1,5202,5202.0
+17826,Amarone della Valpolicella Classico,4.3,1,1670,1670.0
+15779,Amarone della Valpolicella Classico,4.3,1,1940,1940.0
+15775,Platinum,4.3,1,883,883.0
+15576,"Côtes du Rhône,Vacqueyras",4.3,2,11608,5804.0
+15418,Brunello di Montalcino,4.3,1,828,828.0
+13983,Vintage Port,4.3,1,1076,1076.0
+12536,Volnay 1er Cru Les Caillerets,4.3,1,591,591.0
+12168,Lindaflor Blend,4.3,1,3550,3550.0
+11880,Amarone della Valpolicella,4.3,1,4014,4014.0
+11477,Barbaresco Gaiun Martinenga,4.3,1,2298,2298.0
+11270,Sauternes (Premier Grand Cru Classé),4.3,1,17293,17293.0
+11265,Barolo Riserva Vigna Rionda,4.3,1,3530,3530.0
+11188,Saint-Julien (Grand Cru Classé),4.3,1,32627,32627.0
+10940,Corte di Cama Sforzato di Valtellina,4.3,1,3211,3211.0
+7927,Brunello di Montalcino Riserva Vigna Paganelli,4.3,1,7123,7123.0
+7710,Cà Bertoldi Amarone della Valpolicella Classico,4.3,1,3708,3708.0
+7703,Brunello di Montalcino,4.3,1,7929,7929.0
+7637,Saint-Julien (Grand Cru Classé),4.3,1,33618,33618.0
+6897,Sassella Nuova Regina Riserva,4.3,1,987,987.0
+6812,Perpetual,4.3,1,3809,3809.0
+6609,Brunello di Montalcino,4.3,1,8875,8875.0
+6551,Bordeaux,4.3,1,2246,2246.0
+6275,Cava Celler Batlle,4.3,1,1575,1575.0
+4026,Blanc,4.3,1,2053,2053.0
+3962,Brunello di Montalcino Riserva Pian di Conte,4.3,1,1118,1118.0
+3952,Meursault 1er Cru 'Charmes',4.3,1,242,242.0
+3931,Chassagne-Montrachet,4.3,1,3269,3269.0
+3641,Annonciade Champagne,4.3,1,137,137.0
+3245,Barolo Monvigliero,4.3,1,2758,2758.0
+3155,Esporão Private Selection Tinto,4.3,1,12566,12566.0
+2987,Félix Callejo (Viñedos de la Familia),4.3,1,1341,1341.0
+2834,Echezeaux Grand Cru,4.3,1,338,338.0
+2727,Capitel Monte Olmi Amarone della Valpolicella Classico Riserva,4.3,1,4229,4229.0
+2672,Brunello di Montalcino Riserva,4.3,1,1825,1825.0
+2654,Toscana Il Pareto,4.3,1,3195,3195.0
+2396,Nine Popes,4.3,1,2118,2118.0
+2341,Rocche di Castiglione Barolo,4.3,1,2397,2397.0
+2200,"Barbaresco Rabajà,Maria Adelaide Barbaresco",4.3,2,5970,2985.0
+2093,Chambertin Grand Cru,4.3,1,1293,1293.0
+2058,Chateau Buena Vista Cabernet Sauvignon Napa Valley,4.3,1,13415,13415.0
+2001,"Toscana Batar,Toscana Camartina",4.3,2,7860,3930.0
+1945,"Barolo Cannubi,Barolo Cerequio",4.3,2,5691,2845.5
+1936,Cuvée Impériale Châteauneuf-du-Pape,4.3,1,1881,1881.0
+1916,Rapture Cabernet Sauvignon,4.3,1,2117,2117.0
+1842,Pomerol,4.3,1,3870,3870.0
+1833,Galatrona,4.3,1,7971,7971.0
+1795,Chassagne-Montrachet 1er Cru 'La Maltroie',4.3,1,779,779.0
+1777,Gaudium,4.3,1,7414,7414.0
+1769,Barolo Riserva Bricco Boschis Vigna San Giuseppe,4.3,1,4030,4030.0
+1676,25 anni Montefalco Sagrantino,4.3,1,5419,5419.0
+1544,Cepparello Red,4.3,1,12191,12191.0
+1538,"Barolo Sorì Ginestra,Barolo Ginestra Vigna del Gris",4.3,2,8160,4080.0
+1514,Barolo Ciabot Mentin Ginestra,4.3,1,3525,3525.0
+1489,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.3,1,10699,10699.0
+1471,Lion Tamer Napa Valley Red Blend,4.3,1,4981,4981.0
+1444,Chambolle-Musigny,4.3,1,3455,3455.0
+1387,Hermitage La Chapelle Rouge,4.3,1,15298,15298.0
+1384,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.3,1,17090,17090.0
+1340,Pessac-Léognan (Grand Cru Classé de Graves),4.3,1,25444,25444.0
+1300,Chardonnay,4.3,1,18694,18694.0
+1264,Pomerol,4.3,1,11885,11885.0
+1228,Oreno Toscana,4.3,1,12407,12407.0
+1215,Domaine Grand Veneur Châteauneuf-Du-Pape Vieilles Vignes,4.3,1,875,875.0
+253,Rutherford Cabernet Sauvignon,4.3,1,655,655.0
+2004,"Percarlo,La Ricolma",4.25,2,6333,3166.5
+1871,"Barolo Riserva,Barolo Cannubi",4.25,2,14464,7232.0
+246747,Toscana,4.2,1,7434,7434.0
+227850,Chambolle-Musigny Les Baudes,4.2,1,525,525.0
+176101,Conde de Superunda,4.2,1,3237,3237.0
+134564,Cuvée Extase Blanc de Blancs Champagne Grand Cru,4.2,1,231,231.0
+49412,Old Vines Malbec,4.2,1,667,667.0
+17340,Brunello di Montalcino,4.2,1,1598,1598.0
+14976,Amarone Della Valpolicella Marta Galli,4.2,1,1085,1085.0
+11205,Barolo Cerretta,4.2,1,1921,1921.0
+5116,Margaux (Grand Cru Classé),4.2,1,15699,15699.0
+4693,Bolgheri Superiore Sondraia,4.2,1,12843,12843.0
+4604,Vieilles Vignes Meursault,4.2,1,1426,1426.0
+4274,Linticlarus Lagrein Riserva,4.2,1,1387,1387.0
+4009,Malbec,4.2,1,33640,33640.0
+3829,Barolo Monvigliero,4.2,1,1163,1163.0
+3060,Kevin Arnold Shiraz,4.2,1,6987,6987.0
+2636,Montepulciano d'Abruzzo,4.2,1,10110,10110.0
+1680,Pomerol,4.2,1,11645,11645.0
+1388,Châteauneuf-du-Pape Chaupin,4.2,1,4483,4483.0
+6305,Red,4.1,1,1297,1297.0
+1234,Clos des Porrets Nuits-Saint-Georges 1er Cru,4.1,1,3063,3063.0
