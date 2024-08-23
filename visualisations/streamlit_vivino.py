@@ -13,7 +13,7 @@ data3 = pd.read_csv("your_data.csv")
 data4 = pd.read_csv("your_data.csv")
 data5 = pd.read_csv("your_data.csv")
 data6 = pd.read_csv("your_data.csv")
-data7 = pd.read_csv("your_data.csv")
+data7 = pd.read_csv("cabernet_by_rating.csv")
 
 
 # Main title
@@ -69,6 +69,23 @@ elif page == "Top 5 Cabernet Sauvignon":
     st.dataframe(data7) 
     st.dataframe(data7.head(5))
     st.write(data7.describe())
+
+    # Grouping by 'Wine rating average' and getting the most common 'Country'
+    dataAgg = data7.groupby('Wine rating average')['Country'].agg(lambda x: x.mode()[0]).reset_index()
+
+
+    # Aggregating by 'Country' and calculating the mean of 'Wine rating average'
+    countryAgg = data7.groupby('Country')['Wine rating average'].mean().reset_index()
+
+    # Sorting by 'Wine rating average' in descending order to find the top 5 countries
+    top_5_countries = countryAgg.sort_values(by='Wine rating average', ascending=False).head(5)
+
+    fig = px.bar(top_5_countries, x='Country', y='Wine rating average', color='Country', title='Top 5 countries with the highest average wine rating')
+    st.plotly_chart(fig)
+
+    
+    # Display the top 5 countries
+    print(top_5_countries)
 
 
 
