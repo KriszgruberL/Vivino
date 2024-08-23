@@ -34,8 +34,7 @@ def query_favorites_taste(cursor) :
             'citrus'
             )
         AND c.users_count >= 10
-    GROUP BY w.name,
-        w.id
+    GROUP BY w.name
     HAVING COUNT(DISTINCT k.name) = 5;
     """
                 

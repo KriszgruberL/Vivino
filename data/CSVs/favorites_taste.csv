@@ -4,8 +4,7 @@ wine_name,taste_keywords,nb_keywords,country_name,wine_rating_avg,wine_ratings_c
 Aconcagua Valley,"citrus,coffee,cream,green apple,toast",5,Chili,4.5,18482
 Aile d'Argent Blanc Bordeaux,"citrus,coffee,cream,green apple,toast",5,France,4.2,4790
 Alexander Valley Cabernet Sauvignon,"citrus,coffee,cream,green apple,toast",5,États-Unis,4.4,46066
-Amarone della Valpolicella Classico,"citrus,coffee,cream,green apple,toast",5,Italie,4.3,77515
-Amarone della Valpolicella Classico,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,48329
+Amarone della Valpolicella Classico,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,18720
 Amour de Deutz Millesimé Rosé Brut Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.5,536
 Amour de Deutz Millésimé Brut Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.5,5532
 Barbaresco Rabajà,"citrus,coffee,cream,green apple,toast",5,Italie,4.3,5469
@@ -20,19 +19,15 @@ Blanc de Blancs Brut Champagne Grand Cru,"citrus,coffee,cream,green apple,toast"
 Blanc des Millénaires,"citrus,coffee,cream,green apple,toast",5,France,4.6,5581
 Bolgheri Superiore,"citrus,coffee,cream,green apple,toast",5,Italie,4.6,47939
 Bolgheri Superiore Sondraia,"citrus,coffee,cream,green apple,toast",5,Italie,4.2,12843
-Brunello di Montalcino,"citrus,coffee,cream,green apple,toast",5,Italie,4.3,8875
-Brunello di Montalcino,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,9257
-Brunello di Montalcino,"citrus,coffee,cream,green apple,toast",5,Italie,4.5,1365
+Brunello di Montalcino,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,25989
+Brunello di Montalcino Riserva,"citrus,coffee,cream,green apple,toast",5,Italie,4.5,665
 Brut Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.6,146377
 Brut Champagne (Gold),"citrus,coffee,cream,green apple,toast",5,France,4.4,3874
 Brut Cuvée Champagne Rosé,"citrus,coffee,cream,green apple,toast",5,France,4.4,36681
 Brut Rosé Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.4,21147
-Brut Rosé Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.4,23241
-Brut Rosé Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.6,13747
 Buisson Renard,"citrus,coffee,cream,green apple,toast",5,France,4.3,2119
-Bâtard-Montrachet Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.6,1191
+Bâtard-Montrachet Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.4,347
 Cabernet Sauvignon,"citrus,coffee,cream,green apple,toast",5,États-Unis,4.4,28544
-Cabernet Sauvignon,"citrus,coffee,cream,green apple,toast",5,États-Unis,4.6,157944
 Capellanía Reserva,"citrus,coffee,cream,green apple,toast",5,Espagne,4.1,7314
 Carruades de Lafite Pauillac,"citrus,coffee,cream,green apple,toast",5,France,4.4,13866
 Castello della Sala Cervaro della Sala,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,30203
@@ -43,7 +38,6 @@ Chateau Buena Vista Cabernet Sauvignon Napa Valley,"citrus,coffee,cream,green ap
 Chevalier-Montrachet Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.6,2340
 Château Margaux (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.6,45350
 Châteauneuf-du-Pape,"citrus,coffee,cream,green apple,toast",5,France,4.2,13917
-Châteauneuf-du-Pape,"citrus,coffee,cream,green apple,toast",5,France,4.4,38998
 Clos Apalta,"citrus,coffee,cream,green apple,toast",5,Chili,4.6,23256
 Clos Sainte Hune Riesling Alsace,"citrus,coffee,cream,green apple,toast",5,France,4.5,4106
 Clos de la Coulée de Serrant,"citrus,coffee,cream,green apple,toast",5,France,4.3,8365
@@ -51,9 +45,7 @@ Clos des Goisses Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.5,
 Clos du Mesnil,"citrus,coffee,cream,green apple,toast",5,France,4.7,2471
 Collection,"citrus,coffee,cream,green apple,toast",5,France,4.7,2184
 Comtes de Champagne Blanc de Blancs,"citrus,coffee,cream,green apple,toast",5,France,4.5,27449
-Corton-Charlemagne Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.4,1913
-Corton-Charlemagne Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.4,10296
-Corton-Charlemagne Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.4,1007
+Corton-Charlemagne Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.4,5755
 Cos d'Estournel,"citrus,coffee,cream,green apple,toast",5,France,4.4,43704
 Cristal Brut Champagne (Millésimé),"citrus,coffee,cream,green apple,toast",5,France,4.6,42456
 Cristal Rosé Brut Champagne (Millésimé),"citrus,coffee,cream,green apple,toast",5,France,4.6,5883
@@ -81,24 +73,19 @@ Le Petit Cheval Bordeaux Blanc,"citrus,coffee,cream,green apple,toast",5,France,
 Luce,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,17470
 MV,"citrus,coffee,cream,green apple,toast",5,France,4.5,4763
 Monte Bello,"citrus,coffee,cream,green apple,toast",5,États-Unis,4.5,11978
+Montrachet Grand Cru,"citrus,coffee,cream,green apple,toast",5,France,4.7,516
 Musigny Grand Cru (Cuveé Vieilles Vignes),"citrus,coffee,cream,green apple,toast",5,France,4.6,3533
 N.P.U. Extra Brut Champagne (Nec Plus Ultra),"citrus,coffee,cream,green apple,toast",5,France,4.5,1482
 One Point Five Cabernet Sauvignon,"citrus,coffee,cream,green apple,toast",5,États-Unis,4.5,16341
 P2 Plénitude Brut Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.7,7543
 Pauillac (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.4,47234
-Pauillac (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.4,55808
-Pauillac (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.4,39731
 Pauillac (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.6,39283
-Pauillac (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.6,73615
 Pavillon Rouge du Château Margaux,"citrus,coffee,cream,green apple,toast",5,France,4.4,16401
 Pessac-Léognan (Grand Cru Classé de Graves),"citrus,coffee,cream,green apple,toast",5,France,4.3,25444
-Pessac-Léognan (Grand Cru Classé de Graves),"citrus,coffee,cream,green apple,toast",5,France,4.4,27316
-Pessac-Léognan (Grand Cru Classé de Graves),"citrus,coffee,cream,green apple,toast",5,France,4.5,15975
 Pessac-Léognan (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.6,39605
 Pessac-Léognan Blanc (Grand Cru Classé de Graves),"citrus,coffee,cream,green apple,toast",5,France,4.5,1206
-Pessac-Léognan Blanc (Grand Cru Classé de Graves),"citrus,coffee,cream,green apple,toast",5,France,4.3,1182
 Pieve Santa Restituta Sugarille Brunello di Montalcino,"citrus,coffee,cream,green apple,toast",5,Italie,4.5,3717
-Pomerol,"citrus,coffee,cream,green apple,toast",5,France,4.5,9531
+Pomerol,"citrus,coffee,cream,green apple,toast",5,France,4.2,11645
 Puligny-Montrachet,"citrus,coffee,cream,green apple,toast",5,France,4.3,4548
 Puligny-Montrachet 1er Cru 'Les Champs Gains',"citrus,coffee,cream,green apple,toast",5,France,4.4,429
 Puligny-Montrachet Enseignères,"citrus,coffee,cream,green apple,toast",5,France,4.3,941
@@ -112,24 +99,19 @@ Rioja Reserva,"citrus,coffee,cream,green apple,toast",5,Espagne,4.4,13544
 Rosé,"citrus,coffee,cream,green apple,toast",5,France,4.6,3605
 Saint-Estèphe (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.3,35624
 Saint-Julien (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.3,37174
-Saint-Julien (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.3,32627
-Saint-Julien (Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.3,33618
 Saint-Émilion Grand Cru (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.6,22896
-Saint-Émilion Grand Cru (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.4,24916
-Saint-Émilion Grand Cru (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.5,15671
 Sassicaia,"citrus,coffee,cream,green apple,toast",5,Italie,4.6,107646
 Sauternes,"citrus,coffee,cream,green apple,toast",5,France,4.7,44126
 Sauternes (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.4,19239
-Sauternes (Premier Grand Cru Classé),"citrus,coffee,cream,green apple,toast",5,France,4.3,17293
 Serral del Vell Brut Nature,"citrus,coffee,cream,green apple,toast",5,Espagne,4.3,2418
 Sir Winston Churchill Brut Champagne,"citrus,coffee,cream,green apple,toast",5,France,4.6,12873
 TD9,"citrus,coffee,cream,green apple,toast",5,États-Unis,4.3,6056
 Tenuta Guado al Tasso Bolgheri Superiore,"citrus,coffee,cream,green apple,toast",5,Italie,4.5,33392
 Tignanello,"citrus,coffee,cream,green apple,toast",5,Italie,4.5,142513
 Tokaji Aszú 3 Puttonyos,"citrus,coffee,cream,green apple,toast",5,Hongrie,4.3,7080
-Tokaji Aszú 5 Puttonyos,"citrus,coffee,cream,green apple,toast",5,Hongrie,4.5,5449
+Tokaji Aszú 5 Puttonyos,"citrus,coffee,cream,green apple,toast",5,Hongrie,4.3,649
 Tokaji Aszú 6 Puttonyos,"citrus,coffee,cream,green apple,toast",5,Hongrie,4.6,2366
-Toscana,"citrus,coffee,cream,green apple,toast",5,Italie,4.7,16284
+Toscana,"citrus,coffee,cream,green apple,toast",5,Italie,4.2,7434
 Trebbiano d'Abruzzo,"citrus,coffee,cream,green apple,toast",5,Italie,4.4,5834
 Unico,"citrus,coffee,cream,green apple,toast",5,Espagne,4.7,45140
 V.P Extra Brut Champagne Grand Cru 'Ambonnay',"citrus,coffee,cream,green apple,toast",5,France,4.4,2079
