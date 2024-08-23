@@ -1,0 +1,408 @@
+Grape,Country,Wine name,Wine rating average,Wine ratings count
+Pinot Noir,us,Cabernet Sauvignon,4.8,2941
+Pinot Noir,fr,Cristal Rosé Vinothèque,4.8,88
+Pinot Noir,fr,Batard-Montrachet Grand Cru,4.8,34
+Pinot Noir,fr,Sauternes,4.7,44126
+Pinot Noir,us,Special Selection Cabernet Sauvignon,4.7,41236
+Pinot Noir,fr,Pomerol,4.7,32157
+Pinot Noir,fr,Le Mesnil Blanc de Blancs (Cuvée S) Brut Champagne,4.7,9564
+Pinot Noir,fr,Châteauneuf-du-Pape,4.7,7544
+Pinot Noir,fr,P2 Plénitude Brut Champagne,4.7,7543
+Pinot Noir,us,Harlan Estate Red,4.7,7231
+Pinot Noir,fr,Romanée-Saint-Vivant Grand Cru (Marey-Monge),4.7,6597
+Pinot Noir,fr,Chambertin Grand Cru,4.7,3401
+Pinot Noir,us,IX Estate Red,4.7,2810
+Pinot Noir,fr,Clos du Mesnil,4.7,2471
+Pinot Noir,fr,Collection,4.7,2184
+Pinot Noir,fr,Pomerol,4.7,2164
+Pinot Noir,fr,Montrachet Grand Cru,4.7,516
+Pinot Noir,fr,Montrachet Grand Cru,4.7,459
+Pinot Noir,fr,Cristal Vinothèque,4.7,426
+Pinot Noir,fr,Échézeaux Grand Cru,4.7,359
+Pinot Noir,fr,Ligne de Crete Les Grandes Vignes Hermitage,4.7,76
+Pinot Noir,us,Cabernet Sauvignon,4.6,157944
+Pinot Noir,fr,Brut Champagne,4.6,146377
+Pinot Noir,us,Opus One,4.6,77053
+Pinot Noir,fr,Pauillac (Premier Grand Cru Classé),4.6,73615
+Pinot Noir,fr,Château Margaux (Premier Grand Cru Classé),4.6,45350
+Pinot Noir,fr,Cristal Brut Champagne (Millésimé),4.6,42456
+Pinot Noir,fr,Pessac-Léognan (Premier Grand Cru Classé),4.6,39605
+Pinot Noir,fr,Pauillac (Premier Grand Cru Classé),4.6,39283
+Pinot Noir,fr,Grand Vin Pauillac (Premier Grand Cru Classé),4.6,38521
+Pinot Noir,us,Insignia,4.6,30674
+Pinot Noir,fr,Grande Cuvée,4.6,28513
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.6,28198
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.6,22896
+Pinot Noir,fr,Vintage,4.6,16918
+Pinot Noir,us,Rutherford,4.6,16322
+Pinot Noir,fr,Brut Rosé Champagne,4.6,13747
+Pinot Noir,us,Cabernet Sauvignon (Signature),4.6,13730
+Pinot Noir,fr,Sir Winston Churchill Brut Champagne,4.6,12873
+Pinot Noir,us,CASK 23 Cabernet Sauvignon,4.6,9464
+Pinot Noir,fr,L'Hermitage,4.6,8592
+Pinot Noir,fr,R.D Extra Brut Champagne (Récemment Dégorgé),4.6,7737
+Pinot Noir,us,Continuum Estate,4.6,6949
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.6,6637
+Pinot Noir,us,Rubicon,4.6,6421
+Pinot Noir,us,Cabernet Sauvignon,4.6,5927
+Pinot Noir,fr,Cristal Rosé Brut Champagne (Millésimé),4.6,5883
+Pinot Noir,fr,Blanc des Millénaires,4.6,5581
+Pinot Noir,fr,Saint-Émilion Grand Cru,4.6,5390
+Pinot Noir,fr,Côte-Rôtie La Turque,4.6,4891
+Pinot Noir,fr,Côte-Rôtie La Mouline,4.6,4380
+Pinot Noir,fr,Côte-Rôtie La Landonne,4.6,4068
+Pinot Noir,us,Les Pavots,4.6,4010
+Pinot Noir,us,Red,4.6,3639
+Pinot Noir,fr,Rosé,4.6,3605
+Pinot Noir,fr,Musigny Grand Cru (Cuveé Vieilles Vignes),4.6,3533
+Pinot Noir,us,Au Paradis Cabernet Sauvignon,4.6,3004
+Pinot Noir,fr,Chevalier-Montrachet Grand Cru,4.6,2340
+Pinot Noir,us,La Joie,4.6,2285
+Pinot Noir,fr,Montrachet Grand Cru Marquis de Laguiche,4.6,1970
+Pinot Noir,fr,Pignan Châteauneuf-du-Pape Réserve Rouge,4.6,1881
+Pinot Noir,fr,Chateauneuf-du-Pape Réserve des Célestins,4.6,1633
+Pinot Noir,us,Maya,4.6,1570
+Pinot Noir,us,Beckstoffer To Kalon Vineyard Cabernet Sauvignon,4.6,1557
+Pinot Noir,fr,Vin de Pays de l'Hérault Blanc,4.6,1209
+Pinot Noir,fr,Bâtard-Montrachet Grand Cru,4.6,1191
+Pinot Noir,us,Reserve,4.6,1175
+Pinot Noir,fr,La Grande Dame Brut Rosé Champagne,4.6,1118
+Pinot Noir,fr,Musigny Grand Cru,4.6,739
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.6,719
+Pinot Noir,fr,Vosne-Romanée Premier Cru Aux Reignots,4.6,645
+Pinot Noir,us,Cabernet Sauvignon Coeur De Vallée,4.6,544
+Pinot Noir,fr,Montrachet Grand Cru,4.6,495
+Pinot Noir,fr,L'Extravagant de Doisy-Daëne Sauternes,4.6,465
+Pinot Noir,fr,Montrachet Grand Cru,4.6,269
+Pinot Noir,fr,Clos de Tart Grand Cru,4.6,214
+Pinot Noir,us,Cabernet Sauvignon,4.6,152
+Pinot Noir,us,EABA,4.6,151
+Pinot Noir,fr,Cuve 38 Blanc de Blancs Champagne (La Réserve Perpétuelle),4.6,149
+Pinot Noir,us,Lithology Cabernet Sauvignon,4.6,148
+Pinot Noir,fr,Musigny Grand Cru,4.6,128
+Pinot Noir,fr,Bienvenues-Bâtard-Montrachet Grand Cru,4.6,76
+Pinot Noir,fr,Collection Vintage 2000 Brut,4.6,58
+Pinot Noir,fr,Les Riceys Cuvée Cyriès Brut Millesimé Champagne,4.6,43
+Pinot Noir,fr,Clos Saint-Denis Grand Cru,4.6,40
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.6,35
+Pinot Noir,fr,Single Barrel Champagne Grand Cru 'Le Mesnil-sur-Oger',4.6,34
+Pinot Noir,us,Papillon,4.5,30682
+Pinot Noir,fr,Grand Vin de Château Palmer (Grand Cru Classé),4.5,29026
+Pinot Noir,fr,Comtes de Champagne Blanc de Blancs,4.5,27449
+Pinot Noir,fr,La Grande Année Brut Champagne,4.5,24646
+Pinot Noir,us,Dominus (Christian Moueix),4.5,22117
+Pinot Noir,fr,Belle Epoque Brut Champagne,4.5,20992
+Pinot Noir,us,Isosceles,4.5,18920
+Pinot Noir,fr,Dom Ruinart Blanc de Blancs Brut Champagne,4.5,18466
+Pinot Noir,fr,La Grande Dame Brut Champagne,4.5,17474
+Pinot Noir,us,Overture,4.5,16804
+Pinot Noir,us,One Point Five Cabernet Sauvignon,4.5,16341
+Pinot Noir,fr,Pessac-Léognan (Grand Cru Classé de Graves),4.5,15975
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.5,15671
+Pinot Noir,fr,Pomerol,4.5,12214
+Pinot Noir,us,Monte Bello,4.5,11978
+Pinot Noir,us,FAY Cabernet Sauvignon,4.5,10840
+Pinot Noir,fr,Grand Siècle Champagne (Grande Cuvée),4.5,9824
+Pinot Noir,fr,Pomerol,4.5,9531
+Pinot Noir,fr,Vin de Pays de l'Hérault,4.5,8933
+Pinot Noir,fr,Silex,4.5,8386
+Pinot Noir,us,Relentless,4.5,6633
+Pinot Noir,us,S.L.V. Cabernet Sauvignon,4.5,6560
+Pinot Noir,us,Howell Mountain Cabernet Sauvignon,4.5,6466
+Pinot Noir,fr,Cuvée Nicolas François Billecart Brut Champagne,4.5,6228
+Pinot Noir,fr,Hommage à Jacques Perrin Châteauneuf-du-Pape,4.5,6121
+Pinot Noir,fr,Amour de Deutz Millésimé Brut Champagne,4.5,5532
+Pinot Noir,fr,Clos de Tart Grand Cru Monopole,4.5,4948
+Pinot Noir,fr,MV,4.5,4763
+Pinot Noir,fr,Clos des Goisses Champagne,4.5,4662
+Pinot Noir,fr,Clos Sainte Hune Riesling Alsace,4.5,4106
+Pinot Noir,us,Cabernet Sauvignon,4.5,3087
+Pinot Noir,fr,Bonnes-Mares Grand Cru,4.5,2595
+Pinot Noir,fr,Coteau de Vernon Condrieu,4.5,2015
+Pinot Noir,fr,Les Poyeux Saumur Champigny,4.5,2005
+Pinot Noir,us,La Muse,4.5,1948
+Pinot Noir,fr,Les Clos Chablís Grand Cru,4.5,1750
+Pinot Noir,fr,Cuvée des Enchanteleurs Brut Champagne,4.5,1732
+Pinot Noir,us,Le Désir,4.5,1694
+Pinot Noir,fr,Chablis Grand Cru 'Valmur',4.5,1653
+Pinot Noir,fr,Chassagne-Montrachet Premier Cru Morgeot Marquis de Laguiche ,4.5,1640
+Pinot Noir,fr,N.P.U. Extra Brut Champagne (Nec Plus Ultra),4.5,1482
+Pinot Noir,us,Blueline Estate Cabernet Sauvignon,4.5,1321
+Pinot Noir,fr,Echezeaux Grand Cru,4.5,1311
+Pinot Noir,fr,Richebourg Grand Cru,4.5,1296
+Pinot Noir,fr,Le Bourg Saumur Champigny,4.5,1264
+Pinot Noir,fr,Bonnes-Mares Grand Cru,4.5,1208
+Pinot Noir,fr,Pessac-Léognan Blanc (Grand Cru Classé de Graves),4.5,1206
+Pinot Noir,fr,Bâtard-Montrachet Grand Cru,4.5,1182
+Pinot Noir,fr,Champagne,4.5,1021
+Pinot Noir,fr,Brut Rosé Champagne,4.5,830
+Pinot Noir,fr,Terrasse à l'Ombre Côtes du Rhône,4.5,819
+Pinot Noir,fr,Montrachet Grand Cru Blanc,4.5,700
+Pinot Noir,fr,Vosne-Romanée 1er Cru 'Aux Malconsorts',4.5,681
+Pinot Noir,fr,Clos de Bèze Grand Cru,4.5,635
+Pinot Noir,fr,Chambertin-Clos-de-Beze Grand Cru,4.5,611
+Pinot Noir,fr,MV Rosé,4.5,588
+Pinot Noir,fr,La Landonne Côte-Rôtie,4.5,584
+Pinot Noir,fr,Bonnes Mares Grand Cru,4.5,554
+Pinot Noir,fr,Châteauneuf-du-Pape Amiral G,4.5,536
+Pinot Noir,fr,Amour de Deutz Millesimé Rosé Brut Champagne,4.5,536
+Pinot Noir,fr,Ozanne Blanc de Blancs Brut Champagne Grand Cru 'Avize',4.5,484
+Pinot Noir,fr,Bienvenues-Bâtard-Montrachet Grand Cru,4.5,480
+Pinot Noir,fr,Romanée-Saint-Vivant Grand Cru,4.5,463
+Pinot Noir,us,Chloe Chardonnay,4.5,458
+Pinot Noir,us,Red Blend,4.5,457
+Pinot Noir,us,Grace Vineyard Pinot Noir,4.5,385
+Pinot Noir,fr,Chambertin-Clos de Bèze Vieilles Vignes Grand Cru,4.5,358
+Pinot Noir,us,Finn Pinot Noir,4.5,331
+Pinot Noir,fr,VV 26 Blanc de Blancs Vieilles Vignes Grand Cru Brut,4.5,314
+Pinot Noir,fr,Meursault 1er Cru 'Genevrières' Blanc,4.5,311
+Pinot Noir,fr,Vosne-Romanée 1er Cru Aux Malconsorts Christiane,4.5,309
+Pinot Noir,fr,Ermitage l'Ermite Blanc,4.5,296
+Pinot Noir,us,Pym-Rae Red Blend,4.5,273
+Pinot Noir,fr,Vieille Vigne Griottes-Chambertin Grand Cru,4.5,257
+Pinot Noir,us,Mark Bradford Vineyard Pinot Noir,4.5,254
+Pinot Noir,fr,Tourmaline Pomerol,4.5,237
+Pinot Noir,fr,Le Montrachet Grand Cru,4.5,236
+Pinot Noir,fr,Vieilles Vignes Mazis-Chambertin Grand Cru,4.5,218
+Pinot Noir,fr,Bâtard-Montrachet Grand Cru,4.5,214
+Pinot Noir,fr,Charlemagne Grand Cru,4.5,201
+Pinot Noir,fr,Puligny-Montrachet Premier Cru La Garenne,4.5,200
+Pinot Noir,fr,Chapelle-Chambertin Grand Cru,4.5,188
+Pinot Noir,fr,Chambertin Grand Cru,4.5,188
+Pinot Noir,fr,Hérédita Châteauneuf-du-Pape,4.5,185
+Pinot Noir,fr,Étoile Rosé,4.5,183
+Pinot Noir,fr,Denarius Graves,4.5,129
+Pinot Noir,fr,Pour Vous Sancerre,4.5,125
+Pinot Noir,us,Bentrock Vineyard Chardonnay,4.5,118
+Pinot Noir,fr,Vosne-Romanée Premier Cru Les Petits Monts,4.5,105
+Pinot Noir,fr,Vieux Marc de Bandol,4.5,102
+Pinot Noir,fr,Cuvée Madame Barsac,4.5,94
+Pinot Noir,fr,Cuvée Ernest Riesling Alsace Sélection de Grains Nobles,4.5,68
+Pinot Noir,fr,Chambolle-Musigny 1er Cru 'Les Amoureuses',4.5,59
+Pinot Noir,fr,Collection Fût de Chêne Brut Champagne Grand Cru 'Ay',4.5,58
+Pinot Noir,fr,Clos Le Léon Dizy Champagne,4.5,53
+Pinot Noir,fr,Cuvée des Hussards Vieilles Vignes Brut Champagne Premier Cru,4.5,47
+Pinot Noir,us,Alpine Hillside Pinot Noir,4.5,46
+Pinot Noir,fr,Nuits-Saint-Georges 1er Cru 'Aux Murgers',4.5,40
+Pinot Noir,fr,Vin de Paille,4.5,35
+Pinot Noir,us,Grenache,4.5,34
+Pinot Noir,fr,Les Ouvrées Rodin Chambertin-Clos de Bèze Grand Cru,4.5,33
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.5,33
+Pinot Noir,fr,Le Montrachet Grand Cru,4.5,30
+Pinot Noir,us,ARTEMIS Cabernet Sauvignon,4.4,81351
+Pinot Noir,fr,Pauillac (Grand Cru Classé),4.4,55808
+Pinot Noir,fr,Pauillac (Grand Cru Classé),4.4,47234
+Pinot Noir,us,Alexander Valley Cabernet Sauvignon,4.4,46066
+Pinot Noir,fr,Cos d'Estournel,4.4,43704
+Pinot Noir,fr,Pauillac (Grand Cru Classé),4.4,39731
+Pinot Noir,fr,Châteauneuf-du-Pape,4.4,38998
+Pinot Noir,fr,Pauillac (Grand Cru Classé),4.4,37460
+Pinot Noir,fr,Brut Cuvée Champagne Rosé,4.4,36681
+Pinot Noir,fr,Saint-Julien (Grand Cru Classé),4.4,29317
+Pinot Noir,us,Cabernet Sauvignon,4.4,28544
+Pinot Noir,fr,Saint-Julien (Grand Cru Classé),4.4,28094
+Pinot Noir,fr,Pessac-Léognan (Grand Cru Classé de Graves),4.4,27316
+Pinot Noir,us,Eight Years In The Desert,4.4,27195
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.4,24916
+Pinot Noir,fr,Brut Rosé Champagne,4.4,23241
+Pinot Noir,fr,Brut Rosé Champagne,4.4,21147
+Pinot Noir,fr,Sauternes (Premier Grand Cru Classé),4.4,19239
+Pinot Noir,fr,Pavillon Rouge du Château Margaux,4.4,16401
+Pinot Noir,fr,Carruades de Lafite Pauillac,4.4,13866
+Pinot Noir,fr,Pomerol,4.4,13504
+Pinot Noir,us,Georges De Latour Private Reserve Cabernet Sauvignon,4.4,12652
+Pinot Noir,us,Evenstad Reserve Pinot Noir,4.4,11531
+Pinot Noir,fr,Pomerol,4.4,10374
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,10296
+Pinot Noir,fr,Baron de L Pouilly-Fumé,4.4,9002
+Pinot Noir,fr,Côtes de Bourg,4.4,8249
+Pinot Noir,fr,Le Petit Mouton de Mouton Rothschild Pauillac,4.4,8214
+Pinot Noir,fr,Pomerol,4.4,7221
+Pinot Noir,fr,Côte-Rôtie,4.4,7177
+Pinot Noir,us,Les Noisetiers,4.4,7035
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.4,6879
+Pinot Noir,fr,Clos des Lambrays Grand Cru,4.4,6431
+Pinot Noir,fr,Barsac (Premier Grand Cru Classé),4.4,6028
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,5755
+Pinot Noir,fr,Blanc de Blancs Brut Champagne Grand Cru,4.4,5553
+Pinot Noir,fr,Réserve Côtes-du-Rhône,4.4,4027
+Pinot Noir,fr,Brut Champagne (Gold),4.4,3874
+Pinot Noir,fr,Pomerol,4.4,3509
+Pinot Noir,fr,Saint-Émilion Grand Cru (Grand Cru Classé),4.4,3498
+Pinot Noir,fr,Pomerol,4.4,3377
+Pinot Noir,fr,Cuvée des Cadettes Châteauneuf-du-Pape,4.4,3283
+Pinot Noir,fr,Beaune 1er Cru 'Clos des Mouches' Blanc,4.4,3093
+Pinot Noir,us,Altagracia Cabernet Sauvignon,4.4,3083
+Pinot Noir,us,Cabernet Sauvignon,4.4,2830
+Pinot Noir,fr,Saint-Émilion Grand Cru,4.4,2829
+Pinot Noir,fr,Clos de la Roche Grand Cru Cuvée Vieilles Vignes,4.4,2678
+Pinot Noir,fr,Vieilles Vignes Châteauneuf-du-Pape Blanc,4.4,2587
+Pinot Noir,fr,Chambertin Grand Cru,4.4,2542
+Pinot Noir,fr,Corton-Charlemagne Grand Cru Blanc,4.4,2453
+Pinot Noir,fr,V.P Extra Brut Champagne Grand Cru 'Ambonnay',4.4,2079
+Pinot Noir,fr,Châteauneuf-Du-Pape Cuvée Des Générations Gaston-Philippe,4.4,2077
+Pinot Noir,fr,Saint-Emilion Grand Cru (Premier Grand Cru Classé),4.4,1986
+Pinot Noir,us,Merlot,4.4,1922
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,1913
+Pinot Noir,fr,Ermitage Ex-Voto,4.4,1804
+Pinot Noir,fr,Rosé Brut Champagne Grand Cru 'Ambonnay',4.4,1782
+Pinot Noir,us,One Sixteen Chardonnay,4.4,1753
+Pinot Noir,fr,Chassagne-Montrachet Premier Cru 'Morgeot' Blanc,4.4,1701
+Pinot Noir,fr,Saint-Émilion Grand Cru,4.4,1527
+Pinot Noir,fr,Les Bessards Hermitage,4.4,1515
+Pinot Noir,fr,La Grande Rue Grand Cru Monopole,4.4,1496
+Pinot Noir,fr,Les Grandes Places Côte-Rôtie,4.4,1316
+Pinot Noir,fr,Gardarèm,4.4,1308
+Pinot Noir,fr,Chevalier-Montrachet Grand Cru Blanc,4.4,1283
+Pinot Noir,fr,Avizoise Blanc de Blancs Extra Brut Champagne Grand Cru 'Avize',4.4,1278
+Pinot Noir,fr,Les Sentiers Chambolle-Musigny 1er Cru,4.4,1253
+Pinot Noir,fr,Nuits-Saint-Georges 1er Cru 'Clos des Corvées',4.4,1245
+Pinot Noir,fr,Clos Vougeot Grand Cru,4.4,1202
+Pinot Noir,us,Côte à Côte Estate,4.4,1133
+Pinot Noir,fr,Mazis-Chambertin Grand Cru,4.4,1121
+Pinot Noir,fr,Chapelle d'Ausone Saint-Émilion Grand Cru,4.4,1086
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,1045
+Pinot Noir,fr,Chateauneuf-Du-Pape Cuvée Des Générations Marie Leoncie,4.4,1041
+Pinot Noir,fr,Puligny-Montrachet Premier Cru Champ-Canet,4.4,1020
+Pinot Noir,fr,Mazis-Chambertin Grand Cru Cuvée Madeleine Collignon,4.4,1016
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,1007
+Pinot Noir,fr,Gevrey Chambertin 1er Cru 'Aux Combottes',4.4,1002
+Pinot Noir,fr,Chambertin Clos de Bèze Grand Cru,4.4,983
+Pinot Noir,fr,Carmin,4.4,931
+Pinot Noir,fr,Corton-Bressandes Grand Cru,4.4,861
+Pinot Noir,fr,Historical XIXth Century Wine,4.4,807
+Pinot Noir,fr,Vénus Blanc de Blancs Brut Nature Champagne Grand Cru 'Avize',4.4,794
+Pinot Noir,fr,Les Beaux Monts Vosne-Romanée 1er Cru,4.4,787
+Pinot Noir,fr,Le Petit Cheval Bordeaux Blanc,4.4,782
+Pinot Noir,fr,Tessons Clos de Mon Plaisir Meursault,4.4,761
+Pinot Noir,fr,Romanée-Saint-Vivant Grand Cru Les Quatre Journaux,4.4,731
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,718
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,709
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,708
+Pinot Noir,fr,Grands-Echezeaux Grand Cru,4.4,700
+Pinot Noir,fr,Sancerre 'Clos la Néore',4.4,699
+Pinot Noir,fr,Châteauneuf-du-Pape Réservé Blanc,4.4,668
+Pinot Noir,fr,Vosne-Romanée 1er Cru 'Les Suchots',4.4,651
+Pinot Noir,fr,Clos de Vougeot,4.4,608
+Pinot Noir,fr,Les Blanchiens Brut Nature Champagne Premier Cru,4.4,590
+Pinot Noir,fr,Saint-Émilion Grand Cru,4.4,589
+Pinot Noir,fr,Puligny-Montrachet Premier Cru Les Combettes,4.4,582
+Pinot Noir,fr,Charmes-Chambertin Grand Cru Les Mazoyères,4.4,548
+Pinot Noir,fr,Grands-Échezeaux Grand Cru,4.4,544
+Pinot Noir,fr,Corton Grand Cru 'Clos Rognet',4.4,543
+Pinot Noir,fr,Nuits-Saint-Georges 1er Cru 'Aux Thorey',4.4,543
+Pinot Noir,fr,Chevalier-Montrachet Grand Cru Les Demoiselles,4.4,532
+Pinot Noir,us,Novicium Estate,4.4,495
+Pinot Noir,us,Fort Ross Seaview Home Field Pinot Noir,4.4,483
+Pinot Noir,us,Gold Series Syrah,4.4,477
+Pinot Noir,fr,Puligny-Montrachet Premier Cru ' Clos de la Truffière',4.4,475
+Pinot Noir,fr,Clos Saint Denis Grand Cru,4.4,474
+Pinot Noir,fr,Bonnes Mares Grand Cru,4.4,452
+Pinot Noir,fr,Grands-Échézeaux Grande Cuvée Vieilles Vignes,4.4,449
+Pinot Noir,fr,Puligny-Montrachet 1er Cru 'La Garenne',4.4,442
+Pinot Noir,fr,Mazis-Chambertin Grand Cru,4.4,433
+Pinot Noir,fr,Grands-Echezeaux Grand Cru,4.4,432
+Pinot Noir,fr,Clos de la Roche Grand Cru,4.4,429
+Pinot Noir,fr,Puligny-Montrachet 1er Cru 'Les Champs Gains',4.4,429
+Pinot Noir,fr,Cuvée Risleus Brut Champagne Premier Cru,4.4,415
+Pinot Noir,fr,Chambolle-Musigny Les Cabottes,4.4,413
+Pinot Noir,fr,Château de Cîteaux Meursault 1er Cru 'Charmes' Blanc,4.4,368
+Pinot Noir,fr,Chambolle-Musigny Premier Cru Les Charmes,4.4,364
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,359
+Pinot Noir,fr,Chambertin Grand Cru,4.4,354
+Pinot Noir,fr,Bâtard-Montrachet Grand Cru,4.4,347
+Pinot Noir,fr,Meursault 1er Cru 'Perrières',4.4,342
+Pinot Noir,fr,Morey-Saint-Denis Tres Girard,4.4,339
+Pinot Noir,fr,Les Boudots Nuits-Saint-Georges 1er Cru,4.4,339
+Pinot Noir,fr,Chambertin Clos de Bèze Grand Cru,4.4,331
+Pinot Noir,fr,Chassagne-Montrachet 1er Cru 'Morgeot',4.4,329
+Pinot Noir,fr,Fleur de Miraval Exclusivement Rosé Champagne,4.4,304
+Pinot Noir,fr,Réservé Châteauneuf-du-Pape,4.4,297
+Pinot Noir,fr,Chassagne-Montrachet 1er Cru 'Morgeot',4.4,283
+Pinot Noir,fr,Côte Rôtie La Brocarde,4.4,278
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,277
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,276
+Pinot Noir,fr,Les Ruchons Sancerre Blanc,4.4,269
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,268
+Pinot Noir,us,Hyde Vineyard Chardonnay,4.4,265
+Pinot Noir,fr,Chambolle-Musigny Premier Cru 'Les Feusselottes',4.4,262
+Pinot Noir,fr,Nuits-Saint-Georges,4.4,257
+Pinot Noir,fr,Champ Cain Extra Brut Champagne Grand Cru 'Avize',4.4,234
+Pinot Noir,us,Belles Soeurs Cuvée Pinot Noir,4.4,229
+Pinot Noir,us,Lot 1,4.4,226
+Pinot Noir,fr,Clos Vougeot Grand Cru,4.4,226
+Pinot Noir,fr,Todeschini Distique Saint-Émilion Grand Cru,4.4,185
+Pinot Noir,fr,Chemin du Bois Champagne,4.4,184
+Pinot Noir,fr,Vignes Centenaires 'La Richemone',4.4,182
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,178
+Pinot Noir,fr,Chablis Grand Cru 'Les Clos',4.4,173
+Pinot Noir,fr,Musigny Grand Cru,4.4,171
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.4,170
+Pinot Noir,ch,Sous L'Escalier Petite Arvine du Valais,4.4,164
+Pinot Noir,fr,Corton-Charlemagne Grand Cru,4.4,164
+Pinot Noir,fr,Saint-Julien (Grand Cru Classé),4.3,37174
+Pinot Noir,fr,Saint-Estèphe (Grand Cru Classé),4.3,35624
+Pinot Noir,fr,Saint-Julien (Grand Cru Classé),4.3,33618
+Pinot Noir,fr,Saint-Julien (Grand Cru Classé),4.3,32627
+Pinot Noir,fr,Pessac-Léognan (Grand Cru Classé de Graves),4.3,25444
+Pinot Noir,us,Chardonnay,4.3,18694
+Pinot Noir,fr,Sauternes (Premier Grand Cru Classé),4.3,17293
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.3,17090
+Pinot Noir,fr,Hermitage La Chapelle Rouge,4.3,15298
+Pinot Noir,us,Chateau Buena Vista Cabernet Sauvignon Napa Valley,4.3,13415
+Pinot Noir,fr,Pomerol,4.3,11885
+Pinot Noir,fr,Saint-Émilion Grand Cru (Premier Grand Cru Classé),4.3,10699
+Pinot Noir,fr,Clos de la Coulée de Serrant,4.3,8365
+Pinot Noir,fr,Côtes du Rhône,4.3,8196
+Pinot Noir,fr,Blanc de Blancs Brut Champagne (Vintage),4.3,6400
+Pinot Noir,us,TD9,4.3,6056
+Pinot Noir,us,Lion Tamer Napa Valley Red Blend,4.3,4981
+Pinot Noir,fr,Pomerol,4.3,4641
+Pinot Noir,fr,Puligny-Montrachet,4.3,4548
+Pinot Noir,fr,Saint-Joseph,4.3,3931
+Pinot Noir,fr,Pomerol,4.3,3870
+Pinot Noir,fr,Domaine des Tourettes Hermitage Rouge,4.3,3806
+Pinot Noir,fr,Pur Sang,4.3,3634
+Pinot Noir,fr,Chambolle-Musigny,4.3,3455
+Pinot Noir,fr,Vacqueyras,4.3,3412
+Pinot Noir,fr,Chassagne-Montrachet,4.3,3269
+Pinot Noir,us,Merlot (Signature),4.3,2312
+Pinot Noir,fr,Bordeaux,4.3,2246
+Pinot Noir,fr,Buisson Renard,4.3,2119
+Pinot Noir,us,Rapture Cabernet Sauvignon,4.3,2117
+Pinot Noir,us,Royal St Robert Cuvée Pinot Noir,4.3,2099
+Pinot Noir,fr,Blanc,4.3,2053
+Pinot Noir,us,Ulysses,4.3,1980
+Pinot Noir,fr,Cuvée Impériale Châteauneuf-du-Pape,4.3,1881
+Pinot Noir,fr,Chambertin Grand Cru,4.3,1293
+Pinot Noir,fr,Pessac-Léognan Blanc (Grand Cru Classé de Graves),4.3,1182
+Pinot Noir,fr,Vosne-Romanée,4.3,1030
+Pinot Noir,fr,Puligny-Montrachet Enseignères,4.3,941
+Pinot Noir,fr,Sauternes,4.3,938
+Pinot Noir,ch,Platinum,4.3,883
+Pinot Noir,fr,Domaine Grand Veneur Châteauneuf-Du-Pape Vieilles Vignes,4.3,875
+Pinot Noir,fr,Chassagne-Montrachet 1er Cru 'La Maltroie',4.3,779
+Pinot Noir,us,Rutherford Cabernet Sauvignon,4.3,655
+Pinot Noir,fr,Meursault 1er Cru 'Les Genevrières',4.3,606
+Pinot Noir,fr,Vosne-Romanée Premier Cru 'Les Suchots',4.3,601
+Pinot Noir,fr,Pommard 1er Cru Les Rugiens-Bas,4.3,592
+Pinot Noir,fr,Volnay 1er Cru Les Caillerets,4.3,591
+Pinot Noir,fr,Vosne-Romanée Premier Cru Les Suchots,4.3,522
+Pinot Noir,fr,Vosne-Romanée 'Les Quartiers de Nuits',4.3,511
+Pinot Noir,fr,Clos de Vougeot Grand Cru,4.3,467
+Pinot Noir,fr,Puligny-Montrachet Premier Cru Clos du Cailleret,4.3,395
+Pinot Noir,fr,Echezeaux Grand Cru,4.3,338
+Pinot Noir,fr,Charmes-Chambertin Grand Cru,4.3,331
+Pinot Noir,fr,Meursault 1er Cru 'Charmes',4.3,242
+Pinot Noir,fr,Annonciade Champagne,4.3,137
+Pinot Noir,fr,Margaux (Grand Cru Classé),4.2,15699
+Pinot Noir,fr,Châteauneuf-du-Pape,4.2,13917
+Pinot Noir,fr,Pomerol,4.2,11645
+Pinot Noir,fr,La Chapelle de La Mission Haut-Brion Pessac-Léognan,4.2,6754
+Pinot Noir,fr,Aile d'Argent Blanc Bordeaux,4.2,4790
+Pinot Noir,fr,Châteauneuf-du-Pape Chaupin,4.2,4483
+Pinot Noir,fr,Vieilles Vignes Meursault,4.2,1426
+Pinot Noir,fr,Chambolle-Musigny Les Baudes,4.2,525
+Pinot Noir,fr,Cuvée Extase Blanc de Blancs Champagne Grand Cru,4.2,231
+Pinot Noir,fr,Clos des Porrets Nuits-Saint-Georges 1er Cru,4.1,3063
+Pinot Noir,fr,Nuits-Saint-Georges 1er Cru Les Damodes,4.1,793
