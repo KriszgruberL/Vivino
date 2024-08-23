@@ -11,10 +11,10 @@ from utils.connect_db import connect_to_db
 #  Check that **at least 10 users confirm those keywords**, to ensure the accuracy of the selection. Additionally, identify an appropriate group name for this cluster.
 def query_favorites_taste(cursor) : 
     query = """
-        SELECT DISTINCT w.name,
+        SELECT DISTINCT w.name AS wine_name,
 	GROUP_CONCAT(DISTINCT k.name) AS keywords,
 	COUNT(DISTINCT kw.keyword_id) AS nb_keywords,
-	c.name,
+	c.name As country_name,
 	c.users_count
     FROM keywords_wine kw
     JOIN keywords k
