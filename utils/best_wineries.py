@@ -2,13 +2,19 @@ import csv
 import sqlite3
 import sys
 
-from utils.connect_db import connect_to_db
-
 # - We want to highlight 10 wines to increase our sales. 
 # Which ones should we choose and why?
-def query_top_wineries(cursor) : 
 
-    # count(wineries) as number_of_wineries
+def query_top_wineries(cursor : sqlite3.Cursor) -> None: 
+    """Executes a SQL query to retrieve the top wineries based on average rating.
+    Args:
+        cursor: The database cursor object.
+    Returns:
+        None
+    Raises:
+        sqlite3.Error: If a database error occurs.
+        sqlite3.DatabaseError: If a database error occurs.
+        Exception: If an unexpected error occurs."""
 
     query = """
             SELECT wines.winery_id,

@@ -2,10 +2,19 @@ import csv
 import sqlite3
 import sys
 
-from utils.connect_db import connect_to_db
 
 # - We have a limited marketing budget for this year. Which country should we prioritise and why?
-def query_limited_budget(cursor) : 
+def query_limited_budget(cursor : sqlite3.Cursor) -> None: 
+    """Executes a SQL query to retrieve limited budget information.
+    Args:
+        cursor: The database cursor object.
+    Returns:
+        None
+    Raises:
+        sqlite3.Error: If a database error occurs.
+        sqlite3.DatabaseError: If a database error occurs.
+        Exception: If an unexpected error occurs."""
+
     query = """
         SELECT countries.name,
             countries.users_count,

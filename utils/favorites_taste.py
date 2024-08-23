@@ -2,14 +2,23 @@ import csv
 import sqlite3
 import sys
 
-from utils.connect_db import connect_to_db
-
 #  We detected that a big cluster of customers likes a specific combination of tastes. 
 #  We identified a few keywords that match these tastes: 
 # _coffee_, _toast_, _green apple_, _cream_, and _citrus_ (note that these keywords are case sensitive ⚠️). 
 #  We would like you to find all the wines that are related to these keywords. 
 #  Check that **at least 10 users confirm those keywords**, to ensure the accuracy of the selection. Additionally, identify an appropriate group name for this cluster.
-def query_favorites_taste(cursor) : 
+
+def query_favorites_taste(cursor : sqlite3.Cursor) -> None: 
+    """Executes a SQL query to retrieve the favorite tastes of wines based on specific keywords.
+    Args:
+        cursor (sqlite3.Cursor): The cursor object to execute the SQL query.
+    Returns:
+        None
+    Raises:
+        sqlite3.Error: If a database error occurs.
+        sqlite3.DatabaseError: If a database error occurs.
+        Exception: If an unexpected error occurs."""
+        
     query = """
     SELECT DISTINCT w.name AS wine_name,
         GROUP_CONCAT(DISTINCT k.name) AS taste_keywords,

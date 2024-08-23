@@ -2,12 +2,21 @@ import csv
 import sqlite3
 import sys
 
-from utils.connect_db import connect_to_db
 
 # - We want to highlight 10 wines to increase our sales. 
 # Which ones should we choose and why?
 
-def query_highlight_wine(cursor) : 
+def query_highlight_wine(cursor : sqlite3.Cursor) -> None: 
+    """Executes a SQL query to retrieve information about highlighted wines.
+    Parameters:
+    cursor (sqlite3.Cursor): The cursor object to execute the query.
+    Returns:
+    None
+    Raises:
+    sqlite3.Error: If a database error occurs.
+    sqlite3.DatabaseError: If a database error occurs.
+    Exception: If an unexpected error occurs."""
+    
     query = """
         SELECT wines.name,
             wines.ratings_average,
