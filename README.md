@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Vivino
+=======
+
+>>>>>>> a2f664b84762d14e591bf329717c8f7f6b1bb64e
 <p align="center">
     <br>
      <a href="https://github.com/KriszgruberL" target="_blank"> <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem"></a>
@@ -23,7 +27,14 @@ Lorem ipsum
 ## 🕺 Collaborators
 Thank you for your contributions to this project : 
 
+<<<<<<< HEAD
 - [Name](URL du git)
+=======
+- [AdrienPiette](https://github.com/AdrienPiette)
+- [ness015618](https://github.com/ness015618)
+- [RachaelShenRq](https://github.com/RachaelShenRq)
+- [KriszgruberL](https://github.com/KriszgruberL)
+>>>>>>> a2f664b84762d14e591bf329717c8f7f6b1bb64e
 
 ## 🚧 Project Structure
 ```
@@ -46,8 +57,13 @@ nom_projet/
 
 1. **Clone the repository**:
     ```sh
+<<<<<<< HEAD
     git clone url_git
     cd nom_projet
+=======
+    git clone git@github.com:KriszgruberL/Vivino.git
+    cd Vivino
+>>>>>>> a2f664b84762d14e591bf329717c8f7f6b1bb64e
     ```
 
 2. **Create a virtual environment**:
@@ -87,15 +103,14 @@ The entry point of the application. It initializes ....
 
 ---
 #### **utils/**
+
 Contains utility scripts for turning the results of SQL queries into CSVs
 
 - **file_per_csv1.py**:
   - `fonction(file_path: str, extension: str) -> pd.DataFrame`: ....
 
 - **file_per_csv2.py**:
-  - `fonction(file_path: str, extension: str) -> pd.DataFrame`: ....
 
----
 
 #### **visualisations/**
 Contains scripts to create visualisations
