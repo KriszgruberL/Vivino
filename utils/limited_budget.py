@@ -9,8 +9,16 @@ def query_limited_budget(cursor) :
     # ajouter si possible wines names, ratings average et count(wines)
 
     query = """
-        select countries.name, countries.users_count
+        select 
+            countries.name, 
+            countries.users_count,
+            wines.name as wine_name,
+            wines.ratings_average as wine_ratings_avg, 
+            count(wines.id) as count_wines
         from countries
+            join regions on regions.country_code = countries.code
+            join wines on wines.region_id = regions.id
+        group by countries.name, countries.users_count
         order by countries.users_count desc
         """
         

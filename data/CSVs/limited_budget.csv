@@ -1,18 +1,18 @@
-name,users_count
-États-Unis,12273684
-France,5973301
-Italie,4270717
-Allemagne,2549989
-Espagne,2264396
-Suisse,1601799
-Portugal,1123535
-Australie,1022965
-Argentine,629532
-Chili,326757
-Afrique du Sud,269649
-Roumanie,228185
-Israël,150549
-Hongrie,102235
-Grèce,95693
-Croatie,64223
-Moldavie,13583
+name,users_count,wine_name,wine_ratings_avg,count_wines
+États-Unis,12273684,Chardonnay,4.3,74
+France,5973301,Puligny-Montrachet 1er Cru 'La Garenne',4.4,331
+Italie,4270717,Vin Santo di Montepulciano,4.6,383
+Allemagne,2549989,Scharzhofberger Riesling Kabinett,4.4,14
+Espagne,2264396,Rioja 150 Aniversario,4.2,94
+Suisse,1601799,Sous L'Escalier Petite Arvine du Valais,4.4,2
+Portugal,1123535,Quinta da Leda Douro,4.4,28
+Australie,1022965,St. Henri Shiraz,4.4,12
+Argentine,629532,Nicolás Catena Zapata,4.4,23
+Chili,326757,Almaviva,4.6,16
+Afrique du Sud,269649,The Stork,4.5,22
+Roumanie,228185,Carpathia Heritage,4.4,1
+Israël,150549,Yarden Katzrin,4.5,1
+Hongrie,102235,Tokaji Aszú 6 Puttonyos,4.6,11
+Grèce,95693,Παλιές Ρίζες (Palies Rizes),4.4,2
+Croatie,64223,Winemaker's Selection,4.3,1
+Moldavie,13583,Lupi Rezerva,4.5,5
