@@ -17,7 +17,7 @@ cabernet_by_rating = """
                             JOIN regions ON most_used_grapes_per_country.country_code = regions.country_code
                             JOIN wines ON regions.id = wines.region_id
                             WHERE grapes.name = "Cabernet Sauvignon"
-                        ORDER BY wines.ratings_average;
+                        ORDER BY wines.ratings_average DESC, wines.ratings_count DESC;
 """
 
 cursor.execute(cabernet_by_rating)
