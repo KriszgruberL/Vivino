@@ -17,9 +17,16 @@ def query_wine_by_taste(cursor : sqlite3.Cursor) -> None:
         Exception: If an unexpected error occurs."""
         
     query = """
-    SElECT distinct w.name, w.ratings_average, w.ratings_count, w.acidity, w.fizziness, w.sweetness, w.tannin 
-    FROM WINES w 
-    ORDER BY w.ratings_average DESC, w.ratings_count DESC
+    SELECT DISTINCT w.name,
+        w.ratings_average,
+        w.ratings_count,
+        w.acidity,
+        w.fizziness,
+        w.sweetness,
+        w.tannin
+    FROM WINES w
+    ORDER BY w.ratings_average DESC,
+        w.ratings_count DESC
     """
                 
     try : 
