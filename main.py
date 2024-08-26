@@ -3,16 +3,16 @@ from utils.connect_db import close_db, connect_to_db
 from utils.favorites_taste import query_favorites_taste
 from utils.highlight_wines import query_highlight_wine
 from utils.limited_budget import query_limited_budget
-
+from utils.best_wines_per_grape import query_common_grapes
 
 def main() : 
     cxn, cursor= connect_to_db()
     
-    query_limited_budget(cursor)
-    query_highlight_wine(cursor)
-    query_top_wineries(cursor)
-    query_favorites_taste(cursor)
-
+    #query_limited_budget(cursor)
+    #query_highlight_wine(cursor)
+    #query_top_wineries(cursor)
+    #query_favorites_taste(cursor)
+    query_common_grapes(cursor)
     
     close_db(cxn)
 
