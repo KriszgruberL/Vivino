@@ -2,7 +2,7 @@ import sqlite3
 import csv
 
 conn = sqlite3.connect("./data/vivino.db")
-cursor = conn.cursor()
+cursor = conn.cursor(cursor : sqlite3.Cursor) -> None:
 
 cabernet_by_rating = """ 
                         SELECT 
