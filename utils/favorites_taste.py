@@ -59,9 +59,12 @@ def query_favorites_taste(cursor : sqlite3.Cursor) -> None:
     if favorites_taste:
         headers = [col[0] for col in cursor.description] # get headers
         favorites_taste.insert(0, tuple(headers))
-        with open("./data/CSVs/favorites_taste.csv", 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csvwriter.writerows(favorites_taste)
+        try : 
+            with open("./data/CSVs/favorites_taste.csv", 'w', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerows(favorites_taste)
+        except IOError as e:
+            print(f"An error occurred when writing the file: {e}")
     else:
         sys.exit("No rows found for query: {}".format(query))
 

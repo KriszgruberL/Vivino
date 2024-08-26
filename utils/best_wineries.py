@@ -41,9 +41,12 @@ def query_top_wineries(cursor : sqlite3.Cursor) -> None:
     if top_wineries:
         headers = [col[0] for col in cursor.description] # get headers
         top_wineries.insert(0, tuple(headers))
-        with open("./data/CSVs/top_wineries.csv", 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csvwriter.writerows(top_wineries)
+        try : 
+            with open("./data/CSVs/top_wineries.csv", 'w', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerows(top_wineries)
+        except IOError as e:
+            print(f"An error occurred when writing the file: {e}")
     else:
         sys.exit("No rows found for query: {}".format(query))
 
