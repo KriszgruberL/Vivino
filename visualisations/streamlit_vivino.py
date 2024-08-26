@@ -2,10 +2,15 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
+import seaborn as sns
+
 # Load the data
 data1 = pd.read_csv("../data/CSVs/highlight_wine.csv")
 data2 = pd.read_csv("../data/CSVs/limited_budget.csv")
 data3 = pd.read_csv("../data/CSVs/top_wineries.csv")
+data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
+data5 = pd.read_csv("../data/CSVS/common_grapes_best_wines.csv")
+data6 = pd.read_csv("../data/CSVs/wine_by_taste_filtered.csv")
 data7 = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
 
 
@@ -22,7 +27,8 @@ pages = [
     "Customer cluster",
     "Most common grapes",
     "Country leaderboard",
-    "Top 5 Cabernet Sauvignon"
+    "Top 5 Cabernet Sauvignon",
+    "Top Wine by characteristics"
 ]   
 
 page = st.sidebar.radio("Go to", pages)
@@ -74,7 +80,7 @@ elif page == "Top 10 wines":
     st.write(data1.describe())
     
     # Grouping by 'name' and calculating the mean of 'ratings_average' and 'total_rating'
-    dataAgg = data1.groupby('name')[['ratings_average', 'total_rating']].mean().reset_index()
+    dataAgg = data1.groupby('name')[['ratings_average', 'total_rating']].mean().reset_index().round(2)
 
     # Sorting by 'total_rating' in descending order and getting the top 10 wines
     top_10_wines = dataAgg.sort_values(by='total_rating', ascending=False).head(10)
@@ -84,7 +90,8 @@ elif page == "Top 10 wines":
                  x='name',  # X-axis should be 'name'
                  y='ratings_average',  # Y-axis should be 'ratings_average'
                  color='total_rating',  # Color by 'total_rating'
-                 title='Top 10 Wines by Rating count',  # Title
+                 color_continuous_scale='Blues',  # Blue color scale
+                 title='Top 10 Wines by Average Rating count',  # Title
                  labels={'name': 'Wine', 'total_rating': 'Total Rating', 'ratings_average': 'Average Rating'},  # Axis labels
                  text='ratings_average')  # Display average rating on the bars
     
@@ -117,7 +124,7 @@ elif page == "Country to prioritise":
     st.write(data2.describe())
 
     # Group by 'name' and calculate the mean 'users_count'
-    dataAgg = data2.groupby('name')[['users_count']].mean().reset_index()
+    dataAgg = data2.groupby('name')[['users_count']].mean().reset_index().round(2)
 
     # Find top 5 countries based on users count
     top_5_countries = dataAgg.sort_values(by='users_count', ascending=False).head(5)
@@ -156,7 +163,7 @@ elif page == "Country to prioritise":
     st.write("""
     📊 The bar chart displays the top 5 countries based on the number of users. Each bar represents a country, with the height showing the total number of users. The color intensity indicates the user count, with darker colors representing higher numbers. This chart helps identify which countries have the highest user engagement, making them prime targets for your marketing efforts.
     """)
-
+    
 
     # Sort top 5 countries by 'users_count' in descending order to apply the deepest blue to the country with most users
     top_5_countries_sorted = top_5_countries.sort_values(by='users_count', ascending=False)
@@ -205,12 +212,12 @@ elif page == "Country to prioritise":
 elif page == "Top 3 wineries":
     st.write("We would like to give awards to the best wineries. Here are the top 3 wineries based on their ratings.")
     top_3_wineries_df = data3.sort_values(by='total_rating', ascending=False).head(3)
-    display_aggrid_table(top_3_wineries_df, title="Top 3 Wineries")
+    display_aggrid_table(top_3_wineries_df, title="Top 3 Wineriesby average rating")
 
     st.write(data3.describe())
 
     # Group by 'winery_id' and calculate mean ratings
-    dataAgg = data3.groupby('winery_id')[['average_rating', 'total_rating']].mean().reset_index()
+    dataAgg = data3.groupby('winery_id')[['average_rating', 'total_rating']].mean().reset_index().round(2)
 
     # Find top 3 wineries based on total rating
     top_3_wineries = dataAgg.sort_values(by='total_rating', ascending=False).head(3)
@@ -226,7 +233,7 @@ elif page == "Top 3 wineries":
     filtered_data = data3[data3['winery_name'].isin(winery_id_labels.values())]
 
     # Group by 'winery_name' and calculate mean ratings
-    top_3_wineries_filtered = filtered_data.groupby('winery_name')[['average_rating', 'total_rating']].mean().reset_index()
+    top_3_wineries_filtered = filtered_data.groupby('winery_name')[['average_rating', 'total_rating']].mean().reset_index().round(2)
 
     # Create a bar chart with 'winery_name' on x-axis and 'average_rating' on y-axis
     fig = px.bar(
@@ -271,6 +278,7 @@ elif page == "Top 3 wineries":
     st.write("""
     📊 The bar chart displays the top 3 wineries based on their average ratings. Each bar represents a winery, with the height of the bar indicating the average rating. The color of the bars reflects the total number of ratings, with darker shades representing higher totals. Annotations on the bars show the exact average ratings. This chart helps in identifying the wineries with the highest average ratings and gives insight into their popularity.
     """)
+    
 
     # Create a horizontal bar chart for better readability
     fig = px.bar(
@@ -317,26 +325,165 @@ elif page == "Customer cluster":
         Check that at least 10 users confirm those keywords, to ensure the accuracy of the selection. 
         Additionally, identify an appropriate group name for this cluster.
     """)
-    # Uncomment and define when data is ready
-    # st.dataframe(data4) 
-    # st.dataframe(data4.head(5))
-    # st.write(data4.describe())
+    display_aggrid_table(data4.head(10), title="Wines with Taste Keywords")
+    st.write(data4.describe())
+
+    # Filter the data to include only rows where 'taste_keywords' contains the specific keywords
+    cluster_data = data4[data4['taste_keywords'].str.contains('coffee|toast|green apple|cream|citrus', case=True)]
+
+    # Further filter the wines to ensure at least 10 users have confirmed those keywords
+    cluster_data = cluster_data[cluster_data['wine_ratings_count'] >= 10]
+
+    # Sort the filtered data by 'wine_ratings_count' in descending order
+    leader_board = cluster_data.sort_values(by='wine_ratings_count', ascending=False).head(10)
+
+    # Create a bar chart with 'wine_name' on x-axis and 'wine_ratings_count' on y-axis
+    fig = px.bar(
+        leader_board,
+        x='wine_name',
+        y='wine_ratings_count',
+        color='wine_ratings_count',
+        color_continuous_scale='Blues',
+        title='Top Wines with Specific Taste Keywords - Rating Count',
+        labels={'wine_name': 'Wine Name', 'wine_ratings_count': 'Rating Count'},
+        text='wine_ratings_count'  # Display rating count on the bars
+    )
+
+    fig.update_layout(
+        width=900,
+        height=600,
+        title_font=dict(size=20),
+        xaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Wine Name',
+            title_font=dict(size=16)
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Rating Count',
+            title_font=dict(size=16)
+        )
+    )
+
+    st.plotly_chart(fig)
+
+    st.write("""
+        📊 The bar chart above displays the top wines that match the specified taste keywords (coffee, toast, green apple, cream, and citrus). 
+        Each bar represents a wine, with the height of the bar indicating the number of ratings it has received. 
+        This visualization helps identify which wines are most popular among customers who prefer these particular taste profiles.
+    """)
+    
+    fig = px.bar(
+        leader_board,
+        x='wine_name',
+        y='wine_rating_avg',
+        color='wine_ratings_count',
+        color_continuous_scale='Blues',
+        title='Top Wines with Specific Taste Keywords - Average Rating',
+        labels={'wine_name': 'Wine Name', 'wine_ratings_count': 'Rating Count'},
+        text='wine_rating_avg'  # Display average rating on the bars
+    )
+
+    fig.update_layout(
+        width=900,
+        height=600,
+        title_font=dict(size=20),
+        xaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Wine Name',
+            title_font=dict(size=16)
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Average Rating',
+            title_font=dict(size=16)
+        )
+    )
+
+    st.plotly_chart(fig)
+
+    st.write("""
+        ⭐ The second bar chart highlights the average ratings of the top wines that meet the taste keyword criteria. 
+        Each bar represents a wine, with the height of the bar showing its average rating. 
+        The color intensity indicates the number of ratings received. 
+        This chart provides insight into which wines not only align with the specified taste keywords but also have high average ratings, helping to identify top-quality options in this flavor cluster.
+    """)
+
+
 
 elif page == "Most common grapes":
     st.write("""
         We would like to select wines that are easy to find all over the world. 
         Find the top 3 most common grapes all over the world and for each grape, give us the 5 best rated wines.
     """)
-    # Uncomment and define when data is ready
-    # st.dataframe(data5) 
-    # st.dataframe(data5.head(5))
-    # st.write(data5.describe())
+    
+    # Display the initial data and its description
+    display_aggrid_table(data5.head(20), title="Wines by Common Grapes")
+    
+    st.write(data5.describe())
+
+    # Group by 'Grape' and calculate the mean 'Wine rating average' and 'Wine ratings count'
+    grapeAgg = data5.groupby('Grape')[['Wine rating average', 'Wine ratings count']].mean().reset_index().round(2)
+
+    # Sort the grapes by 'Wine ratings count' in descending order to get the most common ones
+    top_grapes = grapeAgg.sort_values(by='Wine ratings count', ascending=False).head(3)
+
+    # Create a bar chart with 'Grape' on x-axis and 'Wine rating average' on y-axis
+    fig = px.bar(
+        top_grapes,
+        x='Grape',
+        y='Wine rating average',
+        color='Wine ratings count',
+        color_continuous_scale='Blues',
+        title='Top 3 Most Common Grapes by Average Rating Count',
+        labels={'Grape': 'Grape', 'Wine ratings count': 'Rating Count'},
+        text='Wine rating average'  # Display average rating on the bars
+    )
+
+    fig.update_layout(
+        width=900,
+        height=600,
+        title_font=dict(size=20),
+        xaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Grape',
+            title_font=dict(size=16)
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Average Rating',
+            title_font=dict(size=16),
+            range=[4, top_grapes['Wine rating average'].max() + 0.1]  # Adjust Y-axis range
+        )
+    )
+
+    st.plotly_chart(fig)
+
+    # For each top grape, find the top 5 wines by rating
+    top_wines_per_grape = {}
+    for grape in top_grapes['Grape']:
+        top_wines = data5[data5['Grape'] == grape].sort_values(by='Wine rating average', ascending=False).head(5)
+        top_wines_per_grape[grape] = top_wines
+
+    # Display top 5 wines for each grape using AgGrid
+    for grape, top_wines in top_wines_per_grape.items():
+        st.write(f"**Top 5 Rated Wines for {grape}:**")
+        
+        # Configure AgGrid options
+        gb = GridOptionsBuilder.from_dataframe(top_wines[['Wine name', 'Wine rating average', 'Wine ratings count']])
+        gb.configure_pagination(paginationAutoPageSize=True)  # Enable pagination
+        gb.configure_side_bar()  # Enable sidebar for options
+        gridOptions = gb.build()
+
+        # Display the grid with AgGrid
+        AgGrid(top_wines[['Wine name', 'Wine rating average', 'Wine ratings count']], gridOptions=gridOptions)
+
 
 
 elif page == "Country leaderboard":
 
     # Group by 'Country' and calculate the mean 'wine_ratings_avg' and 'users_count'
-    countryAgg = data2.groupby('name')[['wine_ratings_avg', 'users_count']].mean().reset_index()
+    countryAgg = data2.groupby('name')[['wine_ratings_avg', 'users_count']].mean().reset_index().round(2)
 
     # Sort the leaderboard by 'wine_ratings_avg' in descending order
     leader_board = countryAgg.sort_values(by='wine_ratings_avg', ascending=False).head(10)
@@ -364,7 +511,8 @@ elif page == "Country leaderboard":
         yaxis=dict(
             tickfont=dict(size=14),  # Increase Y-axis tick font size
             title_text='Country',  # Y-axis title
-            title_font=dict(size=16)  # Y-axis title font size
+            title_font=dict(size=16), # Y-axis title font size
+            range=[4, leader_board['wine_ratings_avg'].max() + 0.1]  # Adjust Y-axis range
         ),
     )
 
@@ -413,7 +561,7 @@ elif page == "Top 5 Cabernet Sauvignon":
     st.write(data7.describe())
 
     # Aggregating by 'Country' and calculating the mean of 'Wine rating average' and 'Wine rating count'
-    countryAgg = data7.groupby('Country')[['Wine rating average', 'Wine rating count']].mean().reset_index()
+    countryAgg = data7.groupby('Country')[['Wine rating average', 'Wine rating count']].mean().reset_index().round(2)
 
     # Sorting by 'Wine rating average' in descending order to find the top 5 countries
     top_5_countries = countryAgg.sort_values(by='Wine rating average', ascending=False).head(5)
@@ -444,7 +592,7 @@ elif page == "Top 5 Cabernet Sauvignon":
             tickfont=dict(size=14),  # Increase Y-axis tick font size
             title_text='Average Rating',  # Y-axis title
             title_font=dict(size=16),  # Y-axis title font size
-            range=[2.5, top_5_countries['Wine rating average'].max() + 0.5]  # Adjust Y-axis range
+            range=[4, top_5_countries['Wine rating average'].max() + 0.1]  # Adjust Y-axis range
         )
     )
 
@@ -457,3 +605,75 @@ elif page == "Top 5 Cabernet Sauvignon":
 
     # Display the top 5 countries data
     display_aggrid_table(top_5_countries, title="Top 5 Countries by Cabernet Sauvignon Rating")
+
+elif page == "Top Wine by characteristics":
+
+    st.write("""
+        We would like to select the top wine by characteristics.
+        Find the top 5 wines that have the highest ratings for the following characteristics:
+    """)
+    display_aggrid_table(data6.head(5), title="Wines by Taste Characteristics")
+    st.write(data6.describe())
+
+    top_wine_by_characteristics = data6.sort_values(by='ratings_count', ascending=False).head(5)
+
+    fig = px.bar(  
+        top_wine_by_characteristics,
+        x='name',
+        y='ratings_average',
+        color='ratings_count',
+        color_continuous_scale='Blues',
+        title='Top 5 Wines by Characteristics and average rating',
+        labels={'name': 'Wine Name', 'ratings_count': 'Rating count', 'ratings_average': 'Average Rating'},
+        text='ratings_average'
+    )
+
+    fig.update_layout(
+        width=900,
+        height=600,
+        title_font=dict(size=20),
+        xaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Wine Name',
+            title_font=dict(size=16)
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14),
+            title_text='Rating Average',
+            title_font=dict(size=16),
+            range=[3.5, top_wine_by_characteristics['ratings_average'].max() + 0.5]
+        )
+    )
+
+    st.plotly_chart(fig)
+
+
+    
+    from sklearn.preprocessing import LabelEncoder
+
+    # Assuming data6 is already loaded
+
+    # Encode categorical columns
+    categorical_columns = data6.select_dtypes(include=['object']).columns
+    data6_encoded = data6.copy()
+
+    label_encoders = {}
+    for col in categorical_columns:
+        le = LabelEncoder()
+        data6_encoded[col] = le.fit_transform(data6_encoded[col])
+        label_encoders[col] = le
+
+    # Calculate correlation matrix
+    corr_matrix = data6_encoded.corr()
+
+    # Plot heatmap
+    fig = sns.heatmap(corr_matrix, annot=True, cmap='Blues')
+
+    # Display the heatmap in Streamlit
+    st.pyplot(fig)
+
+    
+
+
+    st.pyplot(fig)
+
