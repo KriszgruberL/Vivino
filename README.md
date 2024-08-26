@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-# Vivino
-=======
 
->>>>>>> a2f664b84762d14e591bf329717c8f7f6b1bb64e
 <p align="center">
     <br>
      <a href="https://github.com/KriszgruberL" target="_blank"> <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem"></a>
     <br>
     <br><br>
-    <a><img src="./assets/Untitled.png" width="350"  /></a>
+    <a><img src="./assets/vivono_logo.png" width="350"  /></a>
     <h2 align="center">Using:
     <br>
     <br>
