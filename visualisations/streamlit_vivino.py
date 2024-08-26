@@ -280,39 +280,6 @@ elif page == "Top 3 wineries":
     """)
     
 
-    # Create a horizontal bar chart for better readability
-    fig = px.bar(
-        top_3_wineries_filtered,
-        y='winery_name',  # Switch axes for horizontal bar chart
-        x='average_rating',
-        color='total_rating',
-        color_continuous_scale='Blues',
-        title='Top 3 Wineries with the Highest Average Rating',
-        labels={'winery_name': 'Winery Name', 'average_rating': 'Average Rating'},
-        text='average_rating'  # Display average rating on the bars
-    )
-
-    fig.update_layout(
-        width=900,
-        height=600,
-        title_font=dict(size=20),
-        xaxis=dict(
-            tickfont=dict(size=14),
-            title_text='Average Rating',
-            title_font=dict(size=16)
-        ),
-        yaxis=dict(
-            tickfont=dict(size=14),
-            title_text='Winery Name',
-            title_font=dict(size=16)
-        )
-    )
-
-    st.plotly_chart(fig)
-
-    st.write("""
-    📈 The horizontal bar chart provides a clearer view of the top 3 wineries by their average ratings. By displaying the wineries on the y-axis and their average ratings on the x-axis, this chart emphasizes the differences in ratings more clearly. The color gradient shows the total number of ratings, and the text labels indicate the exact average rating for each winery.
-    """)
 
     # Display the top 3 wineries data
     display_aggrid_table(top_3_wineries_filtered, title="Top 3 Wineries by Average Rating")
@@ -647,9 +614,13 @@ elif page == "Top Wine by characteristics":
 
     st.plotly_chart(fig)
 
+    st.write("")    
 
+    st.write("""🍷We asked ourself if the rate can be influenced by certain characteristics. 
+             Here is the correlation matrix of the wine characteristics.""")
     
     from sklearn.preprocessing import LabelEncoder
+    import matplotlib.pyplot as plt
 
     # Assuming data6 is already loaded
 
@@ -666,14 +637,18 @@ elif page == "Top Wine by characteristics":
     # Calculate correlation matrix
     corr_matrix = data6_encoded.corr()
 
-    # Plot heatmap
-    fig = sns.heatmap(corr_matrix, annot=True, cmap='Blues')
+    # Create a figure and plot heatmap
 
-    # Display the heatmap in Streamlit
-    st.pyplot(fig)
+
+    plt.figure(figsize=(10, 8))  # You can adjust the size as needed
+    fig = sns.heatmap(corr_matrix, annot=True, cmap='Blues')
+    plt.title('Correlation Matrix of Wine Characteristics')
+
+    # Get the figure from the plot and display in Streamlit
+    st.pyplot(fig.figure)
 
     
 
 
-    st.pyplot(fig)
+    
 
