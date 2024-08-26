@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
+# Load the data
+data1 = pd.read_csv("../data/CSVs/highlight_wine.csv")
+data2 = pd.read_csv("../data/CSVs/limited_budget.csv")
+data3 = pd.read_csv("../data/CSVs/top_wineries.csv")
+data7 = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
 
-# Load your data
-data1 = pd.read_csv("highlight_wine.csv")
-data2 = pd.read_csv("limited_budget.csv")
-data3 = pd.read_csv("top_wineries.csv")
-data7 = pd.read_csv("cabernet_by_rating.csv")
 
 # Main title
 st.title("Vivino Data Dashboard: A Comprehensive Wine Analysis")
