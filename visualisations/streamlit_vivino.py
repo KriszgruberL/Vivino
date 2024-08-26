@@ -84,7 +84,7 @@ elif page == "Top 10 wines":
                  x='name',  # X-axis should be 'name'
                  y='ratings_average',  # Y-axis should be 'ratings_average'
                  color='total_rating',  # Color by 'total_rating'
-                 title='Top 10 Wines by Rating',  # Title
+                 title='Top 10 Wines by Rating count',  # Title
                  labels={'name': 'Wine', 'total_rating': 'Total Rating', 'ratings_average': 'Average Rating'},  # Axis labels
                  text='ratings_average')  # Display average rating on the bars
     
@@ -93,89 +93,21 @@ elif page == "Top 10 wines":
         width=900,  # Increase width
         height=600,  # Increase height
         title_font=dict(size=20),  # Increase title font size
+        xaxis=dict(
+            tickfont=dict(size=14),  # Increase X-axis tick font size
+            title_text='Wine',  # X-axis title
+            title_font=dict(size=16)  # X-axis title font size
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14),  # Increase Y-axis tick font size
+            title_text='Average Rating',  # Y-axis title
+            title_font=dict(size=16),  # Y-axis title font size
+            range=[3.5, top_10_wines['ratings_average'].max() + 0.1]  # Adjust Y-axis range
+        )
     )
 
     # Display the bar chart
     st.plotly_chart(fig)
-
-    st.write("""
-    📊 The bar chart highlights the top 10 wines based on their average ratings. Each bar represents a wine, with the height showing its average rating. The color of the bars indicates the total number of ratings received, where a darker color signifies more ratings. This chart helps to identify which wines are not only highly rated but also popular among consumers.
-    """)
-
-    fig = px.scatter(
-        top_10_wines,
-        x='name',
-        y='ratings_average',
-        size='total_rating',
-        color='ratings_average',
-        size_max=60,
-        title='Top 10 Wines by Ratings and Total Rating Count',
-        labels={'name': 'Wine', 'ratings_average': 'Average Rating', 'total_rating': 'Total Rating'},
-        text='ratings_average'
-    )
-
-    fig.update_layout(
-        width=900,
-        height=600,
-        title_font=dict(size=20),
-        xaxis_title='Wine',
-        yaxis_title='Average Rating'
-    )
-
-    # Display the scatter plot
-    st.plotly_chart(fig)
-
-    st.write("""
-    ✨ The scatter plot provides a visualization of the top 10 wines with respect to their average ratings and the number of total ratings. Each dot represents a wine, with the size of the dot indicating the total number of ratings (popularity) and the color reflecting the average rating. Larger and darker dots signify wines that are highly rated and widely reviewed.
-    """)
-
-    fig = px.treemap(
-        top_10_wines,
-        path=['name'],
-        values='total_rating',
-        color='ratings_average',
-        color_continuous_scale='Blues',
-        title='Treemap of Top 10 Wines by Total Rating Count and Average Rating',
-        labels={'name': 'Wine', 'total_rating': 'Total Rating', 'ratings_average': 'Average Rating'}
-    )
-
-    fig.update_layout(
-        width=900,
-        height=600,
-        title_font=dict(size=20)
-    )
-
-    # Display the treemap
-    st.plotly_chart(fig)
-
-    st.write("""
-    📦 The treemap visually represents the top 10 wines where the size of each box corresponds to the total number of ratings each wine has received. The color gradient, ranging from light to dark blue, indicates the average rating of each wine. Darker shades of blue represent higher average ratings. This helps in quickly assessing which wines are both popular and highly rated.
-    """)
-
-    fig = px.box(
-        top_10_wines,
-        x='name',
-        y='ratings_average',
-        color='name',
-        title='Distribution of Ratings for Top 10 Wines',
-        labels={'name': 'Wine', 'ratings_average': 'Average Rating'}
-    )
-
-    fig.update_layout(
-        width=900,
-        height=600,
-        title_font=dict(size=20)
-    )
-
-    # Display the box plot
-    st.plotly_chart(fig)
-
-    st.write("""
-    📈 The box plot provides a detailed view of the rating distribution for each of the top 10 wines. Each box represents the spread of average ratings for a particular wine, showing the median rating, quartiles, and any potential outliers. This plot helps to understand the consistency of ratings among the top wines, highlighting any wines with significant variations in customer feedback.
-    """)
-
-    # Display the top 10 wines data
-    display_aggrid_table(top_10_wines, title="Top 10 Wines by Rating")
 
 
 elif page == "Country to prioritise":
@@ -195,6 +127,7 @@ elif page == "Country to prioritise":
                  x='name',
                  y='users_count',
                  color='users_count',
+                 color_continuous_scale='Blues',  # Blue color scale
                  title='Top 5 Countries with the Highest Number of Users',
                  labels={'name': 'Country', 'users_count': 'Number of Users'},
                  text='users_count')  # Display number of users on the bars
@@ -218,44 +151,32 @@ elif page == "Country to prioritise":
 
     # Display the chart
     st.plotly_chart(fig)
+    # Calculate the total number of users across the top 5 countries
 
     st.write("""
     📊 The bar chart displays the top 5 countries based on the number of users. Each bar represents a country, with the height showing the total number of users. The color intensity indicates the user count, with darker colors representing higher numbers. This chart helps identify which countries have the highest user engagement, making them prime targets for your marketing efforts.
     """)
 
-    fig = px.scatter(
-        top_5_countries,
-        x='name',
-        y='users_count',
-        size='users_count',
-        color='users_count',
-        size_max=60,
-        title='Bubble Chart of Top 5 Countries by Number of Users',
-        labels={'name': 'Country', 'users_count': 'Number of Users'}
-    )
 
-    fig.update_layout(
-        width=900,
-        height=600,
-        title_font=dict(size=20),
-        xaxis_title='Country',
-        yaxis_title='Number of Users'
-    )
+    # Sort top 5 countries by 'users_count' in descending order to apply the deepest blue to the country with most users
+    top_5_countries_sorted = top_5_countries.sort_values(by='users_count', ascending=False)
 
-    st.plotly_chart(fig)
+    # Define a custom color sequence where the first color is deep blue
+    color_sequence = ['#00008B', '#4682B4', '#5F9EA0', '#87CEEB', '#B0E0E6']  # Adjust shades as needed
 
-    st.write("""
-    ✨ The scatter plot (bubble chart) shows the top 5 countries with respect to the number of users. Each bubble represents a country, with its size corresponding to the number of users and color reflecting the same metric. Larger and darker bubbles indicate countries with a higher number of users. This visualization highlights which countries have the largest user base and may offer the most potential for marketing impact.
-    """)
-
+    # Create the pie chart
     fig = px.pie(
-        top_5_countries,
+        top_5_countries_sorted,
         names='name',
         values='users_count',
-        title='Proportion of Users by Country',
+        title='Distribution of Users Across Top 5 Countries',
         labels={'name': 'Country', 'users_count': 'Number of Users'},
-        color_discrete_sequence=px.colors.sequential.Blues  # Blue color scale
-    )
+        color_discrete_sequence=color_sequence  # Apply custom color sequence
+)
+
+   
+
+
 
     fig.update_layout(
         width=900,
@@ -265,31 +186,17 @@ elif page == "Country to prioritise":
 
     st.plotly_chart(fig)
 
-    st.write("""
-    🥧 The pie chart illustrates the proportion of total users across the top 5 countries. Each slice of the pie represents a country’s share of the total user base. This chart helps visualize how users are distributed among these countries, providing a quick overview of each country’s relative importance in the user landscape.
+    # Calculate the total number of users across the top 5 countries
+    total_users = top_5_countries_sorted['users_count'].sum()
+
+    # Add the explanation with the total number of users
+    st.write(f"""
+        🥧 The pie chart illustrates the proportion of total users across the top 5 countries. Each slice of the pie represents a country’s share of the total user base. 
+        This chart helps visualize how users are distributed among these countries, providing a quick overview of each country’s relative importance in the user landscape.
+
+        **Total Users: {total_users:,}**
     """)
 
-    fig = px.treemap(
-        top_5_countries,
-        path=['name'],
-        values='users_count',
-        color='users_count',
-        color_continuous_scale='Blues',
-        title='Treemap of Top 5 Countries by Number of Users',
-        labels={'name': 'Country', 'users_count': 'Number of Users'}
-    )
-
-    fig.update_layout(
-        width=900,
-        height=600,
-        title_font=dict(size=20)
-    )
-
-    st.plotly_chart(fig)
-
-    st.write("""
-    📦 The treemap provides a hierarchical view of the top 5 countries based on the number of users. Each box’s size represents the number of users, and the color intensity shows the count as well, with darker shades of blue indicating higher numbers. This visualization helps quickly identify which countries dominate the user base and should be prioritized for marketing efforts.
-    """)
 
     # Display the top 5 countries data
     display_aggrid_table(top_5_countries, title="Top 5 Countries by Users Count")
@@ -439,6 +346,7 @@ elif page == "Country leaderboard":
                 x='name',  # X-axis should be 'wine_ratings_avg'
                 y='wine_ratings_avg',  # Y-axis should be 'name' (Country)
                 color='users_count',  # Color by 'users_count'
+                color_continuous_scale='Blues',
                 title='Average Wine Rating by Country',  # Title
                 labels={'users_count': 'Number of Users', 'name': 'Country', 'wine_ratings_avg': 'Average Rating'},  # Axis labels  
                 text='wine_ratings_avg')  # Display average ratings on the bars
@@ -470,8 +378,8 @@ elif page == "Country leaderboard":
     # Create a treemap with 'Country' as the labels, 'users_count' as the size, and 'wine_ratings_avg' as the color
     fig = px.treemap(leader_board,  # Data
                     path=['name'],  # Hierarchical path (in this case, just 'name' for country)
-                    values='users_count',  # Size of the blocks (number of users)
-                    color='wine_ratings_avg',  # Color of the blocks based on average rating
+                    values='wine_ratings_avg',  # Size of the blocks (number of users)
+                    color='users_count',  # Color of the blocks based on average rating
                     title='Treemap of Average Wine Ratings by Country',  # Title
                     labels={'name': 'Country', 'users_count': 'Number of Users', 'wine_ratings_avg': 'Average Rating'},  # Axis labels  
                     color_continuous_scale='Blues')  # Color scale for average rating
@@ -515,7 +423,7 @@ elif page == "Top 5 Cabernet Sauvignon":
         top_5_countries, 
         x='Country', 
         y='Wine rating average', 
-        color='Wine rating average',  # Color by rating average
+        color='Wine rating count',  # Color by rating average
         color_continuous_scale='Blues',  # Blue color scale for average ratings
         title='Top 5 Countries with the Highest Average Rating for Cabernet Sauvignon',
         labels={'Country': 'Country', 'Wine rating average': 'Average Rating'},
@@ -536,7 +444,7 @@ elif page == "Top 5 Cabernet Sauvignon":
             tickfont=dict(size=14),  # Increase Y-axis tick font size
             title_text='Average Rating',  # Y-axis title
             title_font=dict(size=16),  # Y-axis title font size
-            range=[0, top_5_countries['Wine rating average'].max() + 1]  # Adjust Y-axis range
+            range=[2.5, top_5_countries['Wine rating average'].max() + 0.5]  # Adjust Y-axis range
         )
     )
 
