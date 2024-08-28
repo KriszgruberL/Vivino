@@ -44,9 +44,12 @@ def query_limited_budget(cursor : sqlite3.Cursor) -> None:
     if countries_top:
         headers = [col[0] for col in cursor.description] # get headers
         countries_top.insert(0, tuple(headers))
-        with open("./data/CSVs/limited_budget.csv", 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csvwriter.writerows(countries_top)
+        try : 
+            with open("./data/CSVs/limited_budget.csv", 'w', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerows(countries_top)
+        except IOError as e:
+            print(f"An error occurred when writing the file: {e}")
     else:
         sys.exit("No rows found for query: {}".format(query))
 

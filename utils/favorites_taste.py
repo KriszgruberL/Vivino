@@ -35,13 +35,16 @@ def query_favorites_taste(cursor : sqlite3.Cursor) -> None:
         ON w.region_id = r.id
     JOIN countries c
         ON r.country_code = c.code
-    WHERE k.name IN (
-            'coffee',
-            'toast',
-            'green apple',
-            'cream',
-            'citrus'
-            )
+    WHERE 
+        EXISTS (
+            SELECT 1
+            FROM keywords_wine kw2
+            JOIN keywords k2 ON kw2.keyword_id = k2.id
+            WHERE kw2.wine_id = w.id
+            AND k2.name IN ('coffee', 'toast', 'green apple', 'cream', 'citrus')
+            GROUP BY kw2.wine_id
+            HAVING COUNT(DISTINCT k2.name) = 5
+        )
         AND c.users_count >= 10
     GROUP BY w.name
     HAVING COUNT(DISTINCT k.name) = 5;
@@ -59,9 +62,12 @@ def query_favorites_taste(cursor : sqlite3.Cursor) -> None:
     if favorites_taste:
         headers = [col[0] for col in cursor.description] # get headers
         favorites_taste.insert(0, tuple(headers))
-        with open("./data/CSVs/favorites_taste.csv", 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csvwriter.writerows(favorites_taste)
+        try : 
+            with open("./data/CSVs/favorites_taste.csv", 'w', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerows(favorites_taste)
+        except IOError as e:
+            print(f"An error occurred when writing the file: {e}")
     else:
         sys.exit("No rows found for query: {}".format(query))
 
