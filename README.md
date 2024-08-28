@@ -95,7 +95,7 @@ Vivino/
     python main.py
     ```
 
-2. To run the streamlit, execute the `main.py` script:
+2. To run the streamlit, execute the `streamlit_vivino.py` script:
     ```sh
     streamlit run visualisations/streamlit_vivino.py
     ```
