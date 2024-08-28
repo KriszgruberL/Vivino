@@ -65,7 +65,7 @@ if page == "Project context📝":
     with col1 : 
         pass
     with col2 : 
-        st.image("./assets/vivono_logo.png", width=300)
+        st.image("./assets/vivono_logo.png", width=300, use_column_width= True)
     with col3 : 
         pass
 
