@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
-import seaborn as sns
 
 # Load the data
 data1 = pd.read_csv("../data/CSVs/highlight_wine.csv")
