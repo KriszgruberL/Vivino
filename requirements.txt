@@ -1,5 +1,5 @@
-sqlite3 
 pandas 
 streamlit
 plotly
-st-aggrid
+streamlit-aggrid
+pillow==10.4.0
