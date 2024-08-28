@@ -52,7 +52,7 @@ if page == "Project context📝":
 
 
     st.write("""
-    ## Welcome to the Vivino Data Visualization Project!
+    # Welcome to the Vivino Data Visualization Project!
 
     This initiative is dedicated to leveraging data insights to drive informed decision-making in the wine industry. Our aim is to use detailed wine data to identify key trends, uncover valuable insights, and provide actionable recommendations. Here's what we strive to achieve:
 
