@@ -1,21 +1,27 @@
-
 <p align="center">
     <br>
-     <a href="https://github.com/KriszgruberL" target="_blank"> <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem"></a>
+    <a href="https://github.com/KriszgruberL" target="_blank">
+        <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem">
+    </a>
     <br>
     <br><br>
-    <a><img src="./assets/vivono_logo.png" width="350"  /></a>
-    <h2 align="center">Using:
-    <br>
-    <br>
-    <a href="https://www.python.org/downloads/release/python-3120/"><img alt="Python 3.12" src="https://img.shields.io/badge/Python_3.12%20-%20Python?style=for-the-badge&logo=python&logoSize=auto&labelColor=%23FFDAB9&color=%23FFDAB9
-    " style="border-radius:0.5rem"></a>
-    <a href="https://www.sqlite.org/docs.html"><img alt="SQLite3" src="https://img.shields.io/badge/SQLite3%20-%20SQLite3?style=for-the-badge&logo=sqlite&logoColor=white&logoSize=auto&labelColor=%23F08080&color=%23F08080
-    " style="border-radius:0.5rem"></a>
-    <a href="https://www.sqlite.org/docs.html"><img alt="Streamlit" src="https://img.shields.io/badge/Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto&labelColor=%23FF4B4B&color=%23FF4B4B
-    " style="border-radius:0.5rem"></a>
-    <br>
+    <a><img src="./assets/vivono_logo.png" width="350" /></a>
+    <h2 align="center">Using:</h2>
 </p>
+
+<p align="center">
+    <a href="https://www.python.org/downloads/release/python-3120/">
+        <img alt="Python 3.12" src="https://img.shields.io/badge/Python_3.12%20-%20Python?style=for-the-badge&logo=python&logoSize=auto&labelColor=%23FFDAB9&color=%23FFDAB9" style="border-radius:0.5rem">
+    </a>
+    <a href="https://www.sqlite.org/docs.html">
+        <img alt="SQLite3" src="https://img.shields.io/badge/SQLite3%20-%20SQLite3?style=for-the-badge&logo=sqlite&logoColor=white&logoSize=auto&labelColor=%23F08080&color=%23F08080" style="border-radius:0.5rem">
+    </a>
+    <a href="https://docs.streamlit.io/">
+        <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto&labelColor=%23FF4B4B&color=%23FF4B4B" style="border-radius:0.5rem">
+    </a>
+</p>
+
+
 
 ## 📚 Overview
 
