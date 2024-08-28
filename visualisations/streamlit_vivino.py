@@ -4,13 +4,13 @@ import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
 
 # Load the data
-data1 = pd.read_csv("../data/CSVs/highlight_wine.csv")
-data2 = pd.read_csv("../data/CSVs/limited_budget.csv")
-data3 = pd.read_csv("../data/CSVs/top_wineries.csv")
-data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
-data5 = pd.read_csv("../data/CSVS/common_grapes_best_wines.csv")
-data6 = pd.read_csv("../data/CSVs/wine_by_taste_filtered.csv")
-data7 = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
+data1 = pd.read_csv("./data/CSVs/highlight_wine.csv")
+data2 = pd.read_csv("./data/CSVs/limited_budget.csv")
+data3 = pd.read_csv("./data/CSVs/top_wineries.csv")
+data4 = pd.read_csv("./data/CSVs/favorites_taste.csv")
+data5 = pd.read_csv("./data/CSVs/common_grapes_best_wines.csv")
+data6 = pd.read_csv("./data/CSVs/wine_by_taste_filtered.csv")
+data7 = pd.read_csv("./data/CSVs/cabernet_by_rating.csv")
 
 
 # Main title
@@ -47,7 +47,7 @@ def display_aggrid_table(df, title="Table", height=400):
 
 
 if page == "Project context📝":
-    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", width=300)
+    st.image("./assets/vivono_logo.png", width=300)
 
 
     st.write("""
@@ -135,7 +135,6 @@ elif page == "Queries Overview🔎":
     
     st.subheader("Results")
     st.write("The query returned the following results:")
-    data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
     display_aggrid_table(data4.head(10), title="Wines with Taste Keywords")
 
 elif page == "Top 10 wines 🍷":
