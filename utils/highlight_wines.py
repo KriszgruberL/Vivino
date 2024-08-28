@@ -2,22 +2,34 @@ import csv
 import sqlite3
 import sys
 
-from utils.connect_db import connect_to_db
 
 # - We want to highlight 10 wines to increase our sales. 
 # Which ones should we choose and why?
 
-def query_highlight_wine(cursor) : 
+def query_highlight_wine(cursor : sqlite3.Cursor) -> None: 
+    """Executes a SQL query to retrieve information about highlighted wines.
+    Parameters:
+    cursor (sqlite3.Cursor): The cursor object to execute the query.
+    Returns:
+    None
+    Raises:
+    sqlite3.Error: If a database error occurs.
+    sqlite3.DatabaseError: If a database error occurs.
+    Exception: If an unexpected error occurs."""
+    
     query = """
-        select  wines.name,
-                wines.ratings_average, 
-                sum(wines.ratings_count) as total_rating, 
-                countries.users_count
-        from countries 
-            join regions on regions.country_code = countries.code
-            join wines on wines.region_id = regions.id
-        group by wines.name
-        order by wines.ratings_average desc, total_rating desc
+        SELECT wines.name,
+            wines.ratings_average,
+            SUM(wines.ratings_count) AS total_rating,
+            countries.users_count
+        FROM countries
+        JOIN regions
+            ON regions.country_code = countries.code
+        JOIN wines
+            ON wines.region_id = regions.id
+        GROUP BY wines.name
+        ORDER BY wines.ratings_average DESC,
+            total_rating DESC
         """
                 
     try : 
@@ -33,9 +45,12 @@ def query_highlight_wine(cursor) :
     if top_wine:
         headers = [col[0] for col in cursor.description] # get headers
         top_wine.insert(0, tuple(headers))
-        with open("./data/CSVs/highlight_wine.csv", 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csvwriter.writerows(top_wine)
+        try : 
+            with open("./data/CSVs/highlight_wine.csv", 'w', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerows(top_wine)
+        except IOError as e:
+            print(f"An error occurred when writing the file: {e}")
     else:
         sys.exit("No rows found for query: {}".format(query))
 
