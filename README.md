@@ -16,6 +16,11 @@
     <br>
     <br>
     <a><img src="./assets/vivono_logo.png" width="350" /></a>
+    <br>
+    <a href="dotdotdot" target="_blank">
+        <img alt="Deployed on streamlit" src="https://img.shields.io/badge/Deployed_on_Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=black&logoSize=auto&labelColor=%23F6A296&color=%23FFDAB9" style="border-radius:0.5rem">
+    </a>
+    <br>
     <h2 align="center">Using:</h2>
 </p>
 
@@ -44,6 +49,10 @@ Thank you for your contributions to this project :
 - [ness015618](https://github.com/ness015618)
 - [RachaelShenRq](https://github.com/RachaelShenRq)
 - [KriszgruberL](https://github.com/KriszgruberL)
+
+
+## 🎙️ Deployed
+to add 
 
 ## 🚧 Project Structure
 ```
