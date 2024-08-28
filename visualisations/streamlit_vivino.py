@@ -12,19 +12,25 @@ data5 = pd.read_csv("./data/CSVs/common_grapes_best_wines.csv")
 data6 = pd.read_csv("./data/CSVs/wine_by_taste_filtered.csv")
 data7 = pd.read_csv("./data/CSVs/cabernet_by_rating.csv")
 
+# Add custom CSS to center titles using Flexbox
+st.markdown("""
+    <style>
+    .centered-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-col1, col2, col3 = st.columns(3)
-with col1 : 
-    pass
-with col2 : 
-        # Main title
-    st.markdown("<h1>Vivino Data Dashboard</h1>", unsafe_allow_html=True)
-        
-    # Center the second title
-    st.markdown("<h2>A comprehensive wine analysis</h2>", unsafe_allow_html=True)
-with col3 : 
-    pass
+        margin: 0 auto; /* Optional: to remove any default margin */
+    }
+    </style>
+    </style>
+    """, unsafe_allow_html=True)
 
+# Main title
+st.markdown("<h1 class='centered-title'>Vivino Data Dashboard</h1>", unsafe_allow_html=True)
+    
+# Center the second title
+st.markdown("<h2 class='centered-title'>A comprehensive wine analysis</h2>", unsafe_allow_html=True)
 
 # Sidebar
 st.sidebar.title("Summary")
