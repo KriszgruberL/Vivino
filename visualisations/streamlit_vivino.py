@@ -17,7 +17,7 @@ data7 = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
 # Main title
 st.markdown("<h1 class='centered-title'>Vivino Data Dashboard</h1>", unsafe_allow_html=True)
     
-    # Center the second title
+# Center the second title
 st.markdown("<h2 class='centered-title'>A comprehensive wine analysis</h2>", unsafe_allow_html=True)
 # Sidebar
 st.sidebar.title("Summary")
