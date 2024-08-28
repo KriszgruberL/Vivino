@@ -15,21 +15,23 @@ data7 = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
 
 
 # Main title
-st.title("Vivino Data Dashboard: A Comprehensive Wine Analysis")
-
+st.markdown("<h1 class='centered-title'>Vivino Data Dashboard</h1>", unsafe_allow_html=True)
+    
+    # Center the second title
+st.markdown("<h2 class='centered-title'>A comprehensive wine analysis</h2>", unsafe_allow_html=True)
 # Sidebar
 st.sidebar.title("Summary")
 pages = [
-    "Project context",
+    "Project context📝",
     "Query Overview🔎",
     "Top 10 wines 🍷",
-    "Country to prioritise  🌍",
+    "Country to prioritise🌍",
     "Top 3 wineries 🏆",
     "Customer cluster 👥",
     "Most common grapes 📈",
     "Country leaderboard 📊",
-    "Top 5 Cabernet Sauvignon 🍇",
-    "Top Wine by characteristics 🍇"
+    "Top 5 Cabernet Sauvignon🍇",
+    "Top Wine by characteristics✨"
     
 ]   
 
@@ -44,8 +46,11 @@ def display_aggrid_table(df, title="Table", height=400):
     gridOptions = gb.build()
     AgGrid(df, gridOptions=gridOptions, height=height, fit_columns_on_grid_load=True)
 
-if page == "Project context":
-    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+
+if page == "Project context📝":
+    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", width=400)
+
+
     st.write("""
     ## Welcome to the Vivino Data Visualization Project!
 
@@ -179,7 +184,7 @@ elif page == "Top 10 wines 🍷":
     st.plotly_chart(fig)
 
 
-elif page == "Country to prioritise 🌍":
+elif page == "Country to prioritise🌍":
     st.write("We have a limited marketing budget for this year. Which country should we prioritize and why?")
     display_aggrid_table(data2.head(16), title="Number of Users by Country")
 
@@ -635,7 +640,7 @@ elif page == "Top 5 Cabernet Sauvignon🍇":
     # Display the top 5 countries data
     display_aggrid_table(top_5_countries, title="Top 5 Countries by Cabernet Sauvignon Rating")
 
-elif page == "Top Wine by characteristics 🍇":
+elif page == "Top Wine by characteristics✨":
 
     st.write("""
         We would like to select the top wine by characteristics.
@@ -725,11 +730,6 @@ elif page == "Top Wine by characteristics 🍇":
     # Display the heatmap in Streamlit
     st.plotly_chart(fig)
     
-    # Find the most correlated pairs
-    import streamlit as st
-
-
-   
     # Encode categorical columns
     categorical_columns = data6.select_dtypes(include=['object']).columns
     data6_encoded = data6.copy()
