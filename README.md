@@ -6,6 +6,7 @@
     <a href="https://github.com/AdrienPiette" target="_blank">
         <img alt="Made with AdrienPiette" src="assets/with-adrienpiette.svg" style="border-radius:0.5rem">
     </a>
+    <br>
     <a href="https://github.com/ness015618" target="_blank">
         <img alt="Made with ness015618" src="assets/with-ness015618.svg" style="border-radius:0.5rem">
     </a>
