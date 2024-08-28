@@ -64,9 +64,3 @@ def query_best_vintage_and_wine_per_country (cursor : sqlite3.Cursor) -> None:
     except Exception as e:
         print(f"An unexpected error occurred: {e}")  
 
-
-
-conn = sqlite3.connect("./data/vivino.db")
-cursor = conn.cursor()
-conn.close()
-print("DB connection closed.")    

@@ -1,6 +1,8 @@
 sqlite3 
+
+
 pandas 
-matplotlib
+streamlit
+plotly
+st-aggrid
 seaborn
-sqlalchemy
-numpy

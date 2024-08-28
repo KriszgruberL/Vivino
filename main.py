@@ -20,6 +20,7 @@ def main() :
         query_wine_by_taste(cursor)
         query_best_vintage_and_wine_per_country(cursor)
 
+
     finally: 
         close_db(cxn)
 
