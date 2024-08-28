@@ -23,7 +23,7 @@ st.markdown("<h2 class='centered-title'>A comprehensive wine analysis</h2>", uns
 st.sidebar.title("Summary")
 pages = [
     "Project context📝",
-    "Query Overview🔎",
+    "Queries Overview🔎",
     "Top 10 wines 🍷",
     "Country to prioritise🌍",
     "Top 3 wineries 🏆",
@@ -48,7 +48,7 @@ def display_aggrid_table(df, title="Table", height=400):
 
 
 if page == "Project context📝":
-    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", width=400)
+    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", width=300)
 
 
     st.write("""
@@ -84,7 +84,7 @@ if page == "Project context📝":
 
     Thank you for joining us on this data-driven journey through the world of wine!
     """)
-elif page == "Query Overview🔎":
+elif page == "Queries Overview🔎":
 
     query1 = """
             SELECT DISTINCT w.name AS wine_name,
