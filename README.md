@@ -1,21 +1,27 @@
-
 <p align="center">
     <br>
-     <a href="https://github.com/KriszgruberL" target="_blank"> <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem"></a>
+    <a href="https://github.com/KriszgruberL" target="_blank">
+        <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem">
+    </a>
     <br>
     <br><br>
-    <a><img src="./assets/vivono_logo.png" width="350"  /></a>
-    <h2 align="center">Using:
-    <br>
-    <br>
-    <a href="https://www.python.org/downloads/release/python-3120/"><img alt="Python 3.12" src="https://img.shields.io/badge/Python_3.12%20-%20Python?style=for-the-badge&logo=python&logoSize=auto&labelColor=%23FFDAB9&color=%23FFDAB9
-    " style="border-radius:0.5rem"></a>
-    <a href="https://www.sqlite.org/docs.html"><img alt="SQLite3" src="https://img.shields.io/badge/SQLite3%20-%20SQLite3?style=for-the-badge&logo=sqlite&logoColor=white&logoSize=auto&labelColor=%23F08080&color=%23F08080
-    " style="border-radius:0.5rem"></a>
-    <a href="https://www.sqlite.org/docs.html"><img alt="Streamlit" src="https://img.shields.io/badge/Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto&labelColor=%23FF4B4B&color=%23FF4B4B
-    " style="border-radius:0.5rem"></a>
-    <br>
+    <a><img src="./assets/vivono_logo.png" width="350" /></a>
+    <h2 align="center">Using:</h2>
 </p>
+
+<p align="center">
+    <a href="https://www.python.org/downloads/release/python-3120/">
+        <img alt="Python 3.12" src="https://img.shields.io/badge/Python_3.12%20-%20Python?style=for-the-badge&logo=python&logoSize=auto&labelColor=%23FFDAB9&color=%23FFDAB9" style="border-radius:0.5rem">
+    </a>
+    <a href="https://www.sqlite.org/docs.html">
+        <img alt="SQLite3" src="https://img.shields.io/badge/SQLite3%20-%20SQLite3?style=for-the-badge&logo=sqlite&logoColor=white&logoSize=auto&labelColor=%23F08080&color=%23F08080" style="border-radius:0.5rem">
+    </a>
+    <a href="https://docs.streamlit.io/">
+        <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto&labelColor=%23FF4B4B&color=%23FF4B4B" style="border-radius:0.5rem">
+    </a>
+</p>
+
+
 
 ## 📚 Overview
 
@@ -88,20 +94,13 @@ Vivino/
 ## Visuals
 
 ### Correlation Matrix of Wine Characteristics
-![Correlation Matrix](./assets/image.png)
+![Correlation Matrix](/assets/image.png)
 
 ### Top 3 Wineries with the Highest Average Rating
-![Top 3 Wineries](./assets/image2.png)
+![Top 3 Wineries](/assets/image2.png)
 
 ### Top 10 Wines by Average Rating Count
-![Top 10 Wines](./assets/image3.png)
-
----
-
-### 👀 Classes Overview
-
----
-Here’s how you can include the classes overview for the `main.py` and `streamlit_vivino.py` files, making it concise and informative:
+![Top 10 Wines](/assets/image3.png)
 
 ---
 
@@ -119,7 +118,6 @@ The entry point of the application. It orchestrates the execution of various dat
   - `query_common_grapes(cursor)`: Determines the most common grape varieties and their top-rated wines.
   - `query_wine_by_taste(cursor)`: Retrieves top wines based on taste characteristics.
   - `query_best_vintage_and_wine_per_country(cursor)`: Generates a leaderboard for countries based on wine and vintage ratings.
-
 
 ---
 #### **utils/**
