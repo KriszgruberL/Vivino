@@ -111,7 +111,6 @@ Vivino/
     <br>
     <img src="/assets/image3.png" alt="Top 10 Wines" width="60%">
 </p>
----
 
 ---
 
