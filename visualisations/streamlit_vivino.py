@@ -67,14 +67,13 @@ def display_aggrid_table(df, title="Table", height=400):
 
 
 if page == "Project context📝":
-    st.markdown(
-        """
-        <div class="centered-image">
-            <img src="./assets/vivono_logo.png" width="300">
-        </div>
-        """, 
-        unsafe_allow_html=True
-    )
+    col1, col2, col3 = st.columns(3)
+    with col1 : 
+        pass
+    with col2 : 
+        st.image("./assets/vivono_logo.png", width=300)
+    with col3 : 
+        pass
 
 
     st.write("""
