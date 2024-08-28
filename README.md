@@ -94,20 +94,13 @@ Vivino/
 ## Visuals
 
 ### Correlation Matrix of Wine Characteristics
-![Correlation Matrix](./assets/image.png)
+![Correlation Matrix](/assets/image.png)
 
 ### Top 3 Wineries with the Highest Average Rating
-![Top 3 Wineries](./assets/image2.png)
+![Top 3 Wineries](/assets/image2.png)
 
 ### Top 10 Wines by Average Rating Count
-![Top 10 Wines](./assets/image3.png)
-
----
-
-### 👀 Classes Overview
-
----
-Here’s how you can include the classes overview for the `main.py` and `streamlit_vivino.py` files, making it concise and informative:
+![Top 10 Wines](/assets/image3.png)
 
 ---
 
@@ -125,7 +118,6 @@ The entry point of the application. It orchestrates the execution of various dat
   - `query_common_grapes(cursor)`: Determines the most common grape varieties and their top-rated wines.
   - `query_wine_by_taste(cursor)`: Retrieves top wines based on taste characteristics.
   - `query_best_vintage_and_wine_per_country(cursor)`: Generates a leaderboard for countries based on wine and vintage ratings.
-
 
 ---
 #### **utils/**
