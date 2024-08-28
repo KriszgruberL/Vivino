@@ -6,6 +6,7 @@
     <a href="https://github.com/AdrienPiette" target="_blank">
         <img alt="Made with AdrienPiette" src="assets/with-adrienpiette.svg" style="border-radius:0.5rem">
     </a>
+    <br>
     <a href="https://github.com/ness015618" target="_blank">
         <img alt="Made with ness015618" src="assets/with-ness015618.svg" style="border-radius:0.5rem">
     </a>
@@ -26,7 +27,7 @@
         <img alt="SQLite3" src="https://img.shields.io/badge/SQLite3%20-%20SQLite3?style=for-the-badge&logo=sqlite&logoColor=white&logoSize=auto&labelColor=%23F08080&color=%23F08080" style="border-radius:0.5rem">
     </a>
     <a href="https://docs.streamlit.io/" target="_blank">
-        <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto&labelColor=%23FF4B4B&color=%23FF4B4B" style="border-radius:0.5rem">
+        <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto&labelColor=%23B45F5F&color=%23B45F5F" style="border-radius:0.5rem">
     </a>
 </p>
 
