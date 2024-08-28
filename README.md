@@ -165,7 +165,7 @@ Contains scripts to create visualizations for analyzing and presenting the wine 
    - **Sidebar Navigation**: Allows users to navigate between different visualizations and analysis pages.
    - **Pages**:
      - **Project Context**: Provides an overview of the project's goals and objectives.
-     - **Query Overview**: Explains specific SQL queries used in the project, along with their optimization strategies.
+     - **Queries Overview**: Explains specific SQL queries used in the project, along with their optimization strategies.
      - **Top 10 Wines**: Visualizes the top 10 wines based on ratings and potential sales impact.
      - **Country to Prioritize**: Identifies which countries should be targeted for marketing based on user data.
      - **Top 3 Wineries**: Displays the highest-rated wineries.
