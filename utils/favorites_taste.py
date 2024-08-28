@@ -35,13 +35,16 @@ def query_favorites_taste(cursor : sqlite3.Cursor) -> None:
         ON w.region_id = r.id
     JOIN countries c
         ON r.country_code = c.code
-    WHERE k.name IN (
-            'coffee',
-            'toast',
-            'green apple',
-            'cream',
-            'citrus'
-            )
+    WHERE 
+        EXISTS (
+            SELECT 1
+            FROM keywords_wine kw2
+            JOIN keywords k2 ON kw2.keyword_id = k2.id
+            WHERE kw2.wine_id = w.id
+            AND k2.name IN ('coffee', 'toast', 'green apple', 'cream', 'citrus')
+            GROUP BY kw2.wine_id
+            HAVING COUNT(DISTINCT k2.name) = 5
+        )
         AND c.users_count >= 10
     GROUP BY w.name
     HAVING COUNT(DISTINCT k.name) = 5;

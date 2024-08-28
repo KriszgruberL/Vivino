@@ -6,16 +6,17 @@ from utils.limited_budget import query_limited_budget
 from utils.wines_by_taste import query_wine_by_taste
 
 def main() : 
-    cxn, cursor= connect_to_db()
-    
-    # query_limited_budget(cursor)
-    # query_highlight_wine(cursor)
-    # query_top_wineries(cursor)
-    # query_favorites_taste(cursor)
-    query_wine_by_taste(cursor)
+    try : 
+        cxn, cursor= connect_to_db()
+        
+        # query_limited_budget(cursor)
+        # query_highlight_wine(cursor)
+        # query_top_wineries(cursor)
+        query_favorites_taste(cursor)
+        # query_wine_by_taste(cursor)
 
-    
-    close_db(cxn)
+    finally: 
+        close_db(cxn)
 
 
 if __name__ == "__main__":
