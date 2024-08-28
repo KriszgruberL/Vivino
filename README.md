@@ -17,7 +17,7 @@
     <br>
     <a><img src="./assets/vivono_logo.png" width="350" /></a>
     <br>
-    <a href="dotdotdot" target="_blank">
+    <a href="https://vivino.streamlit.app/" target="_blank">
         <img alt="Deployed on streamlit" src="https://img.shields.io/badge/Deployed_on_Streamlit%20-%20Streamlit?style=for-the-badge&logo=streamlit&logoColor=black&logoSize=auto&labelColor=%23F6A296&color=%23FFDAB9" style="border-radius:0.5rem">
     </a>
     <br>
@@ -52,7 +52,8 @@ Thank you for your contributions to this project :
 
 
 ## 🎙️ Deployed
-to add 
+[Vivino - Streamlit](https://vivino.streamlit.app/)
+
 
 ## 🚧 Project Structure
 ```
