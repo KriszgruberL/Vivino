@@ -93,14 +93,25 @@ Vivino/
 ---
 ## Visuals
 
-### Correlation Matrix of Wine Characteristics
-![Correlation Matrix](/assets/image.png)
+<p align="center">
+    <strong>Correlation Matrix of Wine Characteristics</strong>
+    <br>
+    <img src="/assets/image.png" alt="Correlation Matrix" width="60%">
+</p>
+<br>
 
-### Top 3 Wineries with the Highest Average Rating
-![Top 3 Wineries](/assets/image2.png)
-
-### Top 10 Wines by Average Rating Count
-![Top 10 Wines](/assets/image3.png)
+<p align="center">
+    <strong>Top 3 Wineries with the Highest Average Rating</strong>
+    <br>
+    <img src="/assets/image2.png" alt="Top 3 Wineries" width="60%">
+</p>
+<br>
+<p align="center">
+    <strong>Top 10 Wines by Average Rating Count</strong>
+    <br>
+    <img src="/assets/image3.png" alt="Top 10 Wines" width="60%">
+</p>
+---
 
 ---
 
