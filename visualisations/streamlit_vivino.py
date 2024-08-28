@@ -21,14 +21,16 @@ st.title("Vivino Data Dashboard: A Comprehensive Wine Analysis")
 st.sidebar.title("Summary")
 pages = [
     "Project context",
-    "Top 10 wines",
-    "Country to prioritise",
-    "Top 3 wineries",
-    "Customer cluster",
-    "Most common grapes",
-    "Country leaderboard",
-    "Top 5 Cabernet Sauvignon",
-    "Top Wine by characteristics"
+    "Query Overview🔎",
+    "Top 10 wines 🍷",
+    "Country to prioritise  🌍",
+    "Top 3 wineries 🏆",
+    "Customer cluster 👥",
+    "Most common grapes 📈",
+    "Country leaderboard 📊",
+    "Top 5 Cabernet Sauvignon 🍇",
+    "Top Wine by characteristics 🍇"
+    
 ]   
 
 page = st.sidebar.radio("Go to", pages)
@@ -43,6 +45,7 @@ def display_aggrid_table(df, title="Table", height=400):
     AgGrid(df, gridOptions=gridOptions, height=height, fit_columns_on_grid_load=True)
 
 if page == "Project context":
+    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     st.write("""
     ## Welcome to the Vivino Data Visualization Project!
 
@@ -65,14 +68,73 @@ if page == "Project context":
 
     **6. Create Leaderboards** 📊  
     Develop visualizations showcasing average wine ratings by country and vintage. These leaderboards provide a clear view of global and temporal trends, aiding in strategic planning and market analysis.
+    
+    **7. Recommend Top Cabernet Sauvignon Wines** 🍇
+    Provide recommendations for the top Cabernet Sauvignon wines based on customer ratings. This helps cater to specific customer preferences and enhance the wine selection process.
+    
+    **8. Analyze Wine Characteristics** 🍇
+    Explore the correlation between wine characteristics and average ratings. By identifying key features that influence ratings, we can enhance our understanding of customer preferences and optimize our product offerings.
 
     Through this project, we aim to enhance the wine selection process, optimize marketing strategies, and ultimately drive better business decisions. 
 
     Thank you for joining us on this data-driven journey through the world of wine!
     """)
+elif page == "Query Overview🔎":
 
+    query1 = """
+            SELECT DISTINCT w.name AS wine_name,
+                GROUP_CONCAT(DISTINCT k.name) AS taste_keywords,
+                COUNT(DISTINCT kw.keyword_id) AS nb_keywords,
+                c.name As country_name,
+                w.ratings_average AS wine_rating_avg, 
+                w.ratings_count AS wine_ratings_count 
+            FROM keywords_wine kw
+            JOIN keywords k
+                ON kw.keyword_id = k.id
+            JOIN wines w
+                ON kw.wine_id = w.id
+            JOIN regions r
+                ON w.region_id = r.id
+            JOIN countries c
+                ON r.country_code = c.code
+            WHERE 
+                EXISTS (
+                    SELECT 1
+                    FROM keywords_wine kw2
+                    JOIN keywords k2 ON kw2.keyword_id = k2.id
+                    WHERE kw2.wine_id = w.id
+                    AND k2.name IN ('coffee', 'toast', 'green apple', 'cream', 'citrus')
+                    GROUP BY kw2.wine_id
+                    HAVING COUNT(DISTINCT k2.name) = 5
+                )
+                AND c.users_count >= 10
+            GROUP BY w.name
+            HAVING COUNT(DISTINCT k.name) = 5;"""
 
-elif page == "Top 10 wines":
+    st.header("Overwiew of favorites taste query")
+    
+    st.write("We detected that a big cluster of customers likes a specific combination of tastes. ")
+    
+    st.write("The query below retrieves the wines that have the following taste keywords: 'coffee', 'toast', 'green apple', 'cream', 'citrus'. We checked that at least 10 customers confirm these keywords to ensure the accuracy of the selection.")
+    st.write("Additionally, we identified an appropriate group name for this cluster : 'Balanced Flavor Profile'")
+    
+    st.code(query1, language="sql", line_numbers=True)
+    
+    st.subheader("How did the query was optimized?")
+    st.write("Initially, I used an IN clause to filter wines based on specific taste keywords. However, this approach was inefficient because it required scanning the entire wines table. After some research, I discovered that the EXISTS clause is more efficient for this type of query. EXISTS stops processing as soon as it finds a match, unlike IN which requires a full table scan.")
+
+    st.write("EXISTS checks if at least one row meets the specified condition and halts further processing once a match is found. This early exit strategy can significantly improve performance, especially with large datasets. By avoiding a full table scan, EXISTS is generally more efficient than IN in scenarios like this.")
+
+    st.write("I also used the GROUP BY and HAVING clauses to ensure that each wine has all five taste keywords. This approach is more efficient than using a subquery with a COUNT function, as it reduces the number of times the subquery is executed. By grouping the results and filtering them based on the count of distinct taste keywords, I can efficiently identify wines that match all five keywords.")
+
+    st.write("Overall, these optimizations help improve the query's performance and efficiency, making it faster and more reliable for retrieving wines based on specific taste keywords.")
+    
+    st.subheader("Results")
+    st.write("The query returned the following results:")
+    data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
+    display_aggrid_table(data4.head(10), title="Wines with Taste Keywords")
+
+elif page == "Top 10 wines 🍷":
     st.write("We want to highlight 10 wines to increase our sales. Which ones should we choose and why?")
     top_10_wines_df = data1.sort_values(by='total_rating', ascending=False).head(10)
     display_aggrid_table(top_10_wines_df, title="Top 10 Wines")
@@ -90,7 +152,7 @@ elif page == "Top 10 wines":
                  x='name',  # X-axis should be 'name'
                  y='ratings_average',  # Y-axis should be 'ratings_average'
                  color='total_rating',  # Color by 'total_rating'
-                 color_continuous_scale='Blues',  # Blue color scale
+                 color_continuous_scale='Reds',  # Blue color scale
                  title='Top 10 Wines by Average Rating count',  # Title
                  labels={'name': 'Wine', 'total_rating': 'Total Rating', 'ratings_average': 'Average Rating'},  # Axis labels
                  text='ratings_average')  # Display average rating on the bars
@@ -117,7 +179,7 @@ elif page == "Top 10 wines":
     st.plotly_chart(fig)
 
 
-elif page == "Country to prioritise":
+elif page == "Country to prioritise 🌍":
     st.write("We have a limited marketing budget for this year. Which country should we prioritize and why?")
     display_aggrid_table(data2.head(16), title="Number of Users by Country")
 
@@ -134,7 +196,7 @@ elif page == "Country to prioritise":
                  x='name',
                  y='users_count',
                  color='users_count',
-                 color_continuous_scale='Blues',  # Blue color scale
+                 color_continuous_scale='Reds',  # Blue color scale
                  title='Top 5 Countries with the Highest Number of Users',
                  labels={'name': 'Country', 'users_count': 'Number of Users'},
                  text='users_count')  # Display number of users on the bars
@@ -169,8 +231,8 @@ elif page == "Country to prioritise":
     top_5_countries_sorted = top_5_countries.sort_values(by='users_count', ascending=False)
 
     # Define a custom color sequence where the first color is deep blue
-    color_sequence = ['#00008B', '#4682B4', '#5F9EA0', '#87CEEB', '#B0E0E6']  # Adjust shades as needed
-
+    color_sequence = ['#8B0000', '#B22222', '#DC143C', '#FF6347', '#FFA07A']
+    
     # Create the pie chart
     fig = px.pie(
         top_5_countries_sorted,
@@ -209,7 +271,7 @@ elif page == "Country to prioritise":
     display_aggrid_table(top_5_countries, title="Top 5 Countries by Users Count")
 
 
-elif page == "Top 3 wineries":
+elif page == "Top 3 wineries 🏆":
     st.write("We would like to give awards to the best wineries. Here are the top 3 wineries based on their ratings.")
     top_3_wineries_df = data3.sort_values(by='total_rating', ascending=False).head(3)
     display_aggrid_table(top_3_wineries_df, title="Top 3 Wineriesby average rating")
@@ -241,7 +303,7 @@ elif page == "Top 3 wineries":
         x='winery_name',
         y='average_rating',
         color='total_rating',
-        color_continuous_scale='Blues',
+        color_continuous_scale='Reds',
         title='Top 3 Wineries with the Highest Average Rating',
         labels={'winery_name': 'Winery Name', 'average_rating': 'Average Rating'},
         text='average_rating'  # Display average rating on the bars
@@ -284,7 +346,7 @@ elif page == "Top 3 wineries":
     # Display the top 3 wineries data
     display_aggrid_table(top_3_wineries_filtered, title="Top 3 Wineries by Average Rating")
 
-elif page == "Customer cluster":
+elif page == "Customer cluster 👥":
     st.write("""
         We detected that a big cluster of customers likes a specific combination of tastes. 
         We identified a few keywords that match these tastes: coffee, toast, green apple, cream, and citrus (note that these keywords are case sensitive ⚠️). 
@@ -310,7 +372,7 @@ elif page == "Customer cluster":
         x='wine_name',
         y='wine_ratings_count',
         color='wine_ratings_count',
-        color_continuous_scale='Blues',
+        color_continuous_scale='Reds',
         title='Top Wines with Specific Taste Keywords - Rating Count',
         labels={'wine_name': 'Wine Name', 'wine_ratings_count': 'Rating Count'},
         text='wine_ratings_count'  # Display rating count on the bars
@@ -345,7 +407,7 @@ elif page == "Customer cluster":
         x='wine_name',
         y='wine_rating_avg',
         color='wine_ratings_count',
-        color_continuous_scale='Blues',
+        color_continuous_scale='Reds',
         title='Top Wines with Specific Taste Keywords - Average Rating',
         labels={'wine_name': 'Wine Name', 'wine_ratings_count': 'Rating Count'},
         text='wine_rating_avg'  # Display average rating on the bars
@@ -378,7 +440,7 @@ elif page == "Customer cluster":
 
 
 
-elif page == "Most common grapes":
+elif page == "Most common grapes 📈":
     st.write("""
         We would like to select wines that are easy to find all over the world. 
         Find the top 3 most common grapes all over the world and for each grape, give us the 5 best rated wines.
@@ -401,7 +463,7 @@ elif page == "Most common grapes":
         x='Grape',
         y='Wine rating average',
         color='Wine ratings count',
-        color_continuous_scale='Blues',
+        color_continuous_scale='Reds',
         title='Top 3 Most Common Grapes by Average Rating Count',
         labels={'Grape': 'Grape', 'Wine ratings count': 'Rating Count'},
         text='Wine rating average'  # Display average rating on the bars
@@ -447,7 +509,7 @@ elif page == "Most common grapes":
 
 
 
-elif page == "Country leaderboard":
+elif page == "Country leaderboard 📊":
 
     # Group by 'Country' and calculate the mean 'wine_ratings_avg' and 'users_count'
     countryAgg = data2.groupby('name')[['wine_ratings_avg', 'users_count']].mean().reset_index().round(2)
@@ -460,7 +522,7 @@ elif page == "Country leaderboard":
                 x='name',  # X-axis should be 'wine_ratings_avg'
                 y='wine_ratings_avg',  # Y-axis should be 'name' (Country)
                 color='users_count',  # Color by 'users_count'
-                color_continuous_scale='Blues',
+                color_continuous_scale='Reds',
                 title='Average Wine Rating by Country',  # Title
                 labels={'users_count': 'Number of Users', 'name': 'Country', 'wine_ratings_avg': 'Average Rating'},  # Axis labels  
                 text='wine_ratings_avg')  # Display average ratings on the bars
@@ -497,7 +559,7 @@ elif page == "Country leaderboard":
                     color='users_count',  # Color of the blocks based on average rating
                     title='Treemap of Average Wine Ratings by Country',  # Title
                     labels={'name': 'Country', 'users_count': 'Number of Users', 'wine_ratings_avg': 'Average Rating'},  # Axis labels  
-                    color_continuous_scale='Blues')  # Color scale for average rating
+                    color_continuous_scale='Reds')  # Color scale for average rating
 
     # Adjust the layout for better readability
     fig.update_layout(
@@ -517,7 +579,7 @@ elif page == "Country leaderboard":
     display_aggrid_table(leader_board, title="Country Leaderboard")
 
 
-elif page == "Top 5 Cabernet Sauvignon":
+elif page == "Top 5 Cabernet Sauvignon🍇":
     st.write("""One of our VIP clients enjoys Cabernet Sauvignon and has requested our top 5 recommendations. 
              Which wines would you recommend to him?""")
     
@@ -539,7 +601,7 @@ elif page == "Top 5 Cabernet Sauvignon":
         x='Country', 
         y='Wine rating average', 
         color='Wine rating count',  # Color by rating average
-        color_continuous_scale='Blues',  # Blue color scale for average ratings
+        color_continuous_scale='Reds',  # Blue color scale for average ratings
         title='Top 5 Countries with the Highest Average Rating for Cabernet Sauvignon',
         labels={'Country': 'Country', 'Wine rating average': 'Average Rating'},
         text='Wine rating average'  # Display average ratings on the bars
@@ -573,7 +635,7 @@ elif page == "Top 5 Cabernet Sauvignon":
     # Display the top 5 countries data
     display_aggrid_table(top_5_countries, title="Top 5 Countries by Cabernet Sauvignon Rating")
 
-elif page == "Top Wine by characteristics":
+elif page == "Top Wine by characteristics 🍇":
 
     st.write("""
         We would like to select the top wine by characteristics.
@@ -589,7 +651,7 @@ elif page == "Top Wine by characteristics":
         x='name',
         y='ratings_average',
         color='ratings_count',
-        color_continuous_scale='Blues',
+        color_continuous_scale='Reds',
         title='Top 5 Wines by Characteristics and average rating',
         labels={'name': 'Wine Name', 'ratings_count': 'Rating count', 'ratings_average': 'Average Rating'},
         text='ratings_average'
@@ -620,10 +682,7 @@ elif page == "Top Wine by characteristics":
              Here is the correlation matrix of the wine characteristics.""")
     
     from sklearn.preprocessing import LabelEncoder
-    import matplotlib.pyplot as plt
-
-    # Assuming data6 is already loaded
-
+    
     # Encode categorical columns
     categorical_columns = data6.select_dtypes(include=['object']).columns
     data6_encoded = data6.copy()
@@ -635,18 +694,71 @@ elif page == "Top Wine by characteristics":
         label_encoders[col] = le
 
     # Calculate correlation matrix
-    corr_matrix = data6_encoded.corr()
+    corr_matrix = data6_encoded.corr().round(2)
 
-    # Create a figure and plot heatmap
+    # Create a Plotly heatmap
+    fig = px.imshow(
+        corr_matrix,
+        text_auto=True,  # Automatically adds text annotations to the heatmap
+        color_continuous_scale='Reds',  # Use a red color scale
+        labels=dict(x="Features", y="Features", color="Correlation"),  # Labels for axes and color bar
+        title='Correlation Matrix of Wine Characteristics'
+    )
+
+    # Adjust the layout for better readability  
+
+    fig.update_layout(
+        width=900,  # Increase width
+        height=600,  # Increase height
+        title_font=dict(size=20),  # Increase title font size
+        xaxis=dict(
+            tickfont=dict(size=14),  # Increase X-axis tick font size
+            title_text='Features',  # X-axis title
+            title_font=dict(size=16)  # X-axis title font size
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14),  # Increase Y-axis tick font size
+            title_text='Features',  # Y-axis title
+            title_font=dict(size=16)  # Y-axis title font size
+        )
+    )
+    # Display the heatmap in Streamlit
+    st.plotly_chart(fig)
+    
+    # Find the most correlated pairs
+    import streamlit as st
 
 
-    plt.figure(figsize=(10, 8))  # You can adjust the size as needed
-    fig = sns.heatmap(corr_matrix, annot=True, cmap='Blues')
-    plt.title('Correlation Matrix of Wine Characteristics')
+   
+    # Encode categorical columns
+    categorical_columns = data6.select_dtypes(include=['object']).columns
+    data6_encoded = data6.copy()
 
-    # Get the figure from the plot and display in Streamlit
-    st.pyplot(fig.figure)
+    label_encoders = {}
+    for col in categorical_columns:
+        le = LabelEncoder()
+        data6_encoded[col] = le.fit_transform(data6_encoded[col])
+        label_encoders[col] = le
 
+    # Calculate correlation with 'ratings_average'
+    corr_with_rating = data6_encoded.corr()['ratings_average'].drop('ratings_average').reset_index()
+    corr_with_rating.columns = ['Variable', 'Correlation']
+
+    # Sort by absolute correlation
+    corr_with_rating['Absolute Correlation'] = corr_with_rating['Correlation'].abs()
+    corr_with_rating = corr_with_rating.sort_values(by='Absolute Correlation', ascending=False)
+
+    # Display the top correlated variables in AgGrid
+    st.write("### Variables Most Correlated with Average Rating")
+    st.write("These are the variables most strongly correlated with the average rating of wines:")
+
+    # Display the top 5 correlated variables
+    display_aggrid_table(corr_with_rating[['Variable', 'Correlation']].head(5))
+
+
+
+
+    
     
 
 
