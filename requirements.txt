@@ -3,4 +3,4 @@ streamlit
 plotly
 streamlit-aggrid
 pillow==10.4.0
-sklearn
+scikit-learn
