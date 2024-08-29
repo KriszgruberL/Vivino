@@ -211,8 +211,9 @@ elif page == "Queries Overview🔎":
     
     st.subheader("Results")
     st.write("The query returned the following results:")
-    data4_bis = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
-    display_aggrid_table(data4_bis.head(10), title="Cabernet Sauvignon by rating")
+  
+    display_aggrid_table(data7.head(10), title="Cabernet Sauvignon by rating")
+    
 
 
 elif page == "Top 10 wines 🍷":
