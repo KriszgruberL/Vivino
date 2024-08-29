@@ -19,8 +19,26 @@ def query_cabernet_by_rating(cursor : sqlite3.Cursor) -> None :
                             ORDER BY wines.ratings_average DESC, wines.ratings_count DESC;
     """
     
+    cabernet_by_rating_improved = """ SELECT 
+                            g.name AS grape_name,
+                            mugpc.country_code,
+                            r.name AS region_name,
+                            w.name AS wine_name,
+                            w.ratings_average,
+                            w.ratings_count
+                        FROM most_used_grapes_per_country AS mugpc
+                        JOIN grapes AS g 
+                            ON mugpc.grape_id = g.id
+                        JOIN regions AS r 
+                            ON mugpc.country_code = r.country_code
+                        JOIN wines AS w 
+                            ON r.id = w.region_id
+                        WHERE g.name = ?
+                        ORDER BY w.ratings_average DESC
+                        LIMIT 10; """
+    
     try : 
-        cursor.execute(cabernet_by_rating)
+        cursor.execute(cabernet_by_rating_improved)
     except (sqlite3.Error, sqlite3.DatabaseError) as e:
         print(f"Database error occurred: {e}")
     except Exception as e:
@@ -38,5 +56,3 @@ def query_cabernet_by_rating(cursor : sqlite3.Cursor) -> None :
         print("OK. Data written into ./data/cabernet_by_rating.csv")
     except IOError as e:
         print(f"An error occurred when writing the file: {e}")
-    
-    

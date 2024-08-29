@@ -139,6 +139,64 @@ elif page == "Queries Overview🔎":
     data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
     display_aggrid_table(data4.head(10), title="Wines with Taste Keywords")
 
+    query2 = """ SELECT 
+                    grapes.name,
+                    most_used_grapes_per_country.country_code,
+                    regions.name,
+                    wines.name,
+                    wines.ratings_average,
+                    wines.ratings_count
+                FROM most_used_grapes_per_country
+                JOIN grapes 
+                    ON most_used_grapes_per_country.grape_id = grapes.id
+                JOIN regions 
+                    ON most_used_grapes_per_country.country_code = regions.country_code
+                JOIN wines 
+                    ON regions.id = wines.region_id
+                WHERE grapes.name = "Cabernet Sauvignon"
+                ORDER BY wines.ratings_average DESC, 
+                         wines.ratings_count DESC; """
+		
+    query2_improved = """ SELECT 
+                            g.name AS grape_name,
+                            mugpc.country_code,
+                            r.name AS region_name,
+                            w.name AS wine_name,
+                            w.ratings_average,
+                            w.ratings_count
+                        FROM most_used_grapes_per_country AS mugpc
+                        JOIN grapes AS g 
+                            ON mugpc.grape_id = g.id
+                        JOIN regions AS r 
+                            ON mugpc.country_code = r.country_code
+                        JOIN wines AS w 
+                            ON r.id = w.region_id
+                        WHERE g.name = ?
+                        ORDER BY w.ratings_average DESC
+                        LIMIT 10; """
+		
+    st.header("Overwiew of best Cabernet Sauvignon query")
+    
+    st.write("One of our VIP clients likes Cabernet Sauvignon and would like our top 5 recommendations.")
+    
+    st.write("Which wines would you recommend to him?")
+    
+    st.code(query2, language="sql", line_numbers=True)
+    
+    st.subheader("How was the query was optimized?")
+    st.write("The query is optimized by filtering early for \"Cabernet Sauvignon\", which limits the data being processed. It efficiently uses inner joins to combine tables based on matching keys, reducing the dataset size further. The query selects only the necessary columns, minimizing data retrieval and transfer. Additionally, it orders results by ratings_average.")
+
+    st.write("To further optimize the query, we can use parameters to improve security and performance. Implement indexing on key columns like ratings_average, grape_id, and region_id can speed up joins and sorting. We can also use table aliases for readability and consider adding a LIMIT clause if only a subset of results is needed. This improved query would look like this :")
+    
+    
+    st.code(query2_improved, language="sql", line_numbers=True)
+    
+    st.subheader("Results")
+    st.write("The query returned the following results:")
+    data4_bis = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
+    display_aggrid_table(data4_bis.head(10), title="Cabernet Sauvignon by rating")
+
+
 elif page == "Top 10 wines 🍷":
     st.write("We want to highlight 10 wines to increase our sales. Which ones should we choose and why?")
     top_10_wines_df = data1.sort_values(by='total_rating', ascending=False).head(10)
