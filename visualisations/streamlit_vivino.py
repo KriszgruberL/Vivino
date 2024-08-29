@@ -109,10 +109,10 @@ if page == "Project context📝":
 
     st.write("## Meet the A-Team")
     st.write("""
-    - Data Analyst :[AdrienPiette](https://github.com/AdrienPiette)
-    - Data Engineer :[ness015618](https://github.com/ness015618)
-    - Data Analyst :[RachaelShenRq](https://github.com/RachaelShenRq)
-    - Data Engineer :[KriszgruberL](https://github.com/KriszgruberL)
+    - Data Analyst : [AdrienPiette](https://github.com/AdrienPiette)
+    - Data Analyst : [RachaelShenRq](https://github.com/RachaelShenRq)
+    - Data Engineer : [KriszgruberL](https://github.com/KriszgruberL)
+    - Data Engineer : [ness015618](https://github.com/ness015618)
 
     """)
              
