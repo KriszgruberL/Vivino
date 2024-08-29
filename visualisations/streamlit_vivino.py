@@ -2,23 +2,39 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
+
 from sklearn.preprocessing import LabelEncoder
 
-# Load the data
-data1 = pd.read_csv("../data/CSVs/highlight_wine.csv")
-data2 = pd.read_csv("../data/CSVs/limited_budget.csv")
-data3 = pd.read_csv("../data/CSVs/top_wineries.csv")
-data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
-data5 = pd.read_csv("../data/CSVS/common_grapes_best_wines.csv")
-data6 = pd.read_csv("../data/CSVs/wine_by_taste_filtered.csv")
-data7 = pd.read_csv("../data/CSVs/cabernet_by_rating.csv")
 
+# Load the data
+data1 = pd.read_csv("./data/CSVs/highlight_wine.csv")
+data2 = pd.read_csv("./data/CSVs/limited_budget.csv")
+data3 = pd.read_csv("./data/CSVs/top_wineries.csv")
+data4 = pd.read_csv("./data/CSVs/favorites_taste.csv")
+data5 = pd.read_csv("./data/CSVs/common_grapes_best_wines.csv")
+data6 = pd.read_csv("./data/CSVs/wine_by_taste_filtered.csv")
+data7 = pd.read_csv("./data/CSVs/cabernet_by_rating.csv")
+
+# Add custom CSS to center titles using Flexbox
+st.markdown("""
+    <style>
+    .centered-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 auto; /* Optional: to remove any default margin */
+    }
+    </style>
+    </style>
+    """, unsafe_allow_html=True)
 
 # Main title
 st.markdown("<h1 class='centered-title'>Vivino Data Dashboard</h1>", unsafe_allow_html=True)
     
 # Center the second title
 st.markdown("<h2 class='centered-title'>A comprehensive wine analysis</h2>", unsafe_allow_html=True)
+
 # Sidebar
 st.sidebar.title("Summary")
 pages = [
@@ -48,11 +64,17 @@ def display_aggrid_table(df, title="Table", height=400):
 
 
 if page == "Project context📝":
-    st.image("C:/Users/pieta/OneDrive/Bureau/Vivino/visualisations/vivono_logo.png", width=300)
+    col1, col2, col3 = st.columns(3)
+    with col1 : 
+        pass
+    with col2 : 
+        st.image("./assets/vivono_logo.png", use_column_width= True)
+    with col3 : 
+        pass
 
 
     st.write("""
-    # Welcome to the Vivino Data Visualization Project!
+    ## Welcome to the Vivino Data Visualization Project!
 
     This initiative is dedicated to leveraging data insights to drive informed decision-making in the wine industry. Our aim is to use detailed wine data to identify key trends, uncover valuable insights, and provide actionable recommendations. Here's what we strive to achieve:
 
@@ -146,8 +168,68 @@ elif page == "Queries Overview🔎":
     
     st.subheader("Results")
     st.write("The query returned the following results:")
-    data4 = pd.read_csv("../data/CSVs/favorites_taste.csv")
     display_aggrid_table(data4.head(10), title="Wines with Taste Keywords")
+
+    query2 = """ 
+            SELECT 
+                grapes.name,
+                most_used_grapes_per_country.country_code,
+                regions.name,
+                wines.name,
+                wines.ratings_average,
+                wines.ratings_count
+            FROM most_used_grapes_per_country
+            JOIN grapes 
+                ON most_used_grapes_per_country.grape_id = grapes.id
+            JOIN regions 
+                ON most_used_grapes_per_country.country_code = regions.country_code
+            JOIN wines 
+                ON regions.id = wines.region_id
+            WHERE grapes.name = "Cabernet Sauvignon"
+            ORDER BY wines.ratings_average DESC, 
+                        wines.ratings_count DESC; """
+		
+    query2_improved = """ 
+                SELECT 
+                    g.name AS grape_name,
+                    mugpc.country_code,
+                    r.name AS region_name,
+                    w.name AS wine_name,
+                    w.ratings_average,
+                    w.ratings_count
+                FROM most_used_grapes_per_country AS mugpc
+                JOIN grapes AS g 
+                    ON mugpc.grape_id = g.id
+                JOIN regions AS r 
+                    ON mugpc.country_code = r.country_code
+                JOIN wines AS w 
+                    ON r.id = w.region_id
+                WHERE g.name = ?
+                ORDER BY w.ratings_average DESC
+                LIMIT 10; """
+		
+    st.header("Overwiew of best Cabernet Sauvignon query")
+    
+    st.write("One of our VIP clients likes Cabernet Sauvignon and would like our top 5 recommendations.")
+    
+    st.write("Which wines would you recommend to him?")
+    
+    st.code(query2, language="sql", line_numbers=True)
+    
+    st.subheader("How was the query was optimized?")
+    st.write("The query is optimized by filtering early for \"Cabernet Sauvignon\", which limits the data being processed. It efficiently uses inner joins to combine tables based on matching keys, reducing the dataset size further. The query selects only the necessary columns, minimizing data retrieval and transfer. Additionally, it orders results by ratings_average.")
+
+    st.write("To further optimize the query, we can use parameters to improve security and performance. Implement indexing on key columns like ratings_average, grape_id, and region_id can speed up joins and sorting. We can also use table aliases for readability and consider adding a LIMIT clause if only a subset of results is needed. This improved query would look like this :")
+    
+    
+    st.code(query2_improved, language="sql", line_numbers=True)
+    
+    st.subheader("Results")
+    st.write("The query returned the following results:")
+  
+    display_aggrid_table(data7.head(10), title="Cabernet Sauvignon by rating")
+    
+
 
 elif page == "Top 10 wines 🍷":
     st.write("We want to highlight 10 wines to increase our sales. Which ones should we choose and why?")

@@ -1,6 +1,6 @@
-sqlite3 
 pandas 
-matplotlib
-seaborn
-sqlalchemy
-numpy
+streamlit
+plotly
+streamlit-aggrid
+pillow==10.4.0
+scikit-learn
