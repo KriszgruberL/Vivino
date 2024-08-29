@@ -157,41 +157,43 @@ elif page == "Queries Overview🔎":
     st.write("The query returned the following results:")
     display_aggrid_table(data4.head(10), title="Wines with Taste Keywords")
 
-    query2 = """ SELECT 
-                    grapes.name,
-                    most_used_grapes_per_country.country_code,
-                    regions.name,
-                    wines.name,
-                    wines.ratings_average,
-                    wines.ratings_count
-                FROM most_used_grapes_per_country
-                JOIN grapes 
-                    ON most_used_grapes_per_country.grape_id = grapes.id
-                JOIN regions 
-                    ON most_used_grapes_per_country.country_code = regions.country_code
-                JOIN wines 
-                    ON regions.id = wines.region_id
-                WHERE grapes.name = "Cabernet Sauvignon"
-                ORDER BY wines.ratings_average DESC, 
-                         wines.ratings_count DESC; """
+    query2 = """ 
+            SELECT 
+                grapes.name,
+                most_used_grapes_per_country.country_code,
+                regions.name,
+                wines.name,
+                wines.ratings_average,
+                wines.ratings_count
+            FROM most_used_grapes_per_country
+            JOIN grapes 
+                ON most_used_grapes_per_country.grape_id = grapes.id
+            JOIN regions 
+                ON most_used_grapes_per_country.country_code = regions.country_code
+            JOIN wines 
+                ON regions.id = wines.region_id
+            WHERE grapes.name = "Cabernet Sauvignon"
+            ORDER BY wines.ratings_average DESC, 
+                        wines.ratings_count DESC; """
 		
-    query2_improved = """ SELECT 
-                            g.name AS grape_name,
-                            mugpc.country_code,
-                            r.name AS region_name,
-                            w.name AS wine_name,
-                            w.ratings_average,
-                            w.ratings_count
-                        FROM most_used_grapes_per_country AS mugpc
-                        JOIN grapes AS g 
-                            ON mugpc.grape_id = g.id
-                        JOIN regions AS r 
-                            ON mugpc.country_code = r.country_code
-                        JOIN wines AS w 
-                            ON r.id = w.region_id
-                        WHERE g.name = ?
-                        ORDER BY w.ratings_average DESC
-                        LIMIT 10; """
+    query2_improved = """ 
+                SELECT 
+                    g.name AS grape_name,
+                    mugpc.country_code,
+                    r.name AS region_name,
+                    w.name AS wine_name,
+                    w.ratings_average,
+                    w.ratings_count
+                FROM most_used_grapes_per_country AS mugpc
+                JOIN grapes AS g 
+                    ON mugpc.grape_id = g.id
+                JOIN regions AS r 
+                    ON mugpc.country_code = r.country_code
+                JOIN wines AS w 
+                    ON r.id = w.region_id
+                WHERE g.name = ?
+                ORDER BY w.ratings_average DESC
+                LIMIT 10; """
 		
     st.header("Overwiew of best Cabernet Sauvignon query")
     
