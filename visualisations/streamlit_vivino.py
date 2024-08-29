@@ -3,6 +3,9 @@ import pandas as pd
 import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
 
+from sklearn.preprocessing import LabelEncoder
+
+
 # Load the data
 data1 = pd.read_csv("./data/CSVs/highlight_wine.csv")
 data2 = pd.read_csv("./data/CSVs/limited_budget.csv")
@@ -103,6 +106,16 @@ if page == "Project context📝":
 
     Thank you for joining us on this data-driven journey through the world of wine!
     """)
+
+    st.write("## Meet the A-Team")
+    st.write("""
+    - Data Analyst :[AdrienPiette](https://github.com/AdrienPiette)
+    - Data Engineer :[ness015618](https://github.com/ness015618)
+    - Data Analyst :[RachaelShenRq](https://github.com/RachaelShenRq)
+    - Data Engineer :[KriszgruberL](https://github.com/KriszgruberL)
+
+    """)
+             
 elif page == "Queries Overview🔎":
 
     query1 = """
